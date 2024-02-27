@@ -1,0 +1,1294 @@
+CRITICAL - 2024-02-12 00:01:50 --> Error: Class "Dompdf\Dompdf" not found
+in APPPATH\Views\erro.php on line 7.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('erro', [], true)
+ 4 APPPATH\Controllers\Home.php(87): view('erro')
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->erro()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-12 00:01:59 --> Error: Class "Dompdf\Dompdf" not found
+in APPPATH\Views\erro.php on line 7.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('erro', [], true)
+ 4 APPPATH\Controllers\Home.php(87): view('erro')
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->erro()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-12 00:09:32 --> Error: Class "Dompdf\Options" not found
+in APPPATH\Controllers\Home.php on line 94.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->generatePdf()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-12 00:09:39 --> Error: Class "Dompdf\Options" not found
+in APPPATH\Controllers\Home.php on line 94.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->generatePdf()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-12 00:10:13 --> Error: Class "Dompdf\Dompdf" not found
+in APPPATH\Controllers\Home.php on line 95.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->generatePdf()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-12 00:25:28 --> Error: Class "Dompdf\Options" not found
+in APPPATH\Controllers\Home.php on line 97.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->generatePdf()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-12 00:26:58 --> ErrorException: require_once(vendor/autoload.php): Failed to open stream: No such file or directory
+in APPPATH\Controllers\Home.php on line 10.
+ 1 APPPATH\Controllers\Home.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require_once(vendor/autoload.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\GSB3\\app\\Controllers\\Home.php', 10)
+ 2 APPPATH\Controllers\Home.php(10): require_once()
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(309): include_once('C:\\xampp\\htdocs\\GSB3\\app\\Controllers\\Home.php')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(288): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\GSB3\\app\\Controllers\\Home.php')
+ 5 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 6 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 7 SYSTEMPATH\CodeIgniter.php(899): class_exists('\\App\\Controllers\\Home', true)
+ 8 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-12 00:29:09 --> ErrorException: require_once(C:\xampp\htdocs\GSB3\app\dompdf/autoload.inc.php): Failed to open stream: No such file or directory
+in APPPATH\Controllers\Home.php on line 11.
+ 1 APPPATH\Controllers\Home.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require_once(C:\\xampp\\htdocs\\GSB3\\app\\dompdf/autoload.inc.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\GSB3\\app\\Controllers\\Home.php', 11)
+ 2 APPPATH\Controllers\Home.php(11): require_once()
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(309): include_once('C:\\xampp\\htdocs\\GSB3\\app\\Controllers\\Home.php')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(288): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\GSB3\\app\\Controllers\\Home.php')
+ 5 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 6 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 7 SYSTEMPATH\CodeIgniter.php(899): class_exists('\\App\\Controllers\\Home', true)
+ 8 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-12 00:30:24 --> ErrorException: require_once(app/dompdf/autoload.inc.php): Failed to open stream: No such file or directory
+in APPPATH\Controllers\Home.php on line 10.
+ 1 APPPATH\Controllers\Home.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require_once(app/dompdf/autoload.inc.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\GSB3\\app\\Controllers\\Home.php', 10)
+ 2 APPPATH\Controllers\Home.php(10): require_once()
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(309): include_once('C:\\xampp\\htdocs\\GSB3\\app\\Controllers\\Home.php')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(288): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\GSB3\\app\\Controllers\\Home.php')
+ 5 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 6 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 7 SYSTEMPATH\CodeIgniter.php(899): class_exists('\\App\\Controllers\\Home', true)
+ 8 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-12 00:31:54 --> Error: Class "Dompdf\Dompdf" not found
+in APPPATH\Views\erro.php on line 7.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('erro', [], true)
+ 4 APPPATH\Controllers\Home.php(92): view('erro')
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->erro()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-12 00:32:29 --> Error: Class "Dompdf\Options" not found
+in APPPATH\Controllers\Home.php on line 100.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->generatePdf()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-12 00:33:02 --> Error: Class "Dompdf\Dompdf" not found
+in APPPATH\Controllers\Home.php on line 101.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->generatePdf()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-12 00:37:46 --> ErrorException: require_once(app/dompdf/autoload.inc.php): Failed to open stream: No such file or directory
+in APPPATH\Controllers\Home.php on line 96.
+ 1 APPPATH\Controllers\Home.php(96): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require_once(app/dompdf/autoload.inc.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\GSB3\\app\\Controllers\\Home.php', 96)
+ 2 APPPATH\Controllers\Home.php(96): require_once()
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->generatePdf()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-12 00:42:40 --> ErrorException: require_once(app/dompdf/autoload.inc.php): Failed to open stream: No such file or directory
+in APPPATH\Controllers\Home.php on line 96.
+ 1 APPPATH\Controllers\Home.php(96): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require_once(app/dompdf/autoload.inc.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\GSB3\\app\\Controllers\\Home.php', 96)
+ 2 APPPATH\Controllers\Home.php(96): require_once()
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->generatePdf()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-12 00:42:44 --> ErrorException: require_once(app/dompdf/autoload.inc.php): Failed to open stream: No such file or directory
+in APPPATH\Controllers\Home.php on line 96.
+ 1 APPPATH\Controllers\Home.php(96): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require_once(app/dompdf/autoload.inc.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\GSB3\\app\\Controllers\\Home.php', 96)
+ 2 APPPATH\Controllers\Home.php(96): require_once()
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->generatePdf()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-12 00:44:56 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "pdf.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pdf.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('pdf', [], true)
+ 3 APPPATH\Controllers\Home.php(105): view('pdf', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->generatePdf()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-12 00:45:17 --> ErrorException: mb_convert_encoding(): Unable to detect character encoding
+in APPPATH\dompdf\vendor\dompdf\dompdf\src\Dompdf.php on line 435.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mb_convert_encoding(): Unable to detect character encoding', 'C:\\xampp\\htdocs\\GSB3\\app\\dompdf\\vendor\\dompdf\\dompdf\\src\\Dompdf.php', 435)
+ 2 APPPATH\dompdf\vendor\dompdf\dompdf\src\Dompdf.php(435): mb_convert_encoding('%PDF-1.7
+1 0 obj
+<< /Type /Catalog
+/Outlines 2 0 R
+/Pages 3 0 R >>
+endobj
+2 0 obj
+<< /Type /Outlines /Count 0 >>
+endobj
+3 0 obj
+<< /Type /Pages
+/Kids [6 0 R
+]
+/Count 1
+/Resources <<
+/ProcSet 4 0 R
+/Font << 
+/F1 8 0 R
+>>
+>>
+/MediaBox [0.000 0.000 612.000 792.000]
+ >>
+endobj
+4 0 obj
+[/PDF /Text ]
+endobj
+5 0 obj
+<<
+/Producer (þÿ' . "\0" . 'd' . "\0" . 'o' . "\0" . 'm' . "\0" . 'p' . "\0" . 'd' . "\0" . 'f' . "\0" . ' ' . "\0" . '2' . "\0" . '.' . "\0" . '0' . "\0" . '.' . "\0" . '4' . "\0" . ' ' . "\0" . '+' . "\0" . ' ' . "\0" . 'C' . "\0" . 'P' . "\0" . 'D' . "\0" . 'F)
+/CreationDate (D:20240212004517+00\'00\')
+/ModDate (D:20240212004517+00\'00\')
+>>
+endobj
+6 0 obj
+<< /Type /Page
+/MediaBox [0.000 0.000 612.000 792.000]
+/Parent 3 0 R
+/Contents 7 0 R
+>>
+endobj
+7 0 obj
+<< /Filter /FlateDecode
+/Length 75 >>
+stream
+xœã2Ð300P@&‹Ò¹œBŒMôÍÌ-õ,MBRôÝŒ€¢
+!i
+
+Ñ©99ù:
+åùE9)Šš±
+!^
+®!' . "\0" . 'Š´,
+endstream
+endobj
+8 0 obj
+<< /Type /Font
+/Subtype /Type1
+/Name /F1
+/BaseFont /Times-Bold
+/Encoding /WinAnsiEncoding
+>>
+endobj
+xref
+0 9
+0000000000 65535 f 
+0000000009 00000 n 
+0000000074 00000 n 
+0000000120 00000 n 
+0000000274 00000 n 
+0000000303 00000 n 
+0000000452 00000 n 
+0000000555 00000 n 
+0000000701 00000 n 
+trailer
+<<
+/Size 9
+/Root 1 0 R
+/Info 5 0 R
+/ID[<13abb1ae279e310850b4b96d3fc7a007><13abb1ae279e310850b4b96d3fc7a007>]
+>>
+startxref
+809
+%%EOF
+', 'UTF-8', 'auto')
+ 3 APPPATH\dompdf\vendor\dompdf\dompdf\src\Dompdf.php(394): Dompdf\Dompdf->loadHtml('%PDF-1.7
+1 0 obj
+<< /Type /Catalog
+/Outlines 2 0 R
+/Pages 3 0 R >>
+endobj
+2 0 obj
+<< /Type /Outlines /Count 0 >>
+endobj
+3 0 obj
+<< /Type /Pages
+/Kids [6 0 R
+]
+/Count 1
+/Resources <<
+/ProcSet 4 0 R
+/Font << 
+/F1 8 0 R
+>>
+>>
+/MediaBox [0.000 0.000 612.000 792.000]
+ >>
+endobj
+4 0 obj
+[/PDF /Text ]
+endobj
+5 0 obj
+<<
+/Producer (þÿ' . "\0" . 'd' . "\0" . 'o' . "\0" . 'm' . "\0" . 'p' . "\0" . 'd' . "\0" . 'f' . "\0" . ' ' . "\0" . '2' . "\0" . '.' . "\0" . '0' . "\0" . '.' . "\0" . '4' . "\0" . ' ' . "\0" . '+' . "\0" . ' ' . "\0" . 'C' . "\0" . 'P' . "\0" . 'D' . "\0" . 'F)
+/CreationDate (D:20240212004517+00\'00\')
+/ModDate (D:20240212004517+00\'00\')
+>>
+endobj
+6 0 obj
+<< /Type /Page
+/MediaBox [0.000 0.000 612.000 792.000]
+/Parent 3 0 R
+/Contents 7 0 R
+>>
+endobj
+7 0 obj
+<< /Filter /FlateDecode
+/Length 75 >>
+stream
+xœã2Ð300P@&‹Ò¹œBŒMôÍÌ-õ,MBRôÝŒ€¢
+!i
+
+Ñ©99ù:
+åùE9)Šš±
+!^
+®!' . "\0" . 'Š´,
+endstream
+endobj
+8 0 obj
+<< /Type /Font
+/Subtype /Type1
+/Name /F1
+/BaseFont /Times-Bold
+/Encoding /WinAnsiEncoding
+>>
+endobj
+xref
+0 9
+0000000000 65535 f 
+0000000009 00000 n 
+0000000074 00000 n 
+0000000120 00000 n 
+0000000274 00000 n 
+0000000303 00000 n 
+0000000452 00000 n 
+0000000555 00000 n 
+0000000701 00000 n 
+trailer
+<<
+/Size 9
+/Root 1 0 R
+/Info 5 0 R
+/ID[<13abb1ae279e310850b4b96d3fc7a007><13abb1ae279e310850b4b96d3fc7a007>]
+>>
+startxref
+809
+%%EOF
+', 'auto')
+ 4 APPPATH\Controllers\Home.php(106): Dompdf\Dompdf->load_html('%PDF-1.7
+1 0 obj
+<< /Type /Catalog
+/Outlines 2 0 R
+/Pages 3 0 R >>
+endobj
+2 0 obj
+<< /Type /Outlines /Count 0 >>
+endobj
+3 0 obj
+<< /Type /Pages
+/Kids [6 0 R
+]
+/Count 1
+/Resources <<
+/ProcSet 4 0 R
+/Font << 
+/F1 8 0 R
+>>
+>>
+/MediaBox [0.000 0.000 612.000 792.000]
+ >>
+endobj
+4 0 obj
+[/PDF /Text ]
+endobj
+5 0 obj
+<<
+/Producer (þÿ' . "\0" . 'd' . "\0" . 'o' . "\0" . 'm' . "\0" . 'p' . "\0" . 'd' . "\0" . 'f' . "\0" . ' ' . "\0" . '2' . "\0" . '.' . "\0" . '0' . "\0" . '.' . "\0" . '4' . "\0" . ' ' . "\0" . '+' . "\0" . ' ' . "\0" . 'C' . "\0" . 'P' . "\0" . 'D' . "\0" . 'F)
+/CreationDate (D:20240212004517+00\'00\')
+/ModDate (D:20240212004517+00\'00\')
+>>
+endobj
+6 0 obj
+<< /Type /Page
+/MediaBox [0.000 0.000 612.000 792.000]
+/Parent 3 0 R
+/Contents 7 0 R
+>>
+endobj
+7 0 obj
+<< /Filter /FlateDecode
+/Length 75 >>
+stream
+xœã2Ð300P@&‹Ò¹œBŒMôÍÌ-õ,MBRôÝŒ€¢
+!i
+
+Ñ©99ù:
+åùE9)Šš±
+!^
+®!' . "\0" . 'Š´,
+endstream
+endobj
+8 0 obj
+<< /Type /Font
+/Subtype /Type1
+/Name /F1
+/BaseFont /Times-Bold
+/Encoding /WinAnsiEncoding
+>>
+endobj
+xref
+0 9
+0000000000 65535 f 
+0000000009 00000 n 
+0000000074 00000 n 
+0000000120 00000 n 
+0000000274 00000 n 
+0000000303 00000 n 
+0000000452 00000 n 
+0000000555 00000 n 
+0000000701 00000 n 
+trailer
+<<
+/Size 9
+/Root 1 0 R
+/Info 5 0 R
+/ID[<13abb1ae279e310850b4b96d3fc7a007><13abb1ae279e310850b4b96d3fc7a007>]
+>>
+startxref
+809
+%%EOF
+')
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->generatePdf()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-12 00:48:49 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "pdf.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pdf.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('pdf', [], true)
+ 3 APPPATH\Controllers\Home.php(103): view('pdf', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->generatePdf()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-12 00:49:26 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "pdf.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pdf.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('pdf', [], true)
+ 3 APPPATH\Controllers\Home.php(103): view('pdf', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->generatePdf()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-12 00:49:30 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "pdf.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pdf.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('pdf', [], true)
+ 3 APPPATH\Controllers\Home.php(103): view('pdf', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->generatePdf()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-02-12 01:04:46 --> mysqli_sql_exception: Table 'gsb3.reservations' doesn't exist in C:\xampp\htdocs\GSB3\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\GSB3\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT * FROM r...', 0)
+#1 C:\xampp\htdocs\GSB3\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM r...')
+#2 C:\xampp\htdocs\GSB3\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM r...')
+#3 C:\xampp\htdocs\GSB3\app\Modele\Modele.php(73): CodeIgniter\Database\BaseConnection->query('SELECT * FROM r...', Array)
+#4 C:\xampp\htdocs\GSB3\app\Controllers\Home.php(124): App\Modele\Modele->getReservationsByPrenom('elie')
+#5 C:\xampp\htdocs\GSB3\system\CodeIgniter.php(941): App\Controllers\Home->generatePdf()
+#6 C:\xampp\htdocs\GSB3\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\GSB3\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\GSB3\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-02-12 01:04:46 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'gsb3.reservations' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 APPPATH\Modele\Modele.php(73): CodeIgniter\Database\BaseConnection->query('SELECT * FROM reservations WHERE prenom = ?', [...])
+ 2 APPPATH\Controllers\Home.php(124): App\Modele\Modele->getReservationsByPrenom('elie')
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->generatePdf()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-12 01:04:46 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'gsb3.reservations' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM reservations WHERE prenom = \'elie\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM reservations WHERE prenom = \'elie\'')
+ 3 APPPATH\Modele\Modele.php(73): CodeIgniter\Database\BaseConnection->query('SELECT * FROM reservations WHERE prenom = ?', [...])
+ 4 APPPATH\Controllers\Home.php(124): App\Modele\Modele->getReservationsByPrenom('elie')
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->generatePdf()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-12 01:04:46 --> [Caused by] mysqli_sql_exception: Table 'gsb3.reservations' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT * FROM reservations WHERE prenom = \'elie\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM reservations WHERE prenom = \'elie\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM reservations WHERE prenom = \'elie\'')
+ 4 APPPATH\Modele\Modele.php(73): CodeIgniter\Database\BaseConnection->query('SELECT * FROM reservations WHERE prenom = ?', [...])
+ 5 APPPATH\Controllers\Home.php(124): App\Modele\Modele->getReservationsByPrenom('elie')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->generatePdf()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-02-12 01:04:57 --> mysqli_sql_exception: Unknown column 'prenom' in 'where clause' in C:\xampp\htdocs\GSB3\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\GSB3\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT * FROM r...', 0)
+#1 C:\xampp\htdocs\GSB3\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM r...')
+#2 C:\xampp\htdocs\GSB3\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM r...')
+#3 C:\xampp\htdocs\GSB3\app\Modele\Modele.php(73): CodeIgniter\Database\BaseConnection->query('SELECT * FROM r...', Array)
+#4 C:\xampp\htdocs\GSB3\app\Controllers\Home.php(124): App\Modele\Modele->getReservationsByPrenom('elie')
+#5 C:\xampp\htdocs\GSB3\system\CodeIgniter.php(941): App\Controllers\Home->generatePdf()
+#6 C:\xampp\htdocs\GSB3\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\GSB3\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\GSB3\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-02-12 01:04:57 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'prenom' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 APPPATH\Modele\Modele.php(73): CodeIgniter\Database\BaseConnection->query('SELECT * FROM reservation WHERE prenom = ?', [...])
+ 2 APPPATH\Controllers\Home.php(124): App\Modele\Modele->getReservationsByPrenom('elie')
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->generatePdf()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-12 01:04:57 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'prenom' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM reservation WHERE prenom = \'elie\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM reservation WHERE prenom = \'elie\'')
+ 3 APPPATH\Modele\Modele.php(73): CodeIgniter\Database\BaseConnection->query('SELECT * FROM reservation WHERE prenom = ?', [...])
+ 4 APPPATH\Controllers\Home.php(124): App\Modele\Modele->getReservationsByPrenom('elie')
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->generatePdf()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-12 01:04:57 --> [Caused by] mysqli_sql_exception: Unknown column 'prenom' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT * FROM reservation WHERE prenom = \'elie\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM reservation WHERE prenom = \'elie\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM reservation WHERE prenom = \'elie\'')
+ 4 APPPATH\Modele\Modele.php(73): CodeIgniter\Database\BaseConnection->query('SELECT * FROM reservation WHERE prenom = ?', [...])
+ 5 APPPATH\Controllers\Home.php(124): App\Modele\Modele->getReservationsByPrenom('elie')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->generatePdf()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-02-12 01:05:13 --> mysqli_sql_exception: Unknown column 'nom' in 'where clause' in C:\xampp\htdocs\GSB3\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\GSB3\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT * FROM r...', 0)
+#1 C:\xampp\htdocs\GSB3\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM r...')
+#2 C:\xampp\htdocs\GSB3\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM r...')
+#3 C:\xampp\htdocs\GSB3\app\Modele\Modele.php(73): CodeIgniter\Database\BaseConnection->query('SELECT * FROM r...', Array)
+#4 C:\xampp\htdocs\GSB3\app\Controllers\Home.php(124): App\Modele\Modele->getReservationsByPrenom('elie')
+#5 C:\xampp\htdocs\GSB3\system\CodeIgniter.php(941): App\Controllers\Home->generatePdf()
+#6 C:\xampp\htdocs\GSB3\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\GSB3\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\GSB3\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-02-12 01:05:13 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'nom' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 APPPATH\Modele\Modele.php(73): CodeIgniter\Database\BaseConnection->query('SELECT * FROM reservation WHERE nom = ?', [...])
+ 2 APPPATH\Controllers\Home.php(124): App\Modele\Modele->getReservationsByPrenom('elie')
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->generatePdf()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-12 01:05:13 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'nom' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM reservation WHERE nom = \'elie\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM reservation WHERE nom = \'elie\'')
+ 3 APPPATH\Modele\Modele.php(73): CodeIgniter\Database\BaseConnection->query('SELECT * FROM reservation WHERE nom = ?', [...])
+ 4 APPPATH\Controllers\Home.php(124): App\Modele\Modele->getReservationsByPrenom('elie')
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->generatePdf()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-12 01:05:13 --> [Caused by] mysqli_sql_exception: Unknown column 'nom' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT * FROM reservation WHERE nom = \'elie\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM reservation WHERE nom = \'elie\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM reservation WHERE nom = \'elie\'')
+ 4 APPPATH\Modele\Modele.php(73): CodeIgniter\Database\BaseConnection->query('SELECT * FROM reservation WHERE nom = ?', [...])
+ 5 APPPATH\Controllers\Home.php(124): App\Modele\Modele->getReservationsByPrenom('elie')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->generatePdf()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-12 01:06:15 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "pdf_reservation.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pdf_reservation.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('pdf_reservation', [], true)
+ 3 APPPATH\Controllers\Home.php(130): view('pdf_reservation', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->generatePdf()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-12 01:07:19 --> Error: Cannot use object of type stdClass as array
+in APPPATH\Views\erro.php on line 45.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('erro', [], true)
+ 4 APPPATH\Controllers\Home.php(130): view('erro', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->generatePdf()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-12 01:08:07 --> Error: Cannot use object of type stdClass as array
+in APPPATH\Views\erro.php on line 45.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('erro', [], true)
+ 4 APPPATH\Controllers\Home.php(130): view('erro', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->generatePdf()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-12 01:18:58 --> ErrorException: Undefined variable $reservations
+in APPPATH\Views\erro.php on line 45.
+ 1 APPPATH\Views\erro.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $reservations', 'C:\\xampp\\htdocs\\GSB3\\app\\Views\\erro.php', 45)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\GSB3\\app\\Views\\erro.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('erro', [], true)
+ 5 APPPATH\Controllers\Home.php(92): view('erro')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->erro()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-12 08:01:15 --> ErrorException: Undefined variable $reservations
+in APPPATH\Views\erro.php on line 45.
+ 1 APPPATH\Views\erro.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $reservations', 'C:\\xampp\\htdocs\\GSB3\\app\\Views\\erro.php', 45)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\GSB3\\app\\Views\\erro.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('erro', [], true)
+ 5 APPPATH\Controllers\Home.php(92): view('erro')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->erro()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-12 09:14:06 --> ErrorException: Undefined variable $conferences
+in APPPATH\Views\Presentation.php on line 98.
+ 1 APPPATH\Views\Presentation.php(98): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $conferences', 'C:\\xampp\\htdocs\\GSB3\\app\\Views\\Presentation.php', 98)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\GSB3\\app\\Views\\Presentation.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Presentation', [], true)
+ 5 APPPATH\Controllers\Home.php(80): view('Presentation')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->Presentation()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-12 09:31:26 --> ErrorException: Undefined array key "conference_theme"
+in APPPATH\Views\Reservation.php on line 25.
+ 1 APPPATH\Views\Reservation.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "conference_theme"', 'C:\\xampp\\htdocs\\GSB3\\app\\Views\\Reservation.php', 25)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\GSB3\\app\\Views\\Reservation.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Reservation', [], true)
+ 5 APPPATH\Controllers\Home.php(159): view('Reservation', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->Reservation()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-12 09:32:11 --> ErrorException: Undefined array key "theme_confernece"
+in APPPATH\Views\Reservation.php on line 25.
+ 1 APPPATH\Views\Reservation.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "theme_confernece"', 'C:\\xampp\\htdocs\\GSB3\\app\\Views\\Reservation.php', 25)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\GSB3\\app\\Views\\Reservation.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Reservation', [], true)
+ 5 APPPATH\Controllers\Home.php(159): view('Reservation', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->Reservation()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-12 09:43:33 --> ErrorException: Undefined array key "presentations"
+in APPPATH\Views\Reservation.php on line 192.
+ 1 APPPATH\Views\Reservation.php(192): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "presentations"', 'C:\\xampp\\htdocs\\GSB3\\app\\Views\\Reservation.php', 192)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\GSB3\\app\\Views\\Reservation.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Reservation', [], true)
+ 5 APPPATH\Controllers\Home.php(159): view('Reservation', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->Reservation()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-02-12 10:34:19 --> mysqli_sql_exception: Unknown column 'place' in 'field list' in C:\xampp\htdocs\GSB3\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\GSB3\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO res...', 0)
+#1 C:\xampp\htdocs\GSB3\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO res...')
+#2 C:\xampp\htdocs\GSB3\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO res...')
+#3 C:\xampp\htdocs\GSB3\app\Modele\Modele.php(69): CodeIgniter\Database\BaseConnection->query('INSERT INTO res...', Array)
+#4 C:\xampp\htdocs\GSB3\app\Controllers\Home.php(165): App\Modele\Modele->insertInto(Object(CodeIgniter\HTTP\IncomingRequest), Array)
+#5 C:\xampp\htdocs\GSB3\system\CodeIgniter.php(941): App\Controllers\Home->submitReservation()
+#6 C:\xampp\htdocs\GSB3\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\GSB3\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\GSB3\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-02-12 10:34:19 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'place' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 APPPATH\Modele\Modele.php(69): CodeIgniter\Database\BaseConnection->query('INSERT INTO reservation (conference_theme, presentation_creneau, reservation_date, user_name,place) VALUES (?, ?, ?, ?,?)', [...])
+ 2 APPPATH\Controllers\Home.php(165): App\Modele\Modele->insertInto(Object(CodeIgniter\HTTP\IncomingRequest), [...])
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->submitReservation()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-12 10:34:19 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'place' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO reservation (conference_theme, presentation_creneau, reservation_date, user_name,place) VALUES (\'cancer du petit doigt de pied\', \'09:30:00\', \'2024-02-14\', \'elie\',NULL)')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO reservation (conference_theme, presentation_creneau, reservation_date, user_name,place) VALUES (\'cancer du petit doigt de pied\', \'09:30:00\', \'2024-02-14\', \'elie\',NULL)')
+ 3 APPPATH\Modele\Modele.php(69): CodeIgniter\Database\BaseConnection->query('INSERT INTO reservation (conference_theme, presentation_creneau, reservation_date, user_name,place) VALUES (?, ?, ?, ?,?)', [...])
+ 4 APPPATH\Controllers\Home.php(165): App\Modele\Modele->insertInto(Object(CodeIgniter\HTTP\IncomingRequest), [...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->submitReservation()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-12 10:34:19 --> [Caused by] mysqli_sql_exception: Unknown column 'place' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO reservation (conference_theme, presentation_creneau, reservation_date, user_name,place) VALUES (\'cancer du petit doigt de pied\', \'09:30:00\', \'2024-02-14\', \'elie\',NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO reservation (conference_theme, presentation_creneau, reservation_date, user_name,place) VALUES (\'cancer du petit doigt de pied\', \'09:30:00\', \'2024-02-14\', \'elie\',NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO reservation (conference_theme, presentation_creneau, reservation_date, user_name,place) VALUES (\'cancer du petit doigt de pied\', \'09:30:00\', \'2024-02-14\', \'elie\',NULL)')
+ 4 APPPATH\Modele\Modele.php(69): CodeIgniter\Database\BaseConnection->query('INSERT INTO reservation (conference_theme, presentation_creneau, reservation_date, user_name,place) VALUES (?, ?, ?, ?,?)', [...])
+ 5 APPPATH\Controllers\Home.php(165): App\Modele\Modele->insertInto(Object(CodeIgniter\HTTP\IncomingRequest), [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->submitReservation()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-02-12 10:39:35 --> mysqli_sql_exception: Unknown column 'place' in 'field list' in C:\xampp\htdocs\GSB3\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\GSB3\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO res...', 0)
+#1 C:\xampp\htdocs\GSB3\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO res...')
+#2 C:\xampp\htdocs\GSB3\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO res...')
+#3 C:\xampp\htdocs\GSB3\app\Modele\Modele.php(69): CodeIgniter\Database\BaseConnection->query('INSERT INTO res...', Array)
+#4 C:\xampp\htdocs\GSB3\app\Controllers\Home.php(165): App\Modele\Modele->insertInto(Object(CodeIgniter\HTTP\IncomingRequest), Array)
+#5 C:\xampp\htdocs\GSB3\system\CodeIgniter.php(941): App\Controllers\Home->submitReservation()
+#6 C:\xampp\htdocs\GSB3\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\GSB3\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\GSB3\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-02-12 10:39:35 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'place' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 APPPATH\Modele\Modele.php(69): CodeIgniter\Database\BaseConnection->query('INSERT INTO reservation (conference_theme, presentation_creneau, reservation_date, user_name,place) VALUES (?, ?, ?, ?,?)', [...])
+ 2 APPPATH\Controllers\Home.php(165): App\Modele\Modele->insertInto(Object(CodeIgniter\HTTP\IncomingRequest), [...])
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->submitReservation()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-12 10:39:35 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'place' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO reservation (conference_theme, presentation_creneau, reservation_date, user_name,place) VALUES (\'Nouvelles avancÃ©es en neurosciences\', \'11:32:01\', \'2024-02-21\', \'elie\',NULL)')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO reservation (conference_theme, presentation_creneau, reservation_date, user_name,place) VALUES (\'Nouvelles avancÃ©es en neurosciences\', \'11:32:01\', \'2024-02-21\', \'elie\',NULL)')
+ 3 APPPATH\Modele\Modele.php(69): CodeIgniter\Database\BaseConnection->query('INSERT INTO reservation (conference_theme, presentation_creneau, reservation_date, user_name,place) VALUES (?, ?, ?, ?,?)', [...])
+ 4 APPPATH\Controllers\Home.php(165): App\Modele\Modele->insertInto(Object(CodeIgniter\HTTP\IncomingRequest), [...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->submitReservation()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-12 10:39:35 --> [Caused by] mysqli_sql_exception: Unknown column 'place' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO reservation (conference_theme, presentation_creneau, reservation_date, user_name,place) VALUES (\'Nouvelles avancÃ©es en neurosciences\', \'11:32:01\', \'2024-02-21\', \'elie\',NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO reservation (conference_theme, presentation_creneau, reservation_date, user_name,place) VALUES (\'Nouvelles avancÃ©es en neurosciences\', \'11:32:01\', \'2024-02-21\', \'elie\',NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO reservation (conference_theme, presentation_creneau, reservation_date, user_name,place) VALUES (\'Nouvelles avancÃ©es en neurosciences\', \'11:32:01\', \'2024-02-21\', \'elie\',NULL)')
+ 4 APPPATH\Modele\Modele.php(69): CodeIgniter\Database\BaseConnection->query('INSERT INTO reservation (conference_theme, presentation_creneau, reservation_date, user_name,place) VALUES (?, ?, ?, ?,?)', [...])
+ 5 APPPATH\Controllers\Home.php(165): App\Modele\Modele->insertInto(Object(CodeIgniter\HTTP\IncomingRequest), [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->submitReservation()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-02-12 10:41:59 --> mysqli_sql_exception: Unknown column 'place' in 'field list' in C:\xampp\htdocs\GSB3\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\GSB3\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO res...', 0)
+#1 C:\xampp\htdocs\GSB3\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO res...')
+#2 C:\xampp\htdocs\GSB3\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO res...')
+#3 C:\xampp\htdocs\GSB3\app\Modele\Modele.php(69): CodeIgniter\Database\BaseConnection->query('INSERT INTO res...', Array)
+#4 C:\xampp\htdocs\GSB3\app\Controllers\Home.php(165): App\Modele\Modele->insertInto(Object(CodeIgniter\HTTP\IncomingRequest), Array)
+#5 C:\xampp\htdocs\GSB3\system\CodeIgniter.php(941): App\Controllers\Home->submitReservation()
+#6 C:\xampp\htdocs\GSB3\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\GSB3\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\GSB3\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-02-12 10:41:59 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'place' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 APPPATH\Modele\Modele.php(69): CodeIgniter\Database\BaseConnection->query('INSERT INTO reservation (conference_theme, presentation_creneau, reservation_date, user_name,place) VALUES (?, ?, ?, ?,?)', [...])
+ 2 APPPATH\Controllers\Home.php(165): App\Modele\Modele->insertInto(Object(CodeIgniter\HTTP\IncomingRequest), [...])
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->submitReservation()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-12 10:41:59 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'place' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO reservation (conference_theme, presentation_creneau, reservation_date, user_name,place) VALUES (\'AvancÃ©es en oncologie\', \'11:32:01\', \'2024-02-21\', \'elie\',NULL)')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO reservation (conference_theme, presentation_creneau, reservation_date, user_name,place) VALUES (\'AvancÃ©es en oncologie\', \'11:32:01\', \'2024-02-21\', \'elie\',NULL)')
+ 3 APPPATH\Modele\Modele.php(69): CodeIgniter\Database\BaseConnection->query('INSERT INTO reservation (conference_theme, presentation_creneau, reservation_date, user_name,place) VALUES (?, ?, ?, ?,?)', [...])
+ 4 APPPATH\Controllers\Home.php(165): App\Modele\Modele->insertInto(Object(CodeIgniter\HTTP\IncomingRequest), [...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->submitReservation()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-12 10:41:59 --> [Caused by] mysqli_sql_exception: Unknown column 'place' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO reservation (conference_theme, presentation_creneau, reservation_date, user_name,place) VALUES (\'AvancÃ©es en oncologie\', \'11:32:01\', \'2024-02-21\', \'elie\',NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO reservation (conference_theme, presentation_creneau, reservation_date, user_name,place) VALUES (\'AvancÃ©es en oncologie\', \'11:32:01\', \'2024-02-21\', \'elie\',NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO reservation (conference_theme, presentation_creneau, reservation_date, user_name,place) VALUES (\'AvancÃ©es en oncologie\', \'11:32:01\', \'2024-02-21\', \'elie\',NULL)')
+ 4 APPPATH\Modele\Modele.php(69): CodeIgniter\Database\BaseConnection->query('INSERT INTO reservation (conference_theme, presentation_creneau, reservation_date, user_name,place) VALUES (?, ?, ?, ?,?)', [...])
+ 5 APPPATH\Controllers\Home.php(165): App\Modele\Modele->insertInto(Object(CodeIgniter\HTTP\IncomingRequest), [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->submitReservation()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-02-12 10:42:41 --> mysqli_sql_exception: Unknown column 'place' in 'field list' in C:\xampp\htdocs\GSB3\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\GSB3\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO res...', 0)
+#1 C:\xampp\htdocs\GSB3\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO res...')
+#2 C:\xampp\htdocs\GSB3\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO res...')
+#3 C:\xampp\htdocs\GSB3\app\Modele\Modele.php(69): CodeIgniter\Database\BaseConnection->query('INSERT INTO res...', Array)
+#4 C:\xampp\htdocs\GSB3\app\Controllers\Home.php(165): App\Modele\Modele->insertInto(Object(CodeIgniter\HTTP\IncomingRequest), Array)
+#5 C:\xampp\htdocs\GSB3\system\CodeIgniter.php(941): App\Controllers\Home->submitReservation()
+#6 C:\xampp\htdocs\GSB3\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\GSB3\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\GSB3\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-02-12 10:42:41 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'place' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 APPPATH\Modele\Modele.php(69): CodeIgniter\Database\BaseConnection->query('INSERT INTO reservation (conference_theme, presentation_creneau, reservation_date, user_name,place) VALUES (?, ?, ?, ?,?)', [...])
+ 2 APPPATH\Controllers\Home.php(165): App\Modele\Modele->insertInto(Object(CodeIgniter\HTTP\IncomingRequest), [...])
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->submitReservation()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-12 10:42:41 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'place' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO reservation (conference_theme, presentation_creneau, reservation_date, user_name,place) VALUES (\'AvancÃ©es en oncologie\', \'11:32:01\', \'2024-02-21\', \'elie\',NULL)')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO reservation (conference_theme, presentation_creneau, reservation_date, user_name,place) VALUES (\'AvancÃ©es en oncologie\', \'11:32:01\', \'2024-02-21\', \'elie\',NULL)')
+ 3 APPPATH\Modele\Modele.php(69): CodeIgniter\Database\BaseConnection->query('INSERT INTO reservation (conference_theme, presentation_creneau, reservation_date, user_name,place) VALUES (?, ?, ?, ?,?)', [...])
+ 4 APPPATH\Controllers\Home.php(165): App\Modele\Modele->insertInto(Object(CodeIgniter\HTTP\IncomingRequest), [...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->submitReservation()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-12 10:42:41 --> [Caused by] mysqli_sql_exception: Unknown column 'place' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO reservation (conference_theme, presentation_creneau, reservation_date, user_name,place) VALUES (\'AvancÃ©es en oncologie\', \'11:32:01\', \'2024-02-21\', \'elie\',NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO reservation (conference_theme, presentation_creneau, reservation_date, user_name,place) VALUES (\'AvancÃ©es en oncologie\', \'11:32:01\', \'2024-02-21\', \'elie\',NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO reservation (conference_theme, presentation_creneau, reservation_date, user_name,place) VALUES (\'AvancÃ©es en oncologie\', \'11:32:01\', \'2024-02-21\', \'elie\',NULL)')
+ 4 APPPATH\Modele\Modele.php(69): CodeIgniter\Database\BaseConnection->query('INSERT INTO reservation (conference_theme, presentation_creneau, reservation_date, user_name,place) VALUES (?, ?, ?, ?,?)', [...])
+ 5 APPPATH\Controllers\Home.php(165): App\Modele\Modele->insertInto(Object(CodeIgniter\HTTP\IncomingRequest), [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->submitReservation()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-02-12 10:43:43 --> mysqli_sql_exception: Unknown column 'place' in 'field list' in C:\xampp\htdocs\GSB3\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\GSB3\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO res...', 0)
+#1 C:\xampp\htdocs\GSB3\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO res...')
+#2 C:\xampp\htdocs\GSB3\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO res...')
+#3 C:\xampp\htdocs\GSB3\app\Modele\Modele.php(69): CodeIgniter\Database\BaseConnection->query('INSERT INTO res...', Array)
+#4 C:\xampp\htdocs\GSB3\app\Controllers\Home.php(165): App\Modele\Modele->insertInto(Object(CodeIgniter\HTTP\IncomingRequest), Array)
+#5 C:\xampp\htdocs\GSB3\system\CodeIgniter.php(941): App\Controllers\Home->submitReservation()
+#6 C:\xampp\htdocs\GSB3\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\GSB3\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\GSB3\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-02-12 10:43:43 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'place' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 APPPATH\Modele\Modele.php(69): CodeIgniter\Database\BaseConnection->query('INSERT INTO reservation (conference_theme, presentation_creneau, reservation_date, user_name,place) VALUES (?, ?, ?, ?,?)', [...])
+ 2 APPPATH\Controllers\Home.php(165): App\Modele\Modele->insertInto(Object(CodeIgniter\HTTP\IncomingRequest), [...])
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->submitReservation()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-12 10:43:43 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'place' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO reservation (conference_theme, presentation_creneau, reservation_date, user_name,place) VALUES (\'cancer du petit doigt de pied\', \'09:30:00\', \'2024-02-14\', \'elie\',\'4,5\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO reservation (conference_theme, presentation_creneau, reservation_date, user_name,place) VALUES (\'cancer du petit doigt de pied\', \'09:30:00\', \'2024-02-14\', \'elie\',\'4,5\')')
+ 3 APPPATH\Modele\Modele.php(69): CodeIgniter\Database\BaseConnection->query('INSERT INTO reservation (conference_theme, presentation_creneau, reservation_date, user_name,place) VALUES (?, ?, ?, ?,?)', [...])
+ 4 APPPATH\Controllers\Home.php(165): App\Modele\Modele->insertInto(Object(CodeIgniter\HTTP\IncomingRequest), [...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->submitReservation()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-12 10:43:43 --> [Caused by] mysqli_sql_exception: Unknown column 'place' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO reservation (conference_theme, presentation_creneau, reservation_date, user_name,place) VALUES (\'cancer du petit doigt de pied\', \'09:30:00\', \'2024-02-14\', \'elie\',\'4,5\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO reservation (conference_theme, presentation_creneau, reservation_date, user_name,place) VALUES (\'cancer du petit doigt de pied\', \'09:30:00\', \'2024-02-14\', \'elie\',\'4,5\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO reservation (conference_theme, presentation_creneau, reservation_date, user_name,place) VALUES (\'cancer du petit doigt de pied\', \'09:30:00\', \'2024-02-14\', \'elie\',\'4,5\')')
+ 4 APPPATH\Modele\Modele.php(69): CodeIgniter\Database\BaseConnection->query('INSERT INTO reservation (conference_theme, presentation_creneau, reservation_date, user_name,place) VALUES (?, ?, ?, ?,?)', [...])
+ 5 APPPATH\Controllers\Home.php(165): App\Modele\Modele->insertInto(Object(CodeIgniter\HTTP\IncomingRequest), [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->submitReservation()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-12 10:51:05 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "pdf.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pdf.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('pdf', [], true)
+ 3 APPPATH\Controllers\Home.php(106): view('pdf', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->generatePdf()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-12 10:51:46 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "pdf.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pdf.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('pdf', [], true)
+ 3 APPPATH\Controllers\Home.php(106): view('pdf', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->generatePdf()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-12 10:52:02 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "pdf.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pdf.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('pdf', [], true)
+ 3 APPPATH\Controllers\Home.php(106): view('pdf', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->generatePdf()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-12 10:52:30 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "pdf.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pdf.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('pdf', [], true)
+ 3 APPPATH\Controllers\Home.php(106): view('pdf', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->generatePdf()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-12 10:52:36 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "pdf.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pdf.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('pdf', [], true)
+ 3 APPPATH\Controllers\Home.php(106): view('pdf', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->generatePdf()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-12 10:53:41 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "pdf.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pdf.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('pdf', [], true)
+ 3 APPPATH\Controllers\Home.php(106): view('pdf', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->generatePdf()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-12 10:56:31 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "pdf.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pdf.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('pdf', [], true)
+ 3 APPPATH\Controllers\Home.php(106): view('pdf', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->generatePdf()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-12 10:56:37 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "pdf.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pdf.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('pdf', [], true)
+ 3 APPPATH\Controllers\Home.php(106): view('pdf', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->generatePdf()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-12 10:57:57 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "pdf.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pdf.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('pdf', [], true)
+ 3 APPPATH\Controllers\Home.php(106): view('pdf', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->generatePdf()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-12 10:59:12 --> ErrorException: Undefined variable $reservation
+in APPPATH\Views\pdf.php on line 47.
+ 1 APPPATH\Views\pdf.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $reservation', 'C:\\xampp\\htdocs\\GSB3\\app\\Views\\pdf.php', 47)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\GSB3\\app\\Views\\pdf.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('pdf', [], true)
+ 5 APPPATH\Controllers\Home.php(96): view('pdf')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->pdf()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-12 10:59:59 --> ErrorException: Undefined variable $reservation
+in APPPATH\Views\pdf.php on line 47.
+ 1 APPPATH\Views\pdf.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $reservation', 'C:\\xampp\\htdocs\\GSB3\\app\\Views\\pdf.php', 47)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\GSB3\\app\\Views\\pdf.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('pdf', [], true)
+ 5 APPPATH\Controllers\Home.php(99): view('pdf')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->pdf()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-12 11:00:20 --> ErrorException: Undefined variable $reservation
+in APPPATH\Views\pdf.php on line 47.
+ 1 APPPATH\Views\pdf.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $reservation', 'C:\\xampp\\htdocs\\GSB3\\app\\Views\\pdf.php', 47)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\GSB3\\app\\Views\\pdf.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('pdf', [], true)
+ 5 APPPATH\Controllers\Home.php(99): view('pdf', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->pdf()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-12 11:01:01 --> ErrorException: Undefined variable $reservation
+in APPPATH\Views\pdf.php on line 47.
+ 1 APPPATH\Views\pdf.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $reservation', 'C:\\xampp\\htdocs\\GSB3\\app\\Views\\pdf.php', 47)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\GSB3\\app\\Views\\pdf.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('pdf', [], true)
+ 5 APPPATH\Controllers\Home.php(99): view('pdf', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->pdf()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-12 11:02:17 --> ErrorException: Undefined variable $reservation
+in APPPATH\Views\pdf.php on line 48.
+ 1 APPPATH\Views\pdf.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $reservation', 'C:\\xampp\\htdocs\\GSB3\\app\\Views\\pdf.php', 48)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\GSB3\\app\\Views\\pdf.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('pdf', [], true)
+ 5 APPPATH\Controllers\Home.php(99): view('pdf', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->pdf()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-12 11:04:43 --> ErrorException: Undefined variable $reservation
+in APPPATH\Controllers\Home.php on line 99.
+ 1 APPPATH\Controllers\Home.php(99): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $reservation', 'C:\\xampp\\htdocs\\GSB3\\app\\Controllers\\Home.php', 99)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->pdf()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-12 11:06:05 --> ErrorException: Attempt to read property "conference_theme" on array
+in APPPATH\Views\pdf.php on line 48.
+ 1 APPPATH\Views\pdf.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "conference_theme" on array', 'C:\\xampp\\htdocs\\GSB3\\app\\Views\\pdf.php', 48)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\GSB3\\app\\Views\\pdf.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('pdf', [], true)
+ 5 APPPATH\Controllers\Home.php(99): view('pdf', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->pdf()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-12 11:07:25 --> ErrorException: Undefined array key "conference_theme"
+in APPPATH\Views\pdf.php on line 47.
+ 1 APPPATH\Views\pdf.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "conference_theme"', 'C:\\xampp\\htdocs\\GSB3\\app\\Views\\pdf.php', 47)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\GSB3\\app\\Views\\pdf.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('pdf', [], true)
+ 5 APPPATH\Controllers\Home.php(99): view('pdf', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->pdf()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-12 11:08:01 --> ErrorException: Undefined array key "conference_theme"
+in APPPATH\Views\pdf.php on line 47.
+ 1 APPPATH\Views\pdf.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "conference_theme"', 'C:\\xampp\\htdocs\\GSB3\\app\\Views\\pdf.php', 47)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\GSB3\\app\\Views\\pdf.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('pdf', [], true)
+ 5 APPPATH\Controllers\Home.php(99): view('pdf', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->pdf()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-12 11:11:01 --> ErrorException: Undefined variable $reservations
+in APPPATH\Views\pdf.php on line 43.
+ 1 APPPATH\Views\pdf.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $reservations', 'C:\\xampp\\htdocs\\GSB3\\app\\Views\\pdf.php', 43)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\GSB3\\app\\Views\\pdf.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('pdf', [], true)
+ 5 APPPATH\Controllers\Home.php(99): view('pdf', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->pdf()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-12 11:11:23 --> ErrorException: Undefined array key "conference"
+in APPPATH\Views\pdf.php on line 45.
+ 1 APPPATH\Views\pdf.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "conference"', 'C:\\xampp\\htdocs\\GSB3\\app\\Views\\pdf.php', 45)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\GSB3\\app\\Views\\pdf.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('pdf', [], true)
+ 5 APPPATH\Controllers\Home.php(99): view('pdf', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->pdf()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-12 11:11:36 --> ErrorException: Undefined array key "conference_theme"
+in APPPATH\Views\pdf.php on line 45.
+ 1 APPPATH\Views\pdf.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "conference_theme"', 'C:\\xampp\\htdocs\\GSB3\\app\\Views\\pdf.php', 45)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\GSB3\\app\\Views\\pdf.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('pdf', [], true)
+ 5 APPPATH\Controllers\Home.php(99): view('pdf', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->pdf()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-12 11:13:25 --> ErrorException: Attempt to read property "conference_theme" on array
+in APPPATH\Views\pdf.php on line 45.
+ 1 APPPATH\Views\pdf.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "conference_theme" on array', 'C:\\xampp\\htdocs\\GSB3\\app\\Views\\pdf.php', 45)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\GSB3\\app\\Views\\pdf.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('pdf', [], true)
+ 5 APPPATH\Controllers\Home.php(99): view('pdf', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->pdf()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-12 11:13:46 --> ErrorException: Attempt to read property "conference_theme" on array
+in APPPATH\Views\pdf.php on line 45.
+ 1 APPPATH\Views\pdf.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "conference_theme" on array', 'C:\\xampp\\htdocs\\GSB3\\app\\Views\\pdf.php', 45)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\GSB3\\app\\Views\\pdf.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('pdf', [], true)
+ 5 APPPATH\Controllers\Home.php(99): view('pdf', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->pdf()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-12 11:13:48 --> ErrorException: Attempt to read property "conference_theme" on array
+in APPPATH\Views\pdf.php on line 45.
+ 1 APPPATH\Views\pdf.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "conference_theme" on array', 'C:\\xampp\\htdocs\\GSB3\\app\\Views\\pdf.php', 45)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\GSB3\\app\\Views\\pdf.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('pdf', [], true)
+ 5 APPPATH\Controllers\Home.php(99): view('pdf', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->pdf()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-12 11:14:53 --> Error: Cannot use object of type stdClass as array
+in APPPATH\Views\pdf.php on line 45.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('pdf', [], true)
+ 4 APPPATH\Controllers\Home.php(99): view('pdf', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->pdf()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-12 11:24:47 --> ErrorException: Undefined variable $reservation
+in APPPATH\Views\pdf.php on line 43.
+ 1 APPPATH\Views\pdf.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $reservation', 'C:\\xampp\\htdocs\\GSB3\\app\\Views\\pdf.php', 43)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\GSB3\\app\\Views\\pdf.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('pdf', [], true)
+ 5 APPPATH\Controllers\Home.php(116): view('pdf', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->generatePdf()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-12 11:25:05 --> ErrorException: Undefined variable $reservation
+in APPPATH\Views\pdf.php on line 43.
+ 1 APPPATH\Views\pdf.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $reservation', 'C:\\xampp\\htdocs\\GSB3\\app\\Views\\pdf.php', 43)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\GSB3\\app\\Views\\pdf.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('pdf', [], true)
+ 5 APPPATH\Controllers\Home.php(116): view('pdf', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->generatePdf()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-12 11:25:28 --> ErrorException: Undefined variable $reservation
+in APPPATH\Views\pdf.php on line 43.
+ 1 APPPATH\Views\pdf.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $reservation', 'C:\\xampp\\htdocs\\GSB3\\app\\Views\\pdf.php', 43)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\GSB3\\app\\Views\\pdf.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('pdf', [], true)
+ 5 APPPATH\Controllers\Home.php(116): view('pdf', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->generatePdf()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-12 11:26:42 --> ErrorException: Undefined variable $reservation
+in APPPATH\Views\pdf.php on line 43.
+ 1 APPPATH\Views\pdf.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $reservation', 'C:\\xampp\\htdocs\\GSB3\\app\\Views\\pdf.php', 43)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\GSB3\\app\\Views\\pdf.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('pdf', [], true)
+ 5 APPPATH\Controllers\Home.php(114): view('pdf', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->generatePdf()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-12 11:26:48 --> ErrorException: Undefined variable $reservation
+in APPPATH\Views\pdf.php on line 43.
+ 1 APPPATH\Views\pdf.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $reservation', 'C:\\xampp\\htdocs\\GSB3\\app\\Views\\pdf.php', 43)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\GSB3\\app\\Views\\pdf.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('pdf', [], true)
+ 5 APPPATH\Controllers\Home.php(114): view('pdf', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->generatePdf()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-12 11:28:10 --> ErrorException: Undefined variable $reservation
+in APPPATH\Views\pdf.php on line 43.
+ 1 APPPATH\Views\pdf.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $reservation', 'C:\\xampp\\htdocs\\GSB3\\app\\Views\\pdf.php', 43)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\GSB3\\app\\Views\\pdf.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('PDF', [], true)
+ 5 APPPATH\Controllers\Home.php(114): view('PDF', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->generatePdf()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-12 11:29:35 --> ArgumentCountError: Too few arguments to function App\Modele\Modele::getReservationsByPrenom(), 0 passed in C:\xampp\htdocs\GSB3\app\Views\pdf.php on line 48 and exactly 1 expected
+in APPPATH\Modele\Modele.php on line 70.
+ 1 APPPATH\Views\pdf.php(48): App\Modele\Modele->getReservationsByPrenom()
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\GSB3\\app\\Views\\pdf.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('PDF', [], true)
+ 5 APPPATH\Controllers\Home.php(114): view('PDF', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->generatePdf()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-02-12 21:34:29 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 in C:\xampp\htdocs\GSB3\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\GSB3\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT * From ', 0)
+#1 C:\xampp\htdocs\GSB3\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * From ')
+#2 C:\xampp\htdocs\GSB3\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * From ')
+#3 C:\xampp\htdocs\GSB3\app\Modele\Modele.php(77): CodeIgniter\Database\BaseConnection->query('SELECT * From ')
+#4 C:\xampp\htdocs\GSB3\app\Views\Reservation.php(23): App\Modele\Modele->getLesinfo()
+#5 C:\xampp\htdocs\GSB3\system\View\View.php(228): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\GSB3\system\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\xampp\htdocs\GSB3\system\Common.php(1178): CodeIgniter\View\View->render('Reservation', Array, true)
+#8 C:\xampp\htdocs\GSB3\app\Controllers\Home.php(143): view('Reservation', Array)
+#9 C:\xampp\htdocs\GSB3\system\CodeIgniter.php(941): App\Controllers\Home->Reservation()
+#10 C:\xampp\htdocs\GSB3\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#11 C:\xampp\htdocs\GSB3\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\GSB3\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2024-02-12 21:34:29 --> CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 APPPATH\Modele\Modele.php(77): CodeIgniter\Database\BaseConnection->query('SELECT * From ')
+ 2 APPPATH\Views\Reservation.php(23): App\Modele\Modele->getLesinfo()
+ 3 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\GSB3\\app\\Views\\Reservation.php')
+ 4 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Reservation', [], true)
+ 6 APPPATH\Controllers\Home.php(143): view('Reservation', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->Reservation()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-12 21:34:29 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * From ')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * From ')
+ 3 APPPATH\Modele\Modele.php(77): CodeIgniter\Database\BaseConnection->query('SELECT * From ')
+ 4 APPPATH\Views\Reservation.php(23): App\Modele\Modele->getLesinfo()
+ 5 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\GSB3\\app\\Views\\Reservation.php')
+ 6 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Reservation', [], true)
+ 8 APPPATH\Controllers\Home.php(143): view('Reservation', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->Reservation()
+10 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+11 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-12 21:34:29 --> [Caused by] mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT * From ', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * From ')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * From ')
+ 4 APPPATH\Modele\Modele.php(77): CodeIgniter\Database\BaseConnection->query('SELECT * From ')
+ 5 APPPATH\Views\Reservation.php(23): App\Modele\Modele->getLesinfo()
+ 6 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\GSB3\\app\\Views\\Reservation.php')
+ 7 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Reservation', [], true)
+ 9 APPPATH\Controllers\Home.php(143): view('Reservation', [...])
+10 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->Reservation()
+11 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-02-12 21:38:02 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 in C:\xampp\htdocs\GSB3\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\GSB3\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT * From ', 0)
+#1 C:\xampp\htdocs\GSB3\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * From ')
+#2 C:\xampp\htdocs\GSB3\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * From ')
+#3 C:\xampp\htdocs\GSB3\app\Modele\Modele.php(77): CodeIgniter\Database\BaseConnection->query('SELECT * From ')
+#4 C:\xampp\htdocs\GSB3\app\Views\Reservation.php(23): App\Modele\Modele->getLesinfo()
+#5 C:\xampp\htdocs\GSB3\system\View\View.php(228): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\GSB3\system\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\xampp\htdocs\GSB3\system\Common.php(1178): CodeIgniter\View\View->render('Reservation', Array, true)
+#8 C:\xampp\htdocs\GSB3\app\Controllers\Home.php(143): view('Reservation', Array)
+#9 C:\xampp\htdocs\GSB3\system\CodeIgniter.php(941): App\Controllers\Home->Reservation()
+#10 C:\xampp\htdocs\GSB3\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#11 C:\xampp\htdocs\GSB3\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\GSB3\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2024-02-12 21:38:02 --> CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 APPPATH\Modele\Modele.php(77): CodeIgniter\Database\BaseConnection->query('SELECT * From ')
+ 2 APPPATH\Views\Reservation.php(23): App\Modele\Modele->getLesinfo()
+ 3 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\GSB3\\app\\Views\\Reservation.php')
+ 4 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Reservation', [], true)
+ 6 APPPATH\Controllers\Home.php(143): view('Reservation', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->Reservation()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-12 21:38:02 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * From ')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * From ')
+ 3 APPPATH\Modele\Modele.php(77): CodeIgniter\Database\BaseConnection->query('SELECT * From ')
+ 4 APPPATH\Views\Reservation.php(23): App\Modele\Modele->getLesinfo()
+ 5 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\GSB3\\app\\Views\\Reservation.php')
+ 6 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Reservation', [], true)
+ 8 APPPATH\Controllers\Home.php(143): view('Reservation', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->Reservation()
+10 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+11 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-12 21:38:02 --> [Caused by] mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT * From ', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * From ')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * From ')
+ 4 APPPATH\Modele\Modele.php(77): CodeIgniter\Database\BaseConnection->query('SELECT * From ')
+ 5 APPPATH\Views\Reservation.php(23): App\Modele\Modele->getLesinfo()
+ 6 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\GSB3\\app\\Views\\Reservation.php')
+ 7 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Reservation', [], true)
+ 9 APPPATH\Controllers\Home.php(143): view('Reservation', [...])
+10 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->Reservation()
+11 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-12 21:49:42 --> Error: Call to undefined function form_open()
+in APPPATH\Views\Reservation.php on line 10.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Reservation', [], true)
+ 4 APPPATH\Controllers\Home.php(143): view('Reservation', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->Reservation()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

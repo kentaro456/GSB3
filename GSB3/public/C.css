@@ -1,0 +1,59 @@
+/* Styles pour les cartes de conférence */
+.card {
+    width: 300px; /* Largeur de la carte */
+    background: #fff; /* Couleur de fond */
+    border-radius: 38px; /* Bord arrondi */
+    margin: 20px; /* Marge autour de la carte */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1); /* Ombre douce */
+    transition: transform 0.3s ease; /* Transition douce pour l'effet de survol */
+    overflow: hidden; /* Masquer le débordement */
+}
+
+.card:hover {
+    transform: translateY(-10px); /* Légère translation vers le haut au survol */
+}
+
+.card-image {
+    height: 200px; /* Hauteur de l'image */
+    overflow: hidden; /* Masquer le débordement */
+    border-radius: 20px 20px 0 0; /* Arrondir uniquement les coins supérieurs */
+}
+
+.card-image img {
+    width: 100%; /* Remplir complètement le conteneur */
+    height: 100%; /* Remplir complètement le conteneur */
+    object-fit: cover; /* Redimensionner l'image pour remplir complètement le conteneur tout en conservant ses proportions */
+}
+
+.category {
+    font-size: 0.8em; /* Taille de la police */
+    font-weight: bold; /* Gras */
+    color: #555; /* Couleur du texte */
+    text-transform: uppercase; /* Convertir en majuscules */
+    padding: 10px; /* Espacement intérieur */
+    background-color: #f5f5f5; /* Couleur de fond */
+}
+
+.heading {
+    font-size: 1.2em; /* Taille de la police */
+    font-weight: bold; /* Gras */
+    color: #333; /* Couleur du texte */
+    padding: 10px; /* Espacement intérieur */
+}
+
+.author {
+    font-size: 0.8em; /* Taille de la police */
+    color: #777; /* Couleur du texte */
+    padding: 5px 10px; /* Espacement intérieur */
+    border-top: 1px solid #eee; /* Bordure supérieure */
+}
+
+.name {
+   
+    color: #555; /* Couleur du texte */
+    text-decoration: none; /* Pas de soulignement */
+}
+
+.name:hover {
+    color: #333; /* Couleur du texte au survol */
+}

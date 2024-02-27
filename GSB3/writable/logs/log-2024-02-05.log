@@ -1,0 +1,305 @@
+CRITICAL - 2024-02-05 08:40:54 --> ErrorException: Undefined variable $conferences
+in APPPATH\Views\Presentation.php on line 33.
+ 1 APPPATH\Views\Presentation.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $conferences', 'C:\\xampp\\htdocs\\GSB3\\app\\Views\\Presentation.php', 33)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\GSB3\\app\\Views\\Presentation.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Presentation', [], true)
+ 5 APPPATH\Controllers\Home.php(76): view('Presentation', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->presentation()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-05 08:43:51 --> ErrorException: Undefined variable $conferences
+in APPPATH\Views\Presentation.php on line 33.
+ 1 APPPATH\Views\Presentation.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $conferences', 'C:\\xampp\\htdocs\\GSB3\\app\\Views\\Presentation.php', 33)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\GSB3\\app\\Views\\Presentation.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Presentation', [], true)
+ 5 APPPATH\Controllers\Home.php(76): view('Presentation', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->presentation()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-05 08:44:47 --> Error: Object of class App\Modele\Modele could not be converted to string
+in APPPATH\Controllers\Home.php on line 83.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->presentation()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-05 08:45:50 --> BadMethodCallException: Call to undefined method App\Modele\Modele::getLesConferences
+in SYSTEMPATH\Model.php on line 874.
+ 1 APPPATH\Controllers\Home.php(83): CodeIgniter\Model->__call('getLesConferences', [])
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->presentation()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-05 08:46:06 --> BadMethodCallException: Call to undefined method App\Modele\Modele::getLesPresentation
+in SYSTEMPATH\Model.php on line 874.
+ 1 APPPATH\Controllers\Home.php(86): CodeIgniter\Model->__call('getLesPresentation', [])
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->presentation()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-05 10:00:20 --> ErrorException: Undefined variable $modele
+in APPPATH\Views\Presentation.php on line 40.
+ 1 APPPATH\Views\Presentation.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $modele', 'C:\\xampp\\htdocs\\GSB3\\app\\Views\\Presentation.php', 40)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\GSB3\\app\\Views\\Presentation.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Presentation', [], true)
+ 5 APPPATH\Controllers\Home.php(89): view('Presentation', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->presentation()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-05 10:00:52 --> ErrorException: Undefined variable $modele
+in APPPATH\Views\Presentation.php on line 40.
+ 1 APPPATH\Views\Presentation.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $modele', 'C:\\xampp\\htdocs\\GSB3\\app\\Views\\Presentation.php', 40)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\GSB3\\app\\Views\\Presentation.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Presentation', [], true)
+ 5 APPPATH\Controllers\Home.php(89): view('Presentation', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->presentation()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-05 10:09:54 --> ErrorException: Undefined variable $modele
+in APPPATH\Views\Presentation.php on line 35.
+ 1 APPPATH\Views\Presentation.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $modele', 'C:\\xampp\\htdocs\\GSB3\\app\\Views\\Presentation.php', 35)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\GSB3\\app\\Views\\Presentation.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Presentation', [], true)
+ 5 APPPATH\Controllers\Home.php(89): view('Presentation', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->presentation()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-05 10:10:49 --> ParseError: Unmatched '}'
+in APPPATH\Controllers\Home.php on line 99.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(288): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\GSB3\\app\\Controllers\\Home.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 4 SYSTEMPATH\CodeIgniter.php(899): class_exists('\\App\\Controllers\\Home', true)
+ 5 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-05 10:11:11 --> BadMethodCallException: Call to undefined method App\Modele\Modele::getLesConferences
+in SYSTEMPATH\Model.php on line 874.
+ 1 APPPATH\Controllers\Home.php(84): CodeIgniter\Model->__call('getLesConferences', [])
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->presentation()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-05 10:12:56 --> ErrorException: Undefined array key "id"
+in APPPATH\Views\Presentation.php on line 46.
+ 1 APPPATH\Views\Presentation.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\xampp\\htdocs\\GSB3\\app\\Views\\Presentation.php', 46)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\GSB3\\app\\Views\\Presentation.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Presentation', [], true)
+ 5 APPPATH\Controllers\Home.php(90): view('Presentation', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->presentation()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-05 10:15:29 --> ErrorException: Undefined array key "date"
+in APPPATH\Views\Presentation.php on line 46.
+ 1 APPPATH\Views\Presentation.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "date"', 'C:\\xampp\\htdocs\\GSB3\\app\\Views\\Presentation.php', 46)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\GSB3\\app\\Views\\Presentation.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Presentation', [], true)
+ 5 APPPATH\Controllers\Home.php(90): view('Presentation', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->presentation()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-05 10:20:16 --> ErrorException: Undefined array key "dateD"
+in APPPATH\Views\Presentation.php on line 46.
+ 1 APPPATH\Views\Presentation.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "dateD"', 'C:\\xampp\\htdocs\\GSB3\\app\\Views\\Presentation.php', 46)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\GSB3\\app\\Views\\Presentation.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Presentation', [], true)
+ 5 APPPATH\Controllers\Home.php(90): view('Presentation', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->presentation()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-05 18:49:10 --> ErrorException: Undefined variable $modele
+in APPPATH\Views\Presentation.php on line 22.
+ 1 APPPATH\Views\Presentation.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $modele', 'C:\\xampp\\htdocs\\GSB3\\app\\Views\\Presentation.php', 22)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\GSB3\\app\\Views\\Presentation.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Presentation', [], true)
+ 5 APPPATH\Controllers\Home.php(81): view('Presentation')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->presentation()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-05 18:49:35 --> ErrorException: Undefined variable $modele
+in APPPATH\Views\Presentation.php on line 22.
+ 1 APPPATH\Views\Presentation.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $modele', 'C:\\xampp\\htdocs\\GSB3\\app\\Views\\Presentation.php', 22)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\GSB3\\app\\Views\\Presentation.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Presentation', [], true)
+ 5 APPPATH\Controllers\Home.php(81): view('Presentation')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->presentation()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-05 18:49:37 --> ErrorException: Undefined variable $modele
+in APPPATH\Views\Presentation.php on line 22.
+ 1 APPPATH\Views\Presentation.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $modele', 'C:\\xampp\\htdocs\\GSB3\\app\\Views\\Presentation.php', 22)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\GSB3\\app\\Views\\Presentation.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Presentation', [], true)
+ 5 APPPATH\Controllers\Home.php(81): view('Presentation')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->presentation()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-05 18:50:47 --> ErrorException: Undefined variable $modele
+in APPPATH\Views\Presentation.php on line 22.
+ 1 APPPATH\Views\Presentation.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $modele', 'C:\\xampp\\htdocs\\GSB3\\app\\Views\\Presentation.php', 22)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\GSB3\\app\\Views\\Presentation.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Presentation', [], true)
+ 5 APPPATH\Controllers\Home.php(82): view('Presentation')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->presentation()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-05 18:52:11 --> ErrorException: Undefined property: App\Controllers\Home::$load
+in APPPATH\Controllers\Home.php on line 90.
+ 1 APPPATH\Controllers\Home.php(90): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Home::$load', 'C:\\xampp\\htdocs\\GSB3\\app\\Controllers\\Home.php', 90)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->presentation()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-05 18:58:20 --> ErrorException: Undefined array key "theme"
+in APPPATH\Views\Presentation.php on line 39.
+ 1 APPPATH\Views\Presentation.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "theme"', 'C:\\xampp\\htdocs\\GSB3\\app\\Views\\Presentation.php', 39)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\GSB3\\app\\Views\\Presentation.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Presentation', [], true)
+ 5 APPPATH\Controllers\Home.php(88): view('Presentation', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->presentation()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-05 19:03:41 --> ErrorException: Undefined array key "theme"
+in APPPATH\Views\Presentation.php on line 39.
+ 1 APPPATH\Views\Presentation.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "theme"', 'C:\\xampp\\htdocs\\GSB3\\app\\Views\\Presentation.php', 39)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\GSB3\\app\\Views\\Presentation.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Presentation', [], true)
+ 5 APPPATH\Controllers\Home.php(88): view('Presentation', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->presentation()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-05 19:34:32 --> ErrorException: Undefined array key "date"
+in APPPATH\Views\Presentation.php on line 100.
+ 1 APPPATH\Views\Presentation.php(100): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "date"', 'C:\\xampp\\htdocs\\GSB3\\app\\Views\\Presentation.php', 100)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\GSB3\\app\\Views\\Presentation.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Presentation', [], true)
+ 5 APPPATH\Controllers\Home.php(88): view('Presentation', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->presentation()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-05 19:34:40 --> ErrorException: Undefined array key "date"
+in APPPATH\Views\Presentation.php on line 100.
+ 1 APPPATH\Views\Presentation.php(100): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "date"', 'C:\\xampp\\htdocs\\GSB3\\app\\Views\\Presentation.php', 100)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\GSB3\\app\\Views\\Presentation.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Presentation', [], true)
+ 5 APPPATH\Controllers\Home.php(88): view('Presentation', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->presentation()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-05 19:35:26 --> ErrorException: Undefined array key "heuredebut"
+in APPPATH\Views\Presentation.php on line 100.
+ 1 APPPATH\Views\Presentation.php(100): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "heuredebut"', 'C:\\xampp\\htdocs\\GSB3\\app\\Views\\Presentation.php', 100)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\GSB3\\app\\Views\\Presentation.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Presentation', [], true)
+ 5 APPPATH\Controllers\Home.php(88): view('Presentation', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->presentation()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-05 19:37:17 --> ErrorException: Undefined array key "heureDebut "
+in APPPATH\Views\Presentation.php on line 100.
+ 1 APPPATH\Views\Presentation.php(100): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "heureDebut "', 'C:\\xampp\\htdocs\\GSB3\\app\\Views\\Presentation.php', 100)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\GSB3\\app\\Views\\Presentation.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Presentation', [], true)
+ 5 APPPATH\Controllers\Home.php(88): view('Presentation', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->presentation()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-05 20:00:00 --> ErrorException: Undefined variable $presentations
+in APPPATH\Views\Presentation.php on line 58.
+ 1 APPPATH\Views\Presentation.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $presentations', 'C:\\xampp\\htdocs\\GSB3\\app\\Views\\Presentation.php', 58)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\GSB3\\app\\Views\\Presentation.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Presentation', [], true)
+ 5 APPPATH\Controllers\Home.php(88): view('Presentation', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->presentation()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-05 20:09:01 --> ErrorException: Undefined variable $presentations
+in APPPATH\Views\Presentation.php on line 58.
+ 1 APPPATH\Views\Presentation.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $presentations', 'C:\\xampp\\htdocs\\GSB3\\app\\Views\\Presentation.php', 58)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\GSB3\\app\\Views\\Presentation.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Presentation', [], true)
+ 5 APPPATH\Controllers\Home.php(88): view('Presentation', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->presentation()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-05 21:19:49 --> ErrorException: Undefined array key "dateDisponilbe"
+in APPPATH\Views\Presentation.php on line 117.
+ 1 APPPATH\Views\Presentation.php(117): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "dateDisponilbe"', 'C:\\xampp\\htdocs\\GSB3\\app\\Views\\Presentation.php', 117)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\GSB3\\app\\Views\\Presentation.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Presentation', [], true)
+ 5 APPPATH\Controllers\Home.php(88): view('Presentation', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->presentation()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-05 21:23:20 --> ErrorException: Undefined variable $presentations
+in APPPATH\Views\Presentation.php on line 46.
+ 1 APPPATH\Views\Presentation.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $presentations', 'C:\\xampp\\htdocs\\GSB3\\app\\Views\\Presentation.php', 46)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\GSB3\\app\\Views\\Presentation.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Presentation', [], true)
+ 5 APPPATH\Controllers\Home.php(88): view('Presentation', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->presentation()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-05 21:29:19 --> ParseError: syntax error, unexpected end of file, expecting "elseif" or "else" or "endif"
+in APPPATH\Views\Presentation.php on line 153.
+ 1 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Presentation', [], true)
+ 3 APPPATH\Controllers\Home.php(88): view('Presentation', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->presentation()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-05 21:32:45 --> BadMethodCallException: Call to undefined method App\Modele\Modele::getDatesDisponibles
+in SYSTEMPATH\Model.php on line 874.
+ 1 APPPATH\Views\Presentation.php(21): CodeIgniter\Model->__call('getDatesDisponibles', [])
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\GSB3\\app\\Views\\Presentation.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Presentation', [], true)
+ 5 APPPATH\Controllers\Home.php(88): view('Presentation', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->presentation()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

@@ -1,0 +1,1142 @@
+CRITICAL - 2024-02-08 09:05:23 --> ErrorException: Undefined array key "image"
+in APPPATH\Views\conference.php on line 66.
+ 1 APPPATH\Views\conference.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "image"', 'C:\\xampp\\htdocs\\GSB3\\app\\Views\\conference.php', 66)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\GSB3\\app\\Views\\conference.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('conference', [], true)
+ 5 APPPATH\Controllers\Home.php(70): view('conference')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->Conference()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-08 09:06:46 --> ErrorException: Undefined array key "image"
+in APPPATH\Views\conference.php on line 66.
+ 1 APPPATH\Views\conference.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "image"', 'C:\\xampp\\htdocs\\GSB3\\app\\Views\\conference.php', 66)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\GSB3\\app\\Views\\conference.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('conference', [], true)
+ 5 APPPATH\Controllers\Home.php(70): view('conference')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->Conference()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-08 09:08:27 --> ErrorException: Undefined array key "image"
+in APPPATH\Views\conference.php on line 78.
+ 1 APPPATH\Views\conference.php(78): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "image"', 'C:\\xampp\\htdocs\\GSB3\\app\\Views\\conference.php', 78)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\GSB3\\app\\Views\\conference.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('conference', [], true)
+ 5 APPPATH\Controllers\Home.php(70): view('conference')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->Conference()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-08 16:21:50 --> BadMethodCallException: Call to undefined method App\Modele\Modele::getlesConference
+in SYSTEMPATH\Model.php on line 874.
+ 1 APPPATH\Views\Reservation.php(25): CodeIgniter\Model->__call('getlesConference', [])
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\GSB3\\app\\Views\\Reservation.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Reservation', [], true)
+ 5 APPPATH\Controllers\Home.php(98): view('Reservation', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->Reservation()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-08 22:04:43 --> ErrorException: Undefined variable $conferences
+in APPPATH\Views\erro.php on line 14.
+ 1 APPPATH\Views\erro.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $conferences', 'C:\\xampp\\htdocs\\GSB3\\app\\Views\\erro.php', 14)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\GSB3\\app\\Views\\erro.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('erro', [], true)
+ 5 APPPATH\Controllers\Home.php(82): view('erro')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->erro()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-08 22:43:06 --> Error: Call to undefined function form_open()
+in APPPATH\Views\Reservation.php on line 10.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Reservation', [], true)
+ 4 APPPATH\Controllers\Home.php(98): view('Reservation', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->Reservation()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-02-08 22:46:08 --> mysqli_sql_exception: Column 'conference_theme' cannot be null in C:\xampp\htdocs\GSB3\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\GSB3\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO res...', 0)
+#1 C:\xampp\htdocs\GSB3\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO res...')
+#2 C:\xampp\htdocs\GSB3\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO res...')
+#3 C:\xampp\htdocs\GSB3\app\Modele\Modele.php(68): CodeIgniter\Database\BaseConnection->query('INSERT INTO res...', Array)
+#4 C:\xampp\htdocs\GSB3\app\Controllers\Home.php(128): App\Modele\Modele->insertInto(Object(CodeIgniter\HTTP\IncomingRequest), Array)
+#5 C:\xampp\htdocs\GSB3\system\CodeIgniter.php(941): App\Controllers\Home->submitReservation()
+#6 C:\xampp\htdocs\GSB3\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\GSB3\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\GSB3\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-02-08 22:46:08 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'conference_theme' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 APPPATH\Modele\Modele.php(68): CodeIgniter\Database\BaseConnection->query('INSERT INTO reservation (conference_theme, presentation_creneau, reservation_date, user_name) VALUES (?, ?, ?, ?)', [...])
+ 2 APPPATH\Controllers\Home.php(128): App\Modele\Modele->insertInto(Object(CodeIgniter\HTTP\IncomingRequest), [...])
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->submitReservation()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-08 22:46:08 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'conference_theme' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO reservation (conference_theme, presentation_creneau, reservation_date, user_name) VALUES (NULL, NULL, NULL, NULL)')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO reservation (conference_theme, presentation_creneau, reservation_date, user_name) VALUES (NULL, NULL, NULL, NULL)')
+ 3 APPPATH\Modele\Modele.php(68): CodeIgniter\Database\BaseConnection->query('INSERT INTO reservation (conference_theme, presentation_creneau, reservation_date, user_name) VALUES (?, ?, ?, ?)', [...])
+ 4 APPPATH\Controllers\Home.php(128): App\Modele\Modele->insertInto(Object(CodeIgniter\HTTP\IncomingRequest), [...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->submitReservation()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-08 22:46:08 --> [Caused by] mysqli_sql_exception: Column 'conference_theme' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO reservation (conference_theme, presentation_creneau, reservation_date, user_name) VALUES (NULL, NULL, NULL, NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO reservation (conference_theme, presentation_creneau, reservation_date, user_name) VALUES (NULL, NULL, NULL, NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO reservation (conference_theme, presentation_creneau, reservation_date, user_name) VALUES (NULL, NULL, NULL, NULL)')
+ 4 APPPATH\Modele\Modele.php(68): CodeIgniter\Database\BaseConnection->query('INSERT INTO reservation (conference_theme, presentation_creneau, reservation_date, user_name) VALUES (?, ?, ?, ?)', [...])
+ 5 APPPATH\Controllers\Home.php(128): App\Modele\Modele->insertInto(Object(CodeIgniter\HTTP\IncomingRequest), [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->submitReservation()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-02-08 22:46:28 --> mysqli_sql_exception: Column 'conference_theme' cannot be null in C:\xampp\htdocs\GSB3\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\GSB3\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO res...', 0)
+#1 C:\xampp\htdocs\GSB3\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO res...')
+#2 C:\xampp\htdocs\GSB3\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO res...')
+#3 C:\xampp\htdocs\GSB3\app\Modele\Modele.php(68): CodeIgniter\Database\BaseConnection->query('INSERT INTO res...', Array)
+#4 C:\xampp\htdocs\GSB3\app\Controllers\Home.php(128): App\Modele\Modele->insertInto(Object(CodeIgniter\HTTP\IncomingRequest), Array)
+#5 C:\xampp\htdocs\GSB3\system\CodeIgniter.php(941): App\Controllers\Home->submitReservation()
+#6 C:\xampp\htdocs\GSB3\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\GSB3\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\GSB3\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-02-08 22:46:28 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'conference_theme' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 APPPATH\Modele\Modele.php(68): CodeIgniter\Database\BaseConnection->query('INSERT INTO reservation (conference_theme, presentation_creneau, reservation_date, user_name) VALUES (?, ?, ?, ?)', [...])
+ 2 APPPATH\Controllers\Home.php(128): App\Modele\Modele->insertInto(Object(CodeIgniter\HTTP\IncomingRequest), [...])
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->submitReservation()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-08 22:46:28 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'conference_theme' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO reservation (conference_theme, presentation_creneau, reservation_date, user_name) VALUES (NULL, NULL, NULL, NULL)')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO reservation (conference_theme, presentation_creneau, reservation_date, user_name) VALUES (NULL, NULL, NULL, NULL)')
+ 3 APPPATH\Modele\Modele.php(68): CodeIgniter\Database\BaseConnection->query('INSERT INTO reservation (conference_theme, presentation_creneau, reservation_date, user_name) VALUES (?, ?, ?, ?)', [...])
+ 4 APPPATH\Controllers\Home.php(128): App\Modele\Modele->insertInto(Object(CodeIgniter\HTTP\IncomingRequest), [...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->submitReservation()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-08 22:46:28 --> [Caused by] mysqli_sql_exception: Column 'conference_theme' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO reservation (conference_theme, presentation_creneau, reservation_date, user_name) VALUES (NULL, NULL, NULL, NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO reservation (conference_theme, presentation_creneau, reservation_date, user_name) VALUES (NULL, NULL, NULL, NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO reservation (conference_theme, presentation_creneau, reservation_date, user_name) VALUES (NULL, NULL, NULL, NULL)')
+ 4 APPPATH\Modele\Modele.php(68): CodeIgniter\Database\BaseConnection->query('INSERT INTO reservation (conference_theme, presentation_creneau, reservation_date, user_name) VALUES (?, ?, ?, ?)', [...])
+ 5 APPPATH\Controllers\Home.php(128): App\Modele\Modele->insertInto(Object(CodeIgniter\HTTP\IncomingRequest), [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->submitReservation()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-02-08 22:47:59 --> mysqli_sql_exception: Column 'conference_theme' cannot be null in C:\xampp\htdocs\GSB3\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\GSB3\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO res...', 0)
+#1 C:\xampp\htdocs\GSB3\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO res...')
+#2 C:\xampp\htdocs\GSB3\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO res...')
+#3 C:\xampp\htdocs\GSB3\app\Modele\Modele.php(68): CodeIgniter\Database\BaseConnection->query('INSERT INTO res...', Array)
+#4 C:\xampp\htdocs\GSB3\app\Controllers\Home.php(128): App\Modele\Modele->insertInto(Object(CodeIgniter\HTTP\IncomingRequest), Array)
+#5 C:\xampp\htdocs\GSB3\system\CodeIgniter.php(941): App\Controllers\Home->submitReservation()
+#6 C:\xampp\htdocs\GSB3\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\GSB3\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\GSB3\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-02-08 22:47:59 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'conference_theme' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 APPPATH\Modele\Modele.php(68): CodeIgniter\Database\BaseConnection->query('INSERT INTO reservation (conference_theme, presentation_creneau, reservation_date, user_name) VALUES (?, ?, ?, ?)', [...])
+ 2 APPPATH\Controllers\Home.php(128): App\Modele\Modele->insertInto(Object(CodeIgniter\HTTP\IncomingRequest), [...])
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->submitReservation()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-08 22:47:59 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'conference_theme' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO reservation (conference_theme, presentation_creneau, reservation_date, user_name) VALUES (NULL, NULL, NULL, NULL)')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO reservation (conference_theme, presentation_creneau, reservation_date, user_name) VALUES (NULL, NULL, NULL, NULL)')
+ 3 APPPATH\Modele\Modele.php(68): CodeIgniter\Database\BaseConnection->query('INSERT INTO reservation (conference_theme, presentation_creneau, reservation_date, user_name) VALUES (?, ?, ?, ?)', [...])
+ 4 APPPATH\Controllers\Home.php(128): App\Modele\Modele->insertInto(Object(CodeIgniter\HTTP\IncomingRequest), [...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->submitReservation()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-08 22:47:59 --> [Caused by] mysqli_sql_exception: Column 'conference_theme' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO reservation (conference_theme, presentation_creneau, reservation_date, user_name) VALUES (NULL, NULL, NULL, NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO reservation (conference_theme, presentation_creneau, reservation_date, user_name) VALUES (NULL, NULL, NULL, NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO reservation (conference_theme, presentation_creneau, reservation_date, user_name) VALUES (NULL, NULL, NULL, NULL)')
+ 4 APPPATH\Modele\Modele.php(68): CodeIgniter\Database\BaseConnection->query('INSERT INTO reservation (conference_theme, presentation_creneau, reservation_date, user_name) VALUES (?, ?, ?, ?)', [...])
+ 5 APPPATH\Controllers\Home.php(128): App\Modele\Modele->insertInto(Object(CodeIgniter\HTTP\IncomingRequest), [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->submitReservation()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-02-08 22:49:07 --> mysqli_sql_exception: Column 'conference_theme' cannot be null in C:\xampp\htdocs\GSB3\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\GSB3\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO res...', 0)
+#1 C:\xampp\htdocs\GSB3\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO res...')
+#2 C:\xampp\htdocs\GSB3\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO res...')
+#3 C:\xampp\htdocs\GSB3\app\Modele\Modele.php(68): CodeIgniter\Database\BaseConnection->query('INSERT INTO res...', Array)
+#4 C:\xampp\htdocs\GSB3\app\Controllers\Home.php(128): App\Modele\Modele->insertInto(Object(CodeIgniter\HTTP\IncomingRequest), Array)
+#5 C:\xampp\htdocs\GSB3\system\CodeIgniter.php(941): App\Controllers\Home->submitReservation()
+#6 C:\xampp\htdocs\GSB3\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\GSB3\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\GSB3\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-02-08 22:49:07 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'conference_theme' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 APPPATH\Modele\Modele.php(68): CodeIgniter\Database\BaseConnection->query('INSERT INTO reservation (conference_theme, presentation_creneau, reservation_date, user_name) VALUES (?, ?, ?, ?)', [...])
+ 2 APPPATH\Controllers\Home.php(128): App\Modele\Modele->insertInto(Object(CodeIgniter\HTTP\IncomingRequest), [...])
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->submitReservation()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-08 22:49:07 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'conference_theme' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO reservation (conference_theme, presentation_creneau, reservation_date, user_name) VALUES (NULL, NULL, NULL, NULL)')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO reservation (conference_theme, presentation_creneau, reservation_date, user_name) VALUES (NULL, NULL, NULL, NULL)')
+ 3 APPPATH\Modele\Modele.php(68): CodeIgniter\Database\BaseConnection->query('INSERT INTO reservation (conference_theme, presentation_creneau, reservation_date, user_name) VALUES (?, ?, ?, ?)', [...])
+ 4 APPPATH\Controllers\Home.php(128): App\Modele\Modele->insertInto(Object(CodeIgniter\HTTP\IncomingRequest), [...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->submitReservation()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-08 22:49:07 --> [Caused by] mysqli_sql_exception: Column 'conference_theme' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO reservation (conference_theme, presentation_creneau, reservation_date, user_name) VALUES (NULL, NULL, NULL, NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO reservation (conference_theme, presentation_creneau, reservation_date, user_name) VALUES (NULL, NULL, NULL, NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO reservation (conference_theme, presentation_creneau, reservation_date, user_name) VALUES (NULL, NULL, NULL, NULL)')
+ 4 APPPATH\Modele\Modele.php(68): CodeIgniter\Database\BaseConnection->query('INSERT INTO reservation (conference_theme, presentation_creneau, reservation_date, user_name) VALUES (?, ?, ?, ?)', [...])
+ 5 APPPATH\Controllers\Home.php(128): App\Modele\Modele->insertInto(Object(CodeIgniter\HTTP\IncomingRequest), [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->submitReservation()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-02-08 22:51:04 --> mysqli_sql_exception: Column 'conference_theme' cannot be null in C:\xampp\htdocs\GSB3\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\GSB3\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO res...', 0)
+#1 C:\xampp\htdocs\GSB3\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO res...')
+#2 C:\xampp\htdocs\GSB3\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO res...')
+#3 C:\xampp\htdocs\GSB3\app\Modele\Modele.php(68): CodeIgniter\Database\BaseConnection->query('INSERT INTO res...', Array)
+#4 C:\xampp\htdocs\GSB3\app\Controllers\Home.php(128): App\Modele\Modele->insertInto(Object(CodeIgniter\HTTP\IncomingRequest), Array)
+#5 C:\xampp\htdocs\GSB3\system\CodeIgniter.php(941): App\Controllers\Home->submitReservation()
+#6 C:\xampp\htdocs\GSB3\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\GSB3\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\GSB3\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-02-08 22:51:04 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'conference_theme' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 APPPATH\Modele\Modele.php(68): CodeIgniter\Database\BaseConnection->query('INSERT INTO reservation (conference_theme, presentation_creneau, reservation_date, user_name) VALUES (?, ?, ?, ?)', [...])
+ 2 APPPATH\Controllers\Home.php(128): App\Modele\Modele->insertInto(Object(CodeIgniter\HTTP\IncomingRequest), [...])
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->submitReservation()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-08 22:51:04 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'conference_theme' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO reservation (conference_theme, presentation_creneau, reservation_date, user_name) VALUES (NULL, NULL, NULL, NULL)')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO reservation (conference_theme, presentation_creneau, reservation_date, user_name) VALUES (NULL, NULL, NULL, NULL)')
+ 3 APPPATH\Modele\Modele.php(68): CodeIgniter\Database\BaseConnection->query('INSERT INTO reservation (conference_theme, presentation_creneau, reservation_date, user_name) VALUES (?, ?, ?, ?)', [...])
+ 4 APPPATH\Controllers\Home.php(128): App\Modele\Modele->insertInto(Object(CodeIgniter\HTTP\IncomingRequest), [...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->submitReservation()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-08 22:51:04 --> [Caused by] mysqli_sql_exception: Column 'conference_theme' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO reservation (conference_theme, presentation_creneau, reservation_date, user_name) VALUES (NULL, NULL, NULL, NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO reservation (conference_theme, presentation_creneau, reservation_date, user_name) VALUES (NULL, NULL, NULL, NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO reservation (conference_theme, presentation_creneau, reservation_date, user_name) VALUES (NULL, NULL, NULL, NULL)')
+ 4 APPPATH\Modele\Modele.php(68): CodeIgniter\Database\BaseConnection->query('INSERT INTO reservation (conference_theme, presentation_creneau, reservation_date, user_name) VALUES (?, ?, ?, ?)', [...])
+ 5 APPPATH\Controllers\Home.php(128): App\Modele\Modele->insertInto(Object(CodeIgniter\HTTP\IncomingRequest), [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->submitReservation()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-02-08 22:51:17 --> mysqli_sql_exception: Column 'conference_theme' cannot be null in C:\xampp\htdocs\GSB3\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\GSB3\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO res...', 0)
+#1 C:\xampp\htdocs\GSB3\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO res...')
+#2 C:\xampp\htdocs\GSB3\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO res...')
+#3 C:\xampp\htdocs\GSB3\app\Modele\Modele.php(68): CodeIgniter\Database\BaseConnection->query('INSERT INTO res...', Array)
+#4 C:\xampp\htdocs\GSB3\app\Controllers\Home.php(128): App\Modele\Modele->insertInto(Object(CodeIgniter\HTTP\IncomingRequest), Array)
+#5 C:\xampp\htdocs\GSB3\system\CodeIgniter.php(941): App\Controllers\Home->submitReservation()
+#6 C:\xampp\htdocs\GSB3\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\GSB3\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\GSB3\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-02-08 22:51:17 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'conference_theme' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 APPPATH\Modele\Modele.php(68): CodeIgniter\Database\BaseConnection->query('INSERT INTO reservation (conference_theme, presentation_creneau, reservation_date, user_name) VALUES (?, ?, ?, ?)', [...])
+ 2 APPPATH\Controllers\Home.php(128): App\Modele\Modele->insertInto(Object(CodeIgniter\HTTP\IncomingRequest), [...])
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->submitReservation()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-08 22:51:17 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'conference_theme' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO reservation (conference_theme, presentation_creneau, reservation_date, user_name) VALUES (NULL, NULL, NULL, NULL)')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO reservation (conference_theme, presentation_creneau, reservation_date, user_name) VALUES (NULL, NULL, NULL, NULL)')
+ 3 APPPATH\Modele\Modele.php(68): CodeIgniter\Database\BaseConnection->query('INSERT INTO reservation (conference_theme, presentation_creneau, reservation_date, user_name) VALUES (?, ?, ?, ?)', [...])
+ 4 APPPATH\Controllers\Home.php(128): App\Modele\Modele->insertInto(Object(CodeIgniter\HTTP\IncomingRequest), [...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->submitReservation()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-08 22:51:17 --> [Caused by] mysqli_sql_exception: Column 'conference_theme' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO reservation (conference_theme, presentation_creneau, reservation_date, user_name) VALUES (NULL, NULL, NULL, NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO reservation (conference_theme, presentation_creneau, reservation_date, user_name) VALUES (NULL, NULL, NULL, NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO reservation (conference_theme, presentation_creneau, reservation_date, user_name) VALUES (NULL, NULL, NULL, NULL)')
+ 4 APPPATH\Modele\Modele.php(68): CodeIgniter\Database\BaseConnection->query('INSERT INTO reservation (conference_theme, presentation_creneau, reservation_date, user_name) VALUES (?, ?, ?, ?)', [...])
+ 5 APPPATH\Controllers\Home.php(128): App\Modele\Modele->insertInto(Object(CodeIgniter\HTTP\IncomingRequest), [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->submitReservation()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-02-08 22:51:33 --> mysqli_sql_exception: Column 'conference_theme' cannot be null in C:\xampp\htdocs\GSB3\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\GSB3\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO res...', 0)
+#1 C:\xampp\htdocs\GSB3\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO res...')
+#2 C:\xampp\htdocs\GSB3\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO res...')
+#3 C:\xampp\htdocs\GSB3\app\Modele\Modele.php(68): CodeIgniter\Database\BaseConnection->query('INSERT INTO res...', Array)
+#4 C:\xampp\htdocs\GSB3\app\Controllers\Home.php(128): App\Modele\Modele->insertInto(Object(CodeIgniter\HTTP\IncomingRequest), Array)
+#5 C:\xampp\htdocs\GSB3\system\CodeIgniter.php(941): App\Controllers\Home->submitReservation()
+#6 C:\xampp\htdocs\GSB3\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\GSB3\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\GSB3\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-02-08 22:51:33 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'conference_theme' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 APPPATH\Modele\Modele.php(68): CodeIgniter\Database\BaseConnection->query('INSERT INTO reservation (conference_theme, presentation_creneau, reservation_date, user_name) VALUES (?, ?, ?, ?)', [...])
+ 2 APPPATH\Controllers\Home.php(128): App\Modele\Modele->insertInto(Object(CodeIgniter\HTTP\IncomingRequest), [...])
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->submitReservation()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-08 22:51:33 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'conference_theme' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO reservation (conference_theme, presentation_creneau, reservation_date, user_name) VALUES (NULL, NULL, NULL, NULL)')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO reservation (conference_theme, presentation_creneau, reservation_date, user_name) VALUES (NULL, NULL, NULL, NULL)')
+ 3 APPPATH\Modele\Modele.php(68): CodeIgniter\Database\BaseConnection->query('INSERT INTO reservation (conference_theme, presentation_creneau, reservation_date, user_name) VALUES (?, ?, ?, ?)', [...])
+ 4 APPPATH\Controllers\Home.php(128): App\Modele\Modele->insertInto(Object(CodeIgniter\HTTP\IncomingRequest), [...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->submitReservation()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-08 22:51:33 --> [Caused by] mysqli_sql_exception: Column 'conference_theme' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO reservation (conference_theme, presentation_creneau, reservation_date, user_name) VALUES (NULL, NULL, NULL, NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO reservation (conference_theme, presentation_creneau, reservation_date, user_name) VALUES (NULL, NULL, NULL, NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO reservation (conference_theme, presentation_creneau, reservation_date, user_name) VALUES (NULL, NULL, NULL, NULL)')
+ 4 APPPATH\Modele\Modele.php(68): CodeIgniter\Database\BaseConnection->query('INSERT INTO reservation (conference_theme, presentation_creneau, reservation_date, user_name) VALUES (?, ?, ?, ?)', [...])
+ 5 APPPATH\Controllers\Home.php(128): App\Modele\Modele->insertInto(Object(CodeIgniter\HTTP\IncomingRequest), [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->submitReservation()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-02-08 22:56:07 --> mysqli_sql_exception: Column 'conference_theme' cannot be null in C:\xampp\htdocs\GSB3\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\GSB3\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO res...', 0)
+#1 C:\xampp\htdocs\GSB3\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO res...')
+#2 C:\xampp\htdocs\GSB3\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO res...')
+#3 C:\xampp\htdocs\GSB3\app\Modele\Modele.php(68): CodeIgniter\Database\BaseConnection->query('INSERT INTO res...', Array)
+#4 C:\xampp\htdocs\GSB3\app\Controllers\Home.php(128): App\Modele\Modele->insertInto(Object(CodeIgniter\HTTP\IncomingRequest), Array)
+#5 C:\xampp\htdocs\GSB3\system\CodeIgniter.php(941): App\Controllers\Home->submitReservation()
+#6 C:\xampp\htdocs\GSB3\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\GSB3\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\GSB3\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-02-08 22:56:07 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'conference_theme' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 APPPATH\Modele\Modele.php(68): CodeIgniter\Database\BaseConnection->query('INSERT INTO reservation (conference_theme, presentation_creneau, reservation_date, user_name) VALUES (?, ?, ?, ?)', [...])
+ 2 APPPATH\Controllers\Home.php(128): App\Modele\Modele->insertInto(Object(CodeIgniter\HTTP\IncomingRequest), [...])
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->submitReservation()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-08 22:56:07 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'conference_theme' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO reservation (conference_theme, presentation_creneau, reservation_date, user_name) VALUES (NULL, NULL, NULL, NULL)')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO reservation (conference_theme, presentation_creneau, reservation_date, user_name) VALUES (NULL, NULL, NULL, NULL)')
+ 3 APPPATH\Modele\Modele.php(68): CodeIgniter\Database\BaseConnection->query('INSERT INTO reservation (conference_theme, presentation_creneau, reservation_date, user_name) VALUES (?, ?, ?, ?)', [...])
+ 4 APPPATH\Controllers\Home.php(128): App\Modele\Modele->insertInto(Object(CodeIgniter\HTTP\IncomingRequest), [...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->submitReservation()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-08 22:56:07 --> [Caused by] mysqli_sql_exception: Column 'conference_theme' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO reservation (conference_theme, presentation_creneau, reservation_date, user_name) VALUES (NULL, NULL, NULL, NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO reservation (conference_theme, presentation_creneau, reservation_date, user_name) VALUES (NULL, NULL, NULL, NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO reservation (conference_theme, presentation_creneau, reservation_date, user_name) VALUES (NULL, NULL, NULL, NULL)')
+ 4 APPPATH\Modele\Modele.php(68): CodeIgniter\Database\BaseConnection->query('INSERT INTO reservation (conference_theme, presentation_creneau, reservation_date, user_name) VALUES (?, ?, ?, ?)', [...])
+ 5 APPPATH\Controllers\Home.php(128): App\Modele\Modele->insertInto(Object(CodeIgniter\HTTP\IncomingRequest), [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->submitReservation()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-02-08 22:56:31 --> mysqli_sql_exception: Column 'conference_theme' cannot be null in C:\xampp\htdocs\GSB3\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\GSB3\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO res...', 0)
+#1 C:\xampp\htdocs\GSB3\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO res...')
+#2 C:\xampp\htdocs\GSB3\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO res...')
+#3 C:\xampp\htdocs\GSB3\app\Modele\Modele.php(68): CodeIgniter\Database\BaseConnection->query('INSERT INTO res...', Array)
+#4 C:\xampp\htdocs\GSB3\app\Controllers\Home.php(128): App\Modele\Modele->insertInto(Object(CodeIgniter\HTTP\IncomingRequest), Array)
+#5 C:\xampp\htdocs\GSB3\system\CodeIgniter.php(941): App\Controllers\Home->submitReservation()
+#6 C:\xampp\htdocs\GSB3\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\GSB3\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\GSB3\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-02-08 22:56:31 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'conference_theme' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 APPPATH\Modele\Modele.php(68): CodeIgniter\Database\BaseConnection->query('INSERT INTO reservation (conference_theme, presentation_creneau, reservation_date, user_name) VALUES (?, ?, ?, ?)', [...])
+ 2 APPPATH\Controllers\Home.php(128): App\Modele\Modele->insertInto(Object(CodeIgniter\HTTP\IncomingRequest), [...])
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->submitReservation()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-08 22:56:31 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'conference_theme' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO reservation (conference_theme, presentation_creneau, reservation_date, user_name) VALUES (NULL, NULL, NULL, NULL)')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO reservation (conference_theme, presentation_creneau, reservation_date, user_name) VALUES (NULL, NULL, NULL, NULL)')
+ 3 APPPATH\Modele\Modele.php(68): CodeIgniter\Database\BaseConnection->query('INSERT INTO reservation (conference_theme, presentation_creneau, reservation_date, user_name) VALUES (?, ?, ?, ?)', [...])
+ 4 APPPATH\Controllers\Home.php(128): App\Modele\Modele->insertInto(Object(CodeIgniter\HTTP\IncomingRequest), [...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->submitReservation()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-08 22:56:31 --> [Caused by] mysqli_sql_exception: Column 'conference_theme' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO reservation (conference_theme, presentation_creneau, reservation_date, user_name) VALUES (NULL, NULL, NULL, NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO reservation (conference_theme, presentation_creneau, reservation_date, user_name) VALUES (NULL, NULL, NULL, NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO reservation (conference_theme, presentation_creneau, reservation_date, user_name) VALUES (NULL, NULL, NULL, NULL)')
+ 4 APPPATH\Modele\Modele.php(68): CodeIgniter\Database\BaseConnection->query('INSERT INTO reservation (conference_theme, presentation_creneau, reservation_date, user_name) VALUES (?, ?, ?, ?)', [...])
+ 5 APPPATH\Controllers\Home.php(128): App\Modele\Modele->insertInto(Object(CodeIgniter\HTTP\IncomingRequest), [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->submitReservation()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-02-08 22:58:03 --> mysqli_sql_exception: Column 'conference_theme' cannot be null in C:\xampp\htdocs\GSB3\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\GSB3\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO res...', 0)
+#1 C:\xampp\htdocs\GSB3\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO res...')
+#2 C:\xampp\htdocs\GSB3\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO res...')
+#3 C:\xampp\htdocs\GSB3\app\Modele\Modele.php(68): CodeIgniter\Database\BaseConnection->query('INSERT INTO res...', Array)
+#4 C:\xampp\htdocs\GSB3\app\Controllers\Home.php(128): App\Modele\Modele->insertInto(Object(CodeIgniter\HTTP\IncomingRequest), Array)
+#5 C:\xampp\htdocs\GSB3\system\CodeIgniter.php(941): App\Controllers\Home->submitReservation()
+#6 C:\xampp\htdocs\GSB3\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\GSB3\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\GSB3\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-02-08 22:58:03 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'conference_theme' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 APPPATH\Modele\Modele.php(68): CodeIgniter\Database\BaseConnection->query('INSERT INTO reservation (conference_theme, presentation_creneau, reservation_date, user_name) VALUES (?, ?, ?, ?)', [...])
+ 2 APPPATH\Controllers\Home.php(128): App\Modele\Modele->insertInto(Object(CodeIgniter\HTTP\IncomingRequest), [...])
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->submitReservation()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-08 22:58:03 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'conference_theme' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO reservation (conference_theme, presentation_creneau, reservation_date, user_name) VALUES (NULL, NULL, NULL, NULL)')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO reservation (conference_theme, presentation_creneau, reservation_date, user_name) VALUES (NULL, NULL, NULL, NULL)')
+ 3 APPPATH\Modele\Modele.php(68): CodeIgniter\Database\BaseConnection->query('INSERT INTO reservation (conference_theme, presentation_creneau, reservation_date, user_name) VALUES (?, ?, ?, ?)', [...])
+ 4 APPPATH\Controllers\Home.php(128): App\Modele\Modele->insertInto(Object(CodeIgniter\HTTP\IncomingRequest), [...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->submitReservation()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-08 22:58:03 --> [Caused by] mysqli_sql_exception: Column 'conference_theme' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO reservation (conference_theme, presentation_creneau, reservation_date, user_name) VALUES (NULL, NULL, NULL, NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO reservation (conference_theme, presentation_creneau, reservation_date, user_name) VALUES (NULL, NULL, NULL, NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO reservation (conference_theme, presentation_creneau, reservation_date, user_name) VALUES (NULL, NULL, NULL, NULL)')
+ 4 APPPATH\Modele\Modele.php(68): CodeIgniter\Database\BaseConnection->query('INSERT INTO reservation (conference_theme, presentation_creneau, reservation_date, user_name) VALUES (?, ?, ?, ?)', [...])
+ 5 APPPATH\Controllers\Home.php(128): App\Modele\Modele->insertInto(Object(CodeIgniter\HTTP\IncomingRequest), [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->submitReservation()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-02-08 22:59:17 --> mysqli_sql_exception: Column 'conference_theme' cannot be null in C:\xampp\htdocs\GSB3\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\GSB3\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO res...', 0)
+#1 C:\xampp\htdocs\GSB3\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO res...')
+#2 C:\xampp\htdocs\GSB3\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO res...')
+#3 C:\xampp\htdocs\GSB3\app\Modele\Modele.php(68): CodeIgniter\Database\BaseConnection->query('INSERT INTO res...', Array)
+#4 C:\xampp\htdocs\GSB3\app\Controllers\Home.php(128): App\Modele\Modele->insertInto(Object(CodeIgniter\HTTP\IncomingRequest), Array)
+#5 C:\xampp\htdocs\GSB3\system\CodeIgniter.php(941): App\Controllers\Home->submitReservation()
+#6 C:\xampp\htdocs\GSB3\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\GSB3\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\GSB3\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-02-08 22:59:17 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'conference_theme' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 APPPATH\Modele\Modele.php(68): CodeIgniter\Database\BaseConnection->query('INSERT INTO reservation (conference_theme, presentation_creneau, reservation_date, user_name) VALUES (?, ?, ?, ?)', [...])
+ 2 APPPATH\Controllers\Home.php(128): App\Modele\Modele->insertInto(Object(CodeIgniter\HTTP\IncomingRequest), [...])
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->submitReservation()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-08 22:59:17 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'conference_theme' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO reservation (conference_theme, presentation_creneau, reservation_date, user_name) VALUES (NULL, NULL, NULL, NULL)')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO reservation (conference_theme, presentation_creneau, reservation_date, user_name) VALUES (NULL, NULL, NULL, NULL)')
+ 3 APPPATH\Modele\Modele.php(68): CodeIgniter\Database\BaseConnection->query('INSERT INTO reservation (conference_theme, presentation_creneau, reservation_date, user_name) VALUES (?, ?, ?, ?)', [...])
+ 4 APPPATH\Controllers\Home.php(128): App\Modele\Modele->insertInto(Object(CodeIgniter\HTTP\IncomingRequest), [...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->submitReservation()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-08 22:59:17 --> [Caused by] mysqli_sql_exception: Column 'conference_theme' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO reservation (conference_theme, presentation_creneau, reservation_date, user_name) VALUES (NULL, NULL, NULL, NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO reservation (conference_theme, presentation_creneau, reservation_date, user_name) VALUES (NULL, NULL, NULL, NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO reservation (conference_theme, presentation_creneau, reservation_date, user_name) VALUES (NULL, NULL, NULL, NULL)')
+ 4 APPPATH\Modele\Modele.php(68): CodeIgniter\Database\BaseConnection->query('INSERT INTO reservation (conference_theme, presentation_creneau, reservation_date, user_name) VALUES (?, ?, ?, ?)', [...])
+ 5 APPPATH\Controllers\Home.php(128): App\Modele\Modele->insertInto(Object(CodeIgniter\HTTP\IncomingRequest), [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->submitReservation()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-02-08 22:59:25 --> mysqli_sql_exception: Column 'conference_theme' cannot be null in C:\xampp\htdocs\GSB3\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\GSB3\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO res...', 0)
+#1 C:\xampp\htdocs\GSB3\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO res...')
+#2 C:\xampp\htdocs\GSB3\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO res...')
+#3 C:\xampp\htdocs\GSB3\app\Modele\Modele.php(68): CodeIgniter\Database\BaseConnection->query('INSERT INTO res...', Array)
+#4 C:\xampp\htdocs\GSB3\app\Controllers\Home.php(128): App\Modele\Modele->insertInto(Object(CodeIgniter\HTTP\IncomingRequest), Array)
+#5 C:\xampp\htdocs\GSB3\system\CodeIgniter.php(941): App\Controllers\Home->submitReservation()
+#6 C:\xampp\htdocs\GSB3\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\GSB3\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\GSB3\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-02-08 22:59:25 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'conference_theme' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 APPPATH\Modele\Modele.php(68): CodeIgniter\Database\BaseConnection->query('INSERT INTO reservation (conference_theme, presentation_creneau, reservation_date, user_name) VALUES (?, ?, ?, ?)', [...])
+ 2 APPPATH\Controllers\Home.php(128): App\Modele\Modele->insertInto(Object(CodeIgniter\HTTP\IncomingRequest), [...])
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->submitReservation()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-08 22:59:25 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'conference_theme' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO reservation (conference_theme, presentation_creneau, reservation_date, user_name) VALUES (NULL, NULL, NULL, NULL)')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO reservation (conference_theme, presentation_creneau, reservation_date, user_name) VALUES (NULL, NULL, NULL, NULL)')
+ 3 APPPATH\Modele\Modele.php(68): CodeIgniter\Database\BaseConnection->query('INSERT INTO reservation (conference_theme, presentation_creneau, reservation_date, user_name) VALUES (?, ?, ?, ?)', [...])
+ 4 APPPATH\Controllers\Home.php(128): App\Modele\Modele->insertInto(Object(CodeIgniter\HTTP\IncomingRequest), [...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->submitReservation()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-08 22:59:25 --> [Caused by] mysqli_sql_exception: Column 'conference_theme' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO reservation (conference_theme, presentation_creneau, reservation_date, user_name) VALUES (NULL, NULL, NULL, NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO reservation (conference_theme, presentation_creneau, reservation_date, user_name) VALUES (NULL, NULL, NULL, NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO reservation (conference_theme, presentation_creneau, reservation_date, user_name) VALUES (NULL, NULL, NULL, NULL)')
+ 4 APPPATH\Modele\Modele.php(68): CodeIgniter\Database\BaseConnection->query('INSERT INTO reservation (conference_theme, presentation_creneau, reservation_date, user_name) VALUES (?, ?, ?, ?)', [...])
+ 5 APPPATH\Controllers\Home.php(128): App\Modele\Modele->insertInto(Object(CodeIgniter\HTTP\IncomingRequest), [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->submitReservation()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-02-08 22:59:41 --> mysqli_sql_exception: Column 'conference_theme' cannot be null in C:\xampp\htdocs\GSB3\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\GSB3\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO res...', 0)
+#1 C:\xampp\htdocs\GSB3\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO res...')
+#2 C:\xampp\htdocs\GSB3\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO res...')
+#3 C:\xampp\htdocs\GSB3\app\Modele\Modele.php(68): CodeIgniter\Database\BaseConnection->query('INSERT INTO res...', Array)
+#4 C:\xampp\htdocs\GSB3\app\Controllers\Home.php(128): App\Modele\Modele->insertInto(Object(CodeIgniter\HTTP\IncomingRequest), Array)
+#5 C:\xampp\htdocs\GSB3\system\CodeIgniter.php(941): App\Controllers\Home->submitReservation()
+#6 C:\xampp\htdocs\GSB3\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\GSB3\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\GSB3\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-02-08 22:59:41 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'conference_theme' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 APPPATH\Modele\Modele.php(68): CodeIgniter\Database\BaseConnection->query('INSERT INTO reservation (conference_theme, presentation_creneau, reservation_date, user_name) VALUES (?, ?, ?, ?)', [...])
+ 2 APPPATH\Controllers\Home.php(128): App\Modele\Modele->insertInto(Object(CodeIgniter\HTTP\IncomingRequest), [...])
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->submitReservation()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-08 22:59:41 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'conference_theme' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO reservation (conference_theme, presentation_creneau, reservation_date, user_name) VALUES (NULL, NULL, NULL, NULL)')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO reservation (conference_theme, presentation_creneau, reservation_date, user_name) VALUES (NULL, NULL, NULL, NULL)')
+ 3 APPPATH\Modele\Modele.php(68): CodeIgniter\Database\BaseConnection->query('INSERT INTO reservation (conference_theme, presentation_creneau, reservation_date, user_name) VALUES (?, ?, ?, ?)', [...])
+ 4 APPPATH\Controllers\Home.php(128): App\Modele\Modele->insertInto(Object(CodeIgniter\HTTP\IncomingRequest), [...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->submitReservation()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-08 22:59:41 --> [Caused by] mysqli_sql_exception: Column 'conference_theme' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO reservation (conference_theme, presentation_creneau, reservation_date, user_name) VALUES (NULL, NULL, NULL, NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO reservation (conference_theme, presentation_creneau, reservation_date, user_name) VALUES (NULL, NULL, NULL, NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO reservation (conference_theme, presentation_creneau, reservation_date, user_name) VALUES (NULL, NULL, NULL, NULL)')
+ 4 APPPATH\Modele\Modele.php(68): CodeIgniter\Database\BaseConnection->query('INSERT INTO reservation (conference_theme, presentation_creneau, reservation_date, user_name) VALUES (?, ?, ?, ?)', [...])
+ 5 APPPATH\Controllers\Home.php(128): App\Modele\Modele->insertInto(Object(CodeIgniter\HTTP\IncomingRequest), [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->submitReservation()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-02-08 23:00:52 --> mysqli_sql_exception: Column 'conference_theme' cannot be null in C:\xampp\htdocs\GSB3\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\GSB3\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO res...', 0)
+#1 C:\xampp\htdocs\GSB3\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO res...')
+#2 C:\xampp\htdocs\GSB3\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO res...')
+#3 C:\xampp\htdocs\GSB3\app\Modele\Modele.php(68): CodeIgniter\Database\BaseConnection->query('INSERT INTO res...', Array)
+#4 C:\xampp\htdocs\GSB3\app\Controllers\Home.php(128): App\Modele\Modele->insertInto(Object(CodeIgniter\HTTP\IncomingRequest), Array)
+#5 C:\xampp\htdocs\GSB3\system\CodeIgniter.php(941): App\Controllers\Home->submitReservation()
+#6 C:\xampp\htdocs\GSB3\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\GSB3\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\GSB3\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-02-08 23:00:52 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'conference_theme' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 APPPATH\Modele\Modele.php(68): CodeIgniter\Database\BaseConnection->query('INSERT INTO reservation (conference_theme, presentation_creneau, reservation_date, user_name) VALUES (?, ?, ?, ?)', [...])
+ 2 APPPATH\Controllers\Home.php(128): App\Modele\Modele->insertInto(Object(CodeIgniter\HTTP\IncomingRequest), [...])
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->submitReservation()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-08 23:00:52 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'conference_theme' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO reservation (conference_theme, presentation_creneau, reservation_date, user_name) VALUES (NULL, NULL, NULL, NULL)')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO reservation (conference_theme, presentation_creneau, reservation_date, user_name) VALUES (NULL, NULL, NULL, NULL)')
+ 3 APPPATH\Modele\Modele.php(68): CodeIgniter\Database\BaseConnection->query('INSERT INTO reservation (conference_theme, presentation_creneau, reservation_date, user_name) VALUES (?, ?, ?, ?)', [...])
+ 4 APPPATH\Controllers\Home.php(128): App\Modele\Modele->insertInto(Object(CodeIgniter\HTTP\IncomingRequest), [...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->submitReservation()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-08 23:00:52 --> [Caused by] mysqli_sql_exception: Column 'conference_theme' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO reservation (conference_theme, presentation_creneau, reservation_date, user_name) VALUES (NULL, NULL, NULL, NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO reservation (conference_theme, presentation_creneau, reservation_date, user_name) VALUES (NULL, NULL, NULL, NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO reservation (conference_theme, presentation_creneau, reservation_date, user_name) VALUES (NULL, NULL, NULL, NULL)')
+ 4 APPPATH\Modele\Modele.php(68): CodeIgniter\Database\BaseConnection->query('INSERT INTO reservation (conference_theme, presentation_creneau, reservation_date, user_name) VALUES (?, ?, ?, ?)', [...])
+ 5 APPPATH\Controllers\Home.php(128): App\Modele\Modele->insertInto(Object(CodeIgniter\HTTP\IncomingRequest), [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->submitReservation()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-02-08 23:01:02 --> mysqli_sql_exception: Column 'conference_theme' cannot be null in C:\xampp\htdocs\GSB3\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\GSB3\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO res...', 0)
+#1 C:\xampp\htdocs\GSB3\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO res...')
+#2 C:\xampp\htdocs\GSB3\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO res...')
+#3 C:\xampp\htdocs\GSB3\app\Modele\Modele.php(68): CodeIgniter\Database\BaseConnection->query('INSERT INTO res...', Array)
+#4 C:\xampp\htdocs\GSB3\app\Controllers\Home.php(128): App\Modele\Modele->insertInto(Object(CodeIgniter\HTTP\IncomingRequest), Array)
+#5 C:\xampp\htdocs\GSB3\system\CodeIgniter.php(941): App\Controllers\Home->submitReservation()
+#6 C:\xampp\htdocs\GSB3\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\GSB3\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\GSB3\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-02-08 23:01:02 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'conference_theme' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 APPPATH\Modele\Modele.php(68): CodeIgniter\Database\BaseConnection->query('INSERT INTO reservation (conference_theme, presentation_creneau, reservation_date, user_name) VALUES (?, ?, ?, ?)', [...])
+ 2 APPPATH\Controllers\Home.php(128): App\Modele\Modele->insertInto(Object(CodeIgniter\HTTP\IncomingRequest), [...])
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->submitReservation()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-08 23:01:02 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'conference_theme' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO reservation (conference_theme, presentation_creneau, reservation_date, user_name) VALUES (NULL, NULL, NULL, NULL)')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO reservation (conference_theme, presentation_creneau, reservation_date, user_name) VALUES (NULL, NULL, NULL, NULL)')
+ 3 APPPATH\Modele\Modele.php(68): CodeIgniter\Database\BaseConnection->query('INSERT INTO reservation (conference_theme, presentation_creneau, reservation_date, user_name) VALUES (?, ?, ?, ?)', [...])
+ 4 APPPATH\Controllers\Home.php(128): App\Modele\Modele->insertInto(Object(CodeIgniter\HTTP\IncomingRequest), [...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->submitReservation()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-08 23:01:02 --> [Caused by] mysqli_sql_exception: Column 'conference_theme' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO reservation (conference_theme, presentation_creneau, reservation_date, user_name) VALUES (NULL, NULL, NULL, NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO reservation (conference_theme, presentation_creneau, reservation_date, user_name) VALUES (NULL, NULL, NULL, NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO reservation (conference_theme, presentation_creneau, reservation_date, user_name) VALUES (NULL, NULL, NULL, NULL)')
+ 4 APPPATH\Modele\Modele.php(68): CodeIgniter\Database\BaseConnection->query('INSERT INTO reservation (conference_theme, presentation_creneau, reservation_date, user_name) VALUES (?, ?, ?, ?)', [...])
+ 5 APPPATH\Controllers\Home.php(128): App\Modele\Modele->insertInto(Object(CodeIgniter\HTTP\IncomingRequest), [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->submitReservation()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-02-08 23:03:38 --> mysqli_sql_exception: Column 'conference_theme' cannot be null in C:\xampp\htdocs\GSB3\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\GSB3\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO res...', 0)
+#1 C:\xampp\htdocs\GSB3\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO res...')
+#2 C:\xampp\htdocs\GSB3\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO res...')
+#3 C:\xampp\htdocs\GSB3\app\Modele\Modele.php(68): CodeIgniter\Database\BaseConnection->query('INSERT INTO res...', Array)
+#4 C:\xampp\htdocs\GSB3\app\Controllers\Home.php(128): App\Modele\Modele->insertInto(Object(CodeIgniter\HTTP\IncomingRequest), Array)
+#5 C:\xampp\htdocs\GSB3\system\CodeIgniter.php(941): App\Controllers\Home->submitReservation()
+#6 C:\xampp\htdocs\GSB3\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\GSB3\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\GSB3\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-02-08 23:03:38 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'conference_theme' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 APPPATH\Modele\Modele.php(68): CodeIgniter\Database\BaseConnection->query('INSERT INTO reservation (conference_theme, presentation_creneau, reservation_date, user_name) VALUES (?, ?, ?, ?)', [...])
+ 2 APPPATH\Controllers\Home.php(128): App\Modele\Modele->insertInto(Object(CodeIgniter\HTTP\IncomingRequest), [...])
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->submitReservation()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-08 23:03:38 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'conference_theme' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO reservation (conference_theme, presentation_creneau, reservation_date, user_name) VALUES (NULL, NULL, NULL, NULL)')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO reservation (conference_theme, presentation_creneau, reservation_date, user_name) VALUES (NULL, NULL, NULL, NULL)')
+ 3 APPPATH\Modele\Modele.php(68): CodeIgniter\Database\BaseConnection->query('INSERT INTO reservation (conference_theme, presentation_creneau, reservation_date, user_name) VALUES (?, ?, ?, ?)', [...])
+ 4 APPPATH\Controllers\Home.php(128): App\Modele\Modele->insertInto(Object(CodeIgniter\HTTP\IncomingRequest), [...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->submitReservation()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-08 23:03:38 --> [Caused by] mysqli_sql_exception: Column 'conference_theme' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO reservation (conference_theme, presentation_creneau, reservation_date, user_name) VALUES (NULL, NULL, NULL, NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO reservation (conference_theme, presentation_creneau, reservation_date, user_name) VALUES (NULL, NULL, NULL, NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO reservation (conference_theme, presentation_creneau, reservation_date, user_name) VALUES (NULL, NULL, NULL, NULL)')
+ 4 APPPATH\Modele\Modele.php(68): CodeIgniter\Database\BaseConnection->query('INSERT INTO reservation (conference_theme, presentation_creneau, reservation_date, user_name) VALUES (?, ?, ?, ?)', [...])
+ 5 APPPATH\Controllers\Home.php(128): App\Modele\Modele->insertInto(Object(CodeIgniter\HTTP\IncomingRequest), [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->submitReservation()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-02-08 23:04:17 --> mysqli_sql_exception: Column 'conference_theme' cannot be null in C:\xampp\htdocs\GSB3\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\GSB3\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO res...', 0)
+#1 C:\xampp\htdocs\GSB3\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO res...')
+#2 C:\xampp\htdocs\GSB3\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO res...')
+#3 C:\xampp\htdocs\GSB3\app\Modele\Modele.php(68): CodeIgniter\Database\BaseConnection->query('INSERT INTO res...', Array)
+#4 C:\xampp\htdocs\GSB3\app\Controllers\Home.php(128): App\Modele\Modele->insertInto(Object(CodeIgniter\HTTP\IncomingRequest), Array)
+#5 C:\xampp\htdocs\GSB3\system\CodeIgniter.php(941): App\Controllers\Home->submitReservation()
+#6 C:\xampp\htdocs\GSB3\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\GSB3\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\GSB3\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-02-08 23:04:17 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'conference_theme' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 APPPATH\Modele\Modele.php(68): CodeIgniter\Database\BaseConnection->query('INSERT INTO reservation (conference_theme, presentation_creneau, reservation_date, user_name) VALUES (?, ?, ?, ?)', [...])
+ 2 APPPATH\Controllers\Home.php(128): App\Modele\Modele->insertInto(Object(CodeIgniter\HTTP\IncomingRequest), [...])
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->submitReservation()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-08 23:04:17 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'conference_theme' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO reservation (conference_theme, presentation_creneau, reservation_date, user_name) VALUES (NULL, NULL, NULL, NULL)')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO reservation (conference_theme, presentation_creneau, reservation_date, user_name) VALUES (NULL, NULL, NULL, NULL)')
+ 3 APPPATH\Modele\Modele.php(68): CodeIgniter\Database\BaseConnection->query('INSERT INTO reservation (conference_theme, presentation_creneau, reservation_date, user_name) VALUES (?, ?, ?, ?)', [...])
+ 4 APPPATH\Controllers\Home.php(128): App\Modele\Modele->insertInto(Object(CodeIgniter\HTTP\IncomingRequest), [...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->submitReservation()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-08 23:04:17 --> [Caused by] mysqli_sql_exception: Column 'conference_theme' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO reservation (conference_theme, presentation_creneau, reservation_date, user_name) VALUES (NULL, NULL, NULL, NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO reservation (conference_theme, presentation_creneau, reservation_date, user_name) VALUES (NULL, NULL, NULL, NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO reservation (conference_theme, presentation_creneau, reservation_date, user_name) VALUES (NULL, NULL, NULL, NULL)')
+ 4 APPPATH\Modele\Modele.php(68): CodeIgniter\Database\BaseConnection->query('INSERT INTO reservation (conference_theme, presentation_creneau, reservation_date, user_name) VALUES (?, ?, ?, ?)', [...])
+ 5 APPPATH\Controllers\Home.php(128): App\Modele\Modele->insertInto(Object(CodeIgniter\HTTP\IncomingRequest), [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->submitReservation()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-02-08 23:07:12 --> mysqli_sql_exception: Column 'conference_theme' cannot be null in C:\xampp\htdocs\GSB3\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\GSB3\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO res...', 0)
+#1 C:\xampp\htdocs\GSB3\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO res...')
+#2 C:\xampp\htdocs\GSB3\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO res...')
+#3 C:\xampp\htdocs\GSB3\app\Modele\Modele.php(68): CodeIgniter\Database\BaseConnection->query('INSERT INTO res...', Array)
+#4 C:\xampp\htdocs\GSB3\app\Controllers\Home.php(128): App\Modele\Modele->insertInto(Object(CodeIgniter\HTTP\IncomingRequest), Array)
+#5 C:\xampp\htdocs\GSB3\system\CodeIgniter.php(941): App\Controllers\Home->submitReservation()
+#6 C:\xampp\htdocs\GSB3\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\GSB3\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\GSB3\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-02-08 23:07:12 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'conference_theme' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 APPPATH\Modele\Modele.php(68): CodeIgniter\Database\BaseConnection->query('INSERT INTO reservation (conference_theme, presentation_creneau, reservation_date, user_name) VALUES (?, ?, ?, ?)', [...])
+ 2 APPPATH\Controllers\Home.php(128): App\Modele\Modele->insertInto(Object(CodeIgniter\HTTP\IncomingRequest), [...])
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->submitReservation()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-08 23:07:12 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'conference_theme' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO reservation (conference_theme, presentation_creneau, reservation_date, user_name) VALUES (NULL, NULL, NULL, NULL)')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO reservation (conference_theme, presentation_creneau, reservation_date, user_name) VALUES (NULL, NULL, NULL, NULL)')
+ 3 APPPATH\Modele\Modele.php(68): CodeIgniter\Database\BaseConnection->query('INSERT INTO reservation (conference_theme, presentation_creneau, reservation_date, user_name) VALUES (?, ?, ?, ?)', [...])
+ 4 APPPATH\Controllers\Home.php(128): App\Modele\Modele->insertInto(Object(CodeIgniter\HTTP\IncomingRequest), [...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->submitReservation()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-08 23:07:12 --> [Caused by] mysqli_sql_exception: Column 'conference_theme' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO reservation (conference_theme, presentation_creneau, reservation_date, user_name) VALUES (NULL, NULL, NULL, NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO reservation (conference_theme, presentation_creneau, reservation_date, user_name) VALUES (NULL, NULL, NULL, NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO reservation (conference_theme, presentation_creneau, reservation_date, user_name) VALUES (NULL, NULL, NULL, NULL)')
+ 4 APPPATH\Modele\Modele.php(68): CodeIgniter\Database\BaseConnection->query('INSERT INTO reservation (conference_theme, presentation_creneau, reservation_date, user_name) VALUES (?, ?, ?, ?)', [...])
+ 5 APPPATH\Controllers\Home.php(128): App\Modele\Modele->insertInto(Object(CodeIgniter\HTTP\IncomingRequest), [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->submitReservation()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-02-08 23:11:05 --> mysqli_sql_exception: Column 'conference_theme' cannot be null in C:\xampp\htdocs\GSB3\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\GSB3\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO res...', 0)
+#1 C:\xampp\htdocs\GSB3\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO res...')
+#2 C:\xampp\htdocs\GSB3\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO res...')
+#3 C:\xampp\htdocs\GSB3\app\Modele\Modele.php(68): CodeIgniter\Database\BaseConnection->query('INSERT INTO res...', Array)
+#4 C:\xampp\htdocs\GSB3\app\Controllers\Home.php(128): App\Modele\Modele->insertInto(Object(CodeIgniter\HTTP\IncomingRequest), Array)
+#5 C:\xampp\htdocs\GSB3\system\CodeIgniter.php(941): App\Controllers\Home->submitReservation()
+#6 C:\xampp\htdocs\GSB3\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\GSB3\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\GSB3\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-02-08 23:11:05 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'conference_theme' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 APPPATH\Modele\Modele.php(68): CodeIgniter\Database\BaseConnection->query('INSERT INTO reservation (conference_theme, presentation_creneau, reservation_date, user_name) VALUES (?, ?, ?, ?)', [...])
+ 2 APPPATH\Controllers\Home.php(128): App\Modele\Modele->insertInto(Object(CodeIgniter\HTTP\IncomingRequest), [...])
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->submitReservation()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-08 23:11:05 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'conference_theme' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO reservation (conference_theme, presentation_creneau, reservation_date, user_name) VALUES (NULL, NULL, NULL, NULL)')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO reservation (conference_theme, presentation_creneau, reservation_date, user_name) VALUES (NULL, NULL, NULL, NULL)')
+ 3 APPPATH\Modele\Modele.php(68): CodeIgniter\Database\BaseConnection->query('INSERT INTO reservation (conference_theme, presentation_creneau, reservation_date, user_name) VALUES (?, ?, ?, ?)', [...])
+ 4 APPPATH\Controllers\Home.php(128): App\Modele\Modele->insertInto(Object(CodeIgniter\HTTP\IncomingRequest), [...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->submitReservation()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-08 23:11:05 --> [Caused by] mysqli_sql_exception: Column 'conference_theme' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO reservation (conference_theme, presentation_creneau, reservation_date, user_name) VALUES (NULL, NULL, NULL, NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO reservation (conference_theme, presentation_creneau, reservation_date, user_name) VALUES (NULL, NULL, NULL, NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO reservation (conference_theme, presentation_creneau, reservation_date, user_name) VALUES (NULL, NULL, NULL, NULL)')
+ 4 APPPATH\Modele\Modele.php(68): CodeIgniter\Database\BaseConnection->query('INSERT INTO reservation (conference_theme, presentation_creneau, reservation_date, user_name) VALUES (?, ?, ?, ?)', [...])
+ 5 APPPATH\Controllers\Home.php(128): App\Modele\Modele->insertInto(Object(CodeIgniter\HTTP\IncomingRequest), [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->submitReservation()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-02-08 23:15:10 --> mysqli_sql_exception: Column 'conference_theme' cannot be null in C:\xampp\htdocs\GSB3\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\GSB3\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO res...', 0)
+#1 C:\xampp\htdocs\GSB3\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO res...')
+#2 C:\xampp\htdocs\GSB3\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO res...')
+#3 C:\xampp\htdocs\GSB3\app\Modele\Modele.php(68): CodeIgniter\Database\BaseConnection->query('INSERT INTO res...', Array)
+#4 C:\xampp\htdocs\GSB3\app\Controllers\Home.php(128): App\Modele\Modele->insertInto(Object(CodeIgniter\HTTP\IncomingRequest), Array)
+#5 C:\xampp\htdocs\GSB3\system\CodeIgniter.php(941): App\Controllers\Home->submitReservation()
+#6 C:\xampp\htdocs\GSB3\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\GSB3\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\GSB3\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-02-08 23:15:10 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'conference_theme' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 APPPATH\Modele\Modele.php(68): CodeIgniter\Database\BaseConnection->query('INSERT INTO reservation (conference_theme, presentation_creneau, reservation_date, user_name) VALUES (?, ?, ?, ?)', [...])
+ 2 APPPATH\Controllers\Home.php(128): App\Modele\Modele->insertInto(Object(CodeIgniter\HTTP\IncomingRequest), [...])
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->submitReservation()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-08 23:15:10 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'conference_theme' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO reservation (conference_theme, presentation_creneau, reservation_date, user_name) VALUES (NULL, NULL, NULL, NULL)')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO reservation (conference_theme, presentation_creneau, reservation_date, user_name) VALUES (NULL, NULL, NULL, NULL)')
+ 3 APPPATH\Modele\Modele.php(68): CodeIgniter\Database\BaseConnection->query('INSERT INTO reservation (conference_theme, presentation_creneau, reservation_date, user_name) VALUES (?, ?, ?, ?)', [...])
+ 4 APPPATH\Controllers\Home.php(128): App\Modele\Modele->insertInto(Object(CodeIgniter\HTTP\IncomingRequest), [...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->submitReservation()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-08 23:15:10 --> [Caused by] mysqli_sql_exception: Column 'conference_theme' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO reservation (conference_theme, presentation_creneau, reservation_date, user_name) VALUES (NULL, NULL, NULL, NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO reservation (conference_theme, presentation_creneau, reservation_date, user_name) VALUES (NULL, NULL, NULL, NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO reservation (conference_theme, presentation_creneau, reservation_date, user_name) VALUES (NULL, NULL, NULL, NULL)')
+ 4 APPPATH\Modele\Modele.php(68): CodeIgniter\Database\BaseConnection->query('INSERT INTO reservation (conference_theme, presentation_creneau, reservation_date, user_name) VALUES (?, ?, ?, ?)', [...])
+ 5 APPPATH\Controllers\Home.php(128): App\Modele\Modele->insertInto(Object(CodeIgniter\HTTP\IncomingRequest), [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->submitReservation()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-02-08 23:16:34 --> mysqli_sql_exception: Column 'conference_theme' cannot be null in C:\xampp\htdocs\GSB3\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\GSB3\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO res...', 0)
+#1 C:\xampp\htdocs\GSB3\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO res...')
+#2 C:\xampp\htdocs\GSB3\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO res...')
+#3 C:\xampp\htdocs\GSB3\app\Modele\Modele.php(68): CodeIgniter\Database\BaseConnection->query('INSERT INTO res...', Array)
+#4 C:\xampp\htdocs\GSB3\app\Controllers\Home.php(128): App\Modele\Modele->insertInto(Object(CodeIgniter\HTTP\IncomingRequest), Array)
+#5 C:\xampp\htdocs\GSB3\system\CodeIgniter.php(941): App\Controllers\Home->submitReservation()
+#6 C:\xampp\htdocs\GSB3\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\GSB3\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\GSB3\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-02-08 23:16:34 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'conference_theme' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 APPPATH\Modele\Modele.php(68): CodeIgniter\Database\BaseConnection->query('INSERT INTO reservation (conference_theme, presentation_creneau, reservation_date, user_name) VALUES (?, ?, ?, ?)', [...])
+ 2 APPPATH\Controllers\Home.php(128): App\Modele\Modele->insertInto(Object(CodeIgniter\HTTP\IncomingRequest), [...])
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->submitReservation()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-08 23:16:34 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'conference_theme' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO reservation (conference_theme, presentation_creneau, reservation_date, user_name) VALUES (NULL, NULL, NULL, NULL)')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO reservation (conference_theme, presentation_creneau, reservation_date, user_name) VALUES (NULL, NULL, NULL, NULL)')
+ 3 APPPATH\Modele\Modele.php(68): CodeIgniter\Database\BaseConnection->query('INSERT INTO reservation (conference_theme, presentation_creneau, reservation_date, user_name) VALUES (?, ?, ?, ?)', [...])
+ 4 APPPATH\Controllers\Home.php(128): App\Modele\Modele->insertInto(Object(CodeIgniter\HTTP\IncomingRequest), [...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->submitReservation()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-08 23:16:34 --> [Caused by] mysqli_sql_exception: Column 'conference_theme' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO reservation (conference_theme, presentation_creneau, reservation_date, user_name) VALUES (NULL, NULL, NULL, NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO reservation (conference_theme, presentation_creneau, reservation_date, user_name) VALUES (NULL, NULL, NULL, NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO reservation (conference_theme, presentation_creneau, reservation_date, user_name) VALUES (NULL, NULL, NULL, NULL)')
+ 4 APPPATH\Modele\Modele.php(68): CodeIgniter\Database\BaseConnection->query('INSERT INTO reservation (conference_theme, presentation_creneau, reservation_date, user_name) VALUES (?, ?, ?, ?)', [...])
+ 5 APPPATH\Controllers\Home.php(128): App\Modele\Modele->insertInto(Object(CodeIgniter\HTTP\IncomingRequest), [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->submitReservation()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-02-08 23:20:34 --> mysqli_sql_exception: Column 'presentation_creneau' cannot be null in C:\xampp\htdocs\GSB3\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\GSB3\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO res...', 0)
+#1 C:\xampp\htdocs\GSB3\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO res...')
+#2 C:\xampp\htdocs\GSB3\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO res...')
+#3 C:\xampp\htdocs\GSB3\app\Modele\Modele.php(68): CodeIgniter\Database\BaseConnection->query('INSERT INTO res...', Array)
+#4 C:\xampp\htdocs\GSB3\app\Controllers\Home.php(128): App\Modele\Modele->insertInto(Object(CodeIgniter\HTTP\IncomingRequest), Array)
+#5 C:\xampp\htdocs\GSB3\system\CodeIgniter.php(941): App\Controllers\Home->submitReservation()
+#6 C:\xampp\htdocs\GSB3\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\GSB3\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\GSB3\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-02-08 23:20:34 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'presentation_creneau' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 APPPATH\Modele\Modele.php(68): CodeIgniter\Database\BaseConnection->query('INSERT INTO reservation (conference_theme, presentation_creneau, reservation_date, user_name) VALUES (?, ?, ?, ?)', [...])
+ 2 APPPATH\Controllers\Home.php(128): App\Modele\Modele->insertInto(Object(CodeIgniter\HTTP\IncomingRequest), [...])
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->submitReservation()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-08 23:20:34 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'presentation_creneau' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO reservation (conference_theme, presentation_creneau, reservation_date, user_name) VALUES (\'Nouvelles avancées en neurosciences\', NULL, NULL, NULL)')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO reservation (conference_theme, presentation_creneau, reservation_date, user_name) VALUES (\'Nouvelles avancées en neurosciences\', NULL, NULL, NULL)')
+ 3 APPPATH\Modele\Modele.php(68): CodeIgniter\Database\BaseConnection->query('INSERT INTO reservation (conference_theme, presentation_creneau, reservation_date, user_name) VALUES (?, ?, ?, ?)', [...])
+ 4 APPPATH\Controllers\Home.php(128): App\Modele\Modele->insertInto(Object(CodeIgniter\HTTP\IncomingRequest), [...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->submitReservation()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-08 23:20:34 --> [Caused by] mysqli_sql_exception: Column 'presentation_creneau' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO reservation (conference_theme, presentation_creneau, reservation_date, user_name) VALUES (\'Nouvelles avancées en neurosciences\', NULL, NULL, NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO reservation (conference_theme, presentation_creneau, reservation_date, user_name) VALUES (\'Nouvelles avancées en neurosciences\', NULL, NULL, NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO reservation (conference_theme, presentation_creneau, reservation_date, user_name) VALUES (\'Nouvelles avancées en neurosciences\', NULL, NULL, NULL)')
+ 4 APPPATH\Modele\Modele.php(68): CodeIgniter\Database\BaseConnection->query('INSERT INTO reservation (conference_theme, presentation_creneau, reservation_date, user_name) VALUES (?, ?, ?, ?)', [...])
+ 5 APPPATH\Controllers\Home.php(128): App\Modele\Modele->insertInto(Object(CodeIgniter\HTTP\IncomingRequest), [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->submitReservation()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-02-08 23:21:55 --> mysqli_sql_exception: Column 'presentation_creneau' cannot be null in C:\xampp\htdocs\GSB3\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\GSB3\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO res...', 0)
+#1 C:\xampp\htdocs\GSB3\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO res...')
+#2 C:\xampp\htdocs\GSB3\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO res...')
+#3 C:\xampp\htdocs\GSB3\app\Modele\Modele.php(68): CodeIgniter\Database\BaseConnection->query('INSERT INTO res...', Array)
+#4 C:\xampp\htdocs\GSB3\app\Controllers\Home.php(128): App\Modele\Modele->insertInto(Object(CodeIgniter\HTTP\IncomingRequest), Array)
+#5 C:\xampp\htdocs\GSB3\system\CodeIgniter.php(941): App\Controllers\Home->submitReservation()
+#6 C:\xampp\htdocs\GSB3\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\GSB3\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\GSB3\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-02-08 23:21:55 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'presentation_creneau' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 APPPATH\Modele\Modele.php(68): CodeIgniter\Database\BaseConnection->query('INSERT INTO reservation (conference_theme, presentation_creneau, reservation_date, user_name) VALUES (?, ?, ?, ?)', [...])
+ 2 APPPATH\Controllers\Home.php(128): App\Modele\Modele->insertInto(Object(CodeIgniter\HTTP\IncomingRequest), [...])
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->submitReservation()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-08 23:21:55 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'presentation_creneau' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO reservation (conference_theme, presentation_creneau, reservation_date, user_name) VALUES (\'cancer du petit doigt de pied\', NULL, \'2024-02-21\', NULL)')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO reservation (conference_theme, presentation_creneau, reservation_date, user_name) VALUES (\'cancer du petit doigt de pied\', NULL, \'2024-02-21\', NULL)')
+ 3 APPPATH\Modele\Modele.php(68): CodeIgniter\Database\BaseConnection->query('INSERT INTO reservation (conference_theme, presentation_creneau, reservation_date, user_name) VALUES (?, ?, ?, ?)', [...])
+ 4 APPPATH\Controllers\Home.php(128): App\Modele\Modele->insertInto(Object(CodeIgniter\HTTP\IncomingRequest), [...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->submitReservation()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-08 23:21:55 --> [Caused by] mysqli_sql_exception: Column 'presentation_creneau' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO reservation (conference_theme, presentation_creneau, reservation_date, user_name) VALUES (\'cancer du petit doigt de pied\', NULL, \'2024-02-21\', NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO reservation (conference_theme, presentation_creneau, reservation_date, user_name) VALUES (\'cancer du petit doigt de pied\', NULL, \'2024-02-21\', NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO reservation (conference_theme, presentation_creneau, reservation_date, user_name) VALUES (\'cancer du petit doigt de pied\', NULL, \'2024-02-21\', NULL)')
+ 4 APPPATH\Modele\Modele.php(68): CodeIgniter\Database\BaseConnection->query('INSERT INTO reservation (conference_theme, presentation_creneau, reservation_date, user_name) VALUES (?, ?, ?, ?)', [...])
+ 5 APPPATH\Controllers\Home.php(128): App\Modele\Modele->insertInto(Object(CodeIgniter\HTTP\IncomingRequest), [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->submitReservation()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-08 23:23:33 --> ErrorException: Undefined variable $presentations
+in APPPATH\Views\Reservation.php on line 34.
+ 1 APPPATH\Views\Reservation.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $presentations', 'C:\\xampp\\htdocs\\GSB3\\app\\Views\\Reservation.php', 34)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\GSB3\\app\\Views\\Reservation.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Reservation', [], true)
+ 5 APPPATH\Controllers\Home.php(98): view('Reservation', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->Reservation()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-02-08 23:24:14 --> mysqli_sql_exception: Column 'presentation_creneau' cannot be null in C:\xampp\htdocs\GSB3\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\GSB3\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO res...', 0)
+#1 C:\xampp\htdocs\GSB3\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO res...')
+#2 C:\xampp\htdocs\GSB3\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO res...')
+#3 C:\xampp\htdocs\GSB3\app\Modele\Modele.php(68): CodeIgniter\Database\BaseConnection->query('INSERT INTO res...', Array)
+#4 C:\xampp\htdocs\GSB3\app\Controllers\Home.php(128): App\Modele\Modele->insertInto(Object(CodeIgniter\HTTP\IncomingRequest), Array)
+#5 C:\xampp\htdocs\GSB3\system\CodeIgniter.php(941): App\Controllers\Home->submitReservation()
+#6 C:\xampp\htdocs\GSB3\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\GSB3\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\GSB3\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-02-08 23:24:14 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'presentation_creneau' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 APPPATH\Modele\Modele.php(68): CodeIgniter\Database\BaseConnection->query('INSERT INTO reservation (conference_theme, presentation_creneau, reservation_date, user_name) VALUES (?, ?, ?, ?)', [...])
+ 2 APPPATH\Controllers\Home.php(128): App\Modele\Modele->insertInto(Object(CodeIgniter\HTTP\IncomingRequest), [...])
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->submitReservation()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-08 23:24:14 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'presentation_creneau' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO reservation (conference_theme, presentation_creneau, reservation_date, user_name) VALUES (\'Nouvelles avancées en neurosciences\', NULL, \'2024-02-21\', NULL)')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO reservation (conference_theme, presentation_creneau, reservation_date, user_name) VALUES (\'Nouvelles avancées en neurosciences\', NULL, \'2024-02-21\', NULL)')
+ 3 APPPATH\Modele\Modele.php(68): CodeIgniter\Database\BaseConnection->query('INSERT INTO reservation (conference_theme, presentation_creneau, reservation_date, user_name) VALUES (?, ?, ?, ?)', [...])
+ 4 APPPATH\Controllers\Home.php(128): App\Modele\Modele->insertInto(Object(CodeIgniter\HTTP\IncomingRequest), [...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->submitReservation()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-08 23:24:14 --> [Caused by] mysqli_sql_exception: Column 'presentation_creneau' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO reservation (conference_theme, presentation_creneau, reservation_date, user_name) VALUES (\'Nouvelles avancées en neurosciences\', NULL, \'2024-02-21\', NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO reservation (conference_theme, presentation_creneau, reservation_date, user_name) VALUES (\'Nouvelles avancées en neurosciences\', NULL, \'2024-02-21\', NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO reservation (conference_theme, presentation_creneau, reservation_date, user_name) VALUES (\'Nouvelles avancées en neurosciences\', NULL, \'2024-02-21\', NULL)')
+ 4 APPPATH\Modele\Modele.php(68): CodeIgniter\Database\BaseConnection->query('INSERT INTO reservation (conference_theme, presentation_creneau, reservation_date, user_name) VALUES (?, ?, ?, ?)', [...])
+ 5 APPPATH\Controllers\Home.php(128): App\Modele\Modele->insertInto(Object(CodeIgniter\HTTP\IncomingRequest), [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->submitReservation()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-02-08 23:25:47 --> mysqli_sql_exception: Column 'conference_theme' cannot be null in C:\xampp\htdocs\GSB3\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\GSB3\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO res...', 0)
+#1 C:\xampp\htdocs\GSB3\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO res...')
+#2 C:\xampp\htdocs\GSB3\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO res...')
+#3 C:\xampp\htdocs\GSB3\app\Modele\Modele.php(68): CodeIgniter\Database\BaseConnection->query('INSERT INTO res...', Array)
+#4 C:\xampp\htdocs\GSB3\app\Controllers\Home.php(128): App\Modele\Modele->insertInto(Object(CodeIgniter\HTTP\IncomingRequest), Array)
+#5 C:\xampp\htdocs\GSB3\system\CodeIgniter.php(941): App\Controllers\Home->submitReservation()
+#6 C:\xampp\htdocs\GSB3\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\GSB3\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\GSB3\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-02-08 23:25:47 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'conference_theme' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 APPPATH\Modele\Modele.php(68): CodeIgniter\Database\BaseConnection->query('INSERT INTO reservation (conference_theme, presentation_creneau, reservation_date, user_name) VALUES (?, ?, ?, ?)', [...])
+ 2 APPPATH\Controllers\Home.php(128): App\Modele\Modele->insertInto(Object(CodeIgniter\HTTP\IncomingRequest), [...])
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->submitReservation()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-08 23:25:47 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'conference_theme' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO reservation (conference_theme, presentation_creneau, reservation_date, user_name) VALUES (NULL, NULL, NULL, NULL)')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO reservation (conference_theme, presentation_creneau, reservation_date, user_name) VALUES (NULL, NULL, NULL, NULL)')
+ 3 APPPATH\Modele\Modele.php(68): CodeIgniter\Database\BaseConnection->query('INSERT INTO reservation (conference_theme, presentation_creneau, reservation_date, user_name) VALUES (?, ?, ?, ?)', [...])
+ 4 APPPATH\Controllers\Home.php(128): App\Modele\Modele->insertInto(Object(CodeIgniter\HTTP\IncomingRequest), [...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->submitReservation()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-08 23:25:47 --> [Caused by] mysqli_sql_exception: Column 'conference_theme' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO reservation (conference_theme, presentation_creneau, reservation_date, user_name) VALUES (NULL, NULL, NULL, NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO reservation (conference_theme, presentation_creneau, reservation_date, user_name) VALUES (NULL, NULL, NULL, NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO reservation (conference_theme, presentation_creneau, reservation_date, user_name) VALUES (NULL, NULL, NULL, NULL)')
+ 4 APPPATH\Modele\Modele.php(68): CodeIgniter\Database\BaseConnection->query('INSERT INTO reservation (conference_theme, presentation_creneau, reservation_date, user_name) VALUES (?, ?, ?, ?)', [...])
+ 5 APPPATH\Controllers\Home.php(128): App\Modele\Modele->insertInto(Object(CodeIgniter\HTTP\IncomingRequest), [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->submitReservation()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-02-08 23:27:19 --> mysqli_sql_exception: Column 'user_name' cannot be null in C:\xampp\htdocs\GSB3\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\GSB3\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO res...', 0)
+#1 C:\xampp\htdocs\GSB3\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO res...')
+#2 C:\xampp\htdocs\GSB3\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO res...')
+#3 C:\xampp\htdocs\GSB3\app\Modele\Modele.php(68): CodeIgniter\Database\BaseConnection->query('INSERT INTO res...', Array)
+#4 C:\xampp\htdocs\GSB3\app\Controllers\Home.php(128): App\Modele\Modele->insertInto(Object(CodeIgniter\HTTP\IncomingRequest), Array)
+#5 C:\xampp\htdocs\GSB3\system\CodeIgniter.php(941): App\Controllers\Home->submitReservation()
+#6 C:\xampp\htdocs\GSB3\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\GSB3\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\GSB3\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-02-08 23:27:19 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'user_name' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 APPPATH\Modele\Modele.php(68): CodeIgniter\Database\BaseConnection->query('INSERT INTO reservation (conference_theme, presentation_creneau, reservation_date, user_name) VALUES (?, ?, ?, ?)', [...])
+ 2 APPPATH\Controllers\Home.php(128): App\Modele\Modele->insertInto(Object(CodeIgniter\HTTP\IncomingRequest), [...])
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->submitReservation()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-08 23:27:19 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'user_name' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO reservation (conference_theme, presentation_creneau, reservation_date, user_name) VALUES (\'Santé mentale et bien-être\', \'11:32:01\', \'2024-02-21\', NULL)')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO reservation (conference_theme, presentation_creneau, reservation_date, user_name) VALUES (\'Santé mentale et bien-être\', \'11:32:01\', \'2024-02-21\', NULL)')
+ 3 APPPATH\Modele\Modele.php(68): CodeIgniter\Database\BaseConnection->query('INSERT INTO reservation (conference_theme, presentation_creneau, reservation_date, user_name) VALUES (?, ?, ?, ?)', [...])
+ 4 APPPATH\Controllers\Home.php(128): App\Modele\Modele->insertInto(Object(CodeIgniter\HTTP\IncomingRequest), [...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->submitReservation()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-08 23:27:19 --> [Caused by] mysqli_sql_exception: Column 'user_name' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO reservation (conference_theme, presentation_creneau, reservation_date, user_name) VALUES (\'Santé mentale et bien-être\', \'11:32:01\', \'2024-02-21\', NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO reservation (conference_theme, presentation_creneau, reservation_date, user_name) VALUES (\'Santé mentale et bien-être\', \'11:32:01\', \'2024-02-21\', NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO reservation (conference_theme, presentation_creneau, reservation_date, user_name) VALUES (\'Santé mentale et bien-être\', \'11:32:01\', \'2024-02-21\', NULL)')
+ 4 APPPATH\Modele\Modele.php(68): CodeIgniter\Database\BaseConnection->query('INSERT INTO reservation (conference_theme, presentation_creneau, reservation_date, user_name) VALUES (?, ?, ?, ?)', [...])
+ 5 APPPATH\Controllers\Home.php(128): App\Modele\Modele->insertInto(Object(CodeIgniter\HTTP\IncomingRequest), [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->submitReservation()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

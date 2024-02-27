@@ -1,0 +1,33 @@
+CRITICAL - 2024-02-09 22:43:42 --> ErrorException: Undefined variable $conferences
+in APPPATH\Views\Presentation.php on line 10.
+ 1 APPPATH\Views\Presentation.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $conferences', 'C:\\xampp\\htdocs\\GSB3\\app\\Views\\Presentation.php', 10)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\GSB3\\app\\Views\\Presentation.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Presentation', [], true)
+ 5 APPPATH\Controllers\Home.php(74): view('Presentation')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->Presentation()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-09 22:43:48 --> ErrorException: Undefined variable $conferences
+in APPPATH\Views\Presentation.php on line 10.
+ 1 APPPATH\Views\Presentation.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $conferences', 'C:\\xampp\\htdocs\\GSB3\\app\\Views\\Presentation.php', 10)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\GSB3\\app\\Views\\Presentation.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Presentation', [], true)
+ 5 APPPATH\Controllers\Home.php(74): view('Presentation')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->Presentation()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-09 23:02:10 --> ErrorException: Undefined array key "conference_theme"
+in APPPATH\Views\Presentation.php on line 18.
+ 1 APPPATH\Views\Presentation.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "conference_theme"', 'C:\\xampp\\htdocs\\GSB3\\app\\Views\\Presentation.php', 18)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\GSB3\\app\\Views\\Presentation.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Presentation', [], true)
+ 5 APPPATH\Controllers\Home.php(74): view('Presentation')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->Presentation()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

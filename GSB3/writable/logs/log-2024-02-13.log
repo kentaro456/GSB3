@@ -1,0 +1,1083 @@
+CRITICAL - 2024-02-13 08:15:49 --> Error: Call to a member function getIdConf() on array
+in APPPATH\Views\conference.php on line 78.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('conference', [], true)
+ 4 APPPATH\Controllers\Home.php(76): view('conference')
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->Conference()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-13 08:28:03 --> Error: Call to a member function getIdConf() on array
+in APPPATH\Views\conference.php on line 78.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('conference', [], true)
+ 4 APPPATH\Controllers\Home.php(76): view('conference')
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->Conference()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-13 08:32:17 --> Error: Call to a member function getLesPresentationsDate() on array
+in APPPATH\Views\vue_presentation.php on line 12.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('vue_presentation', [], true)
+ 4 APPPATH\Controllers\Home.php(62): view('vue_presentation')
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->HomePage()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-13 08:33:05 --> Error: Call to a member function getNbJoursRestants() on array
+in APPPATH\Views\vue_presentation.php on line 16.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('vue_presentation', [], true)
+ 4 APPPATH\Controllers\Home.php(62): view('vue_presentation')
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->HomePage()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-13 08:44:55 --> Error: Call to a member function getLesPresentationsDate() on array
+in APPPATH\Views\vue_presentation.php on line 12.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('vue_presentation', [], true)
+ 4 APPPATH\Controllers\Home.php(62): view('vue_presentation')
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->HomePage()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-13 08:45:34 --> Error: Call to a member function getIdPres() on array
+in APPPATH\Views\vue_presentation.php on line 18.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('vue_presentation', [], true)
+ 4 APPPATH\Controllers\Home.php(62): view('vue_presentation')
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->HomePage()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-13 08:47:01 --> Error: Call to a member function getIdPres() on array
+in APPPATH\Views\vue_presentation.php on line 18.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('vue_presentation', [], true)
+ 4 APPPATH\Controllers\Home.php(62): view('vue_presentation')
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->HomePage()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-13 08:48:14 --> Error: Call to a member function getIdPres() on array
+in APPPATH\Views\vue_presentation.php on line 18.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('vue_presentation', [], true)
+ 4 APPPATH\Controllers\Home.php(62): view('vue_presentation')
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->HomePage()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-13 08:48:16 --> Error: Call to a member function getIdPres() on array
+in APPPATH\Views\vue_presentation.php on line 18.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('vue_presentation', [], true)
+ 4 APPPATH\Controllers\Home.php(62): view('vue_presentation')
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->HomePage()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-13 08:52:19 --> Error: Call to a member function getIdConf() on array
+in APPPATH\Views\conference.php on line 78.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('conference', [], true)
+ 4 APPPATH\Controllers\Home.php(76): view('conference')
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->Conference()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-13 09:27:47 --> ErrorException: Undefined array key "theme"
+in APPPATH\Views\vue.php on line 13.
+ 1 APPPATH\Views\vue.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "theme"', 'C:\\xampp\\htdocs\\GSB3\\app\\Views\\vue.php', 13)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\GSB3\\app\\Views\\vue.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('vue', [], true)
+ 5 APPPATH\Controllers\Home.php(80): view('vue')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->vue()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-13 09:29:06 --> ErrorException: Undefined array key "theme"
+in APPPATH\Views\vue.php on line 13.
+ 1 APPPATH\Views\vue.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "theme"', 'C:\\xampp\\htdocs\\GSB3\\app\\Views\\vue.php', 13)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\GSB3\\app\\Views\\vue.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('vue', [], true)
+ 5 APPPATH\Controllers\Home.php(80): view('vue')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->vue()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-13 09:30:06 --> ErrorException: Undefined array key "id"
+in APPPATH\Views\vue.php on line 10.
+ 1 APPPATH\Views\vue.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\xampp\\htdocs\\GSB3\\app\\Views\\vue.php', 10)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\GSB3\\app\\Views\\vue.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('vue', [], true)
+ 5 APPPATH\Controllers\Home.php(80): view('vue')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->vue()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-13 09:32:25 --> ParseError: syntax error, unexpected token "<", expecting end of file
+in APPPATH\Views\vue.php on line 12.
+ 1 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('vue', [], true)
+ 3 APPPATH\Controllers\Home.php(80): view('vue')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->vue()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-13 09:36:11 --> ErrorException: Undefined array key "theme"
+in APPPATH\Views\vue.php on line 13.
+ 1 APPPATH\Views\vue.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "theme"', 'C:\\xampp\\htdocs\\GSB3\\app\\Views\\vue.php', 13)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\GSB3\\app\\Views\\vue.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('vue', [], true)
+ 5 APPPATH\Controllers\Home.php(80): view('vue')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->vue()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-13 09:36:39 --> ErrorException: Undefined array key "id"
+in APPPATH\Views\vue.php on line 7.
+ 1 APPPATH\Views\vue.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\xampp\\htdocs\\GSB3\\app\\Views\\vue.php', 7)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\GSB3\\app\\Views\\vue.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('vue', [], true)
+ 5 APPPATH\Controllers\Home.php(80): view('vue')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->vue()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-02-13 09:37:07 --> mysqli_sql_exception: Table 'gsb3.presentations' doesn't exist in C:\xampp\htdocs\GSB3\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\GSB3\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\GSB3\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\GSB3\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\GSB3\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\GSB3\app\Modele\Modele.php(86): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\GSB3\app\Views\vue.php(7): App\Modele\Modele->getPresentationsParConference('1')
+#6 C:\xampp\htdocs\GSB3\system\View\View.php(228): include('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\GSB3\system\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#8 C:\xampp\htdocs\GSB3\system\Common.php(1178): CodeIgniter\View\View->render('vue', Array, true)
+#9 C:\xampp\htdocs\GSB3\app\Controllers\Home.php(80): view('vue')
+#10 C:\xampp\htdocs\GSB3\system\CodeIgniter.php(941): App\Controllers\Home->vue()
+#11 C:\xampp\htdocs\GSB3\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#12 C:\xampp\htdocs\GSB3\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\xampp\htdocs\GSB3\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#14 {main}
+CRITICAL - 2024-02-13 09:37:07 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'gsb3.presentations' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `presentations`
+WHERE `idconference` = :idconference:', [...], false)
+ 2 APPPATH\Modele\Modele.php(86): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Views\vue.php(7): App\Modele\Modele->getPresentationsParConference('1')
+ 4 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\GSB3\\app\\Views\\vue.php')
+ 5 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('vue', [], true)
+ 7 APPPATH\Controllers\Home.php(80): view('vue')
+ 8 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->vue()
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-13 09:37:07 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'gsb3.presentations' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `presentations`
+WHERE `idconference` = \'1\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `presentations`
+WHERE `idconference` = \'1\'')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `presentations`
+WHERE `idconference` = :idconference:', [...], false)
+ 4 APPPATH\Modele\Modele.php(86): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Views\vue.php(7): App\Modele\Modele->getPresentationsParConference('1')
+ 6 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\GSB3\\app\\Views\\vue.php')
+ 7 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('vue', [], true)
+ 9 APPPATH\Controllers\Home.php(80): view('vue')
+10 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->vue()
+11 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-13 09:37:07 --> [Caused by] mysqli_sql_exception: Table 'gsb3.presentations' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *
+FROM `presentations`
+WHERE `idconference` = \'1\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `presentations`
+WHERE `idconference` = \'1\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `presentations`
+WHERE `idconference` = \'1\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `presentations`
+WHERE `idconference` = :idconference:', [...], false)
+ 5 APPPATH\Modele\Modele.php(86): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Views\vue.php(7): App\Modele\Modele->getPresentationsParConference('1')
+ 7 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\GSB3\\app\\Views\\vue.php')
+ 8 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 9 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('vue', [], true)
+10 APPPATH\Controllers\Home.php(80): view('vue')
+11 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->vue()
+12 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+13 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-13 09:37:21 --> Error: Cannot use object of type stdClass as array
+in APPPATH\Views\vue.php on line 14.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('vue', [], true)
+ 4 APPPATH\Controllers\Home.php(80): view('vue')
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->vue()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-13 09:42:38 --> ErrorException: Attempt to read property "idconference" on array
+in APPPATH\Views\vue.php on line 10.
+ 1 APPPATH\Views\vue.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "idconference" on array', 'C:\\xampp\\htdocs\\GSB3\\app\\Views\\vue.php', 10)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\GSB3\\app\\Views\\vue.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('vue', [], true)
+ 5 APPPATH\Controllers\Home.php(80): view('vue')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->vue()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-13 09:43:58 --> ErrorException: Undefined array key "id"
+in APPPATH\Views\vue.php on line 10.
+ 1 APPPATH\Views\vue.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\xampp\\htdocs\\GSB3\\app\\Views\\vue.php', 10)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\GSB3\\app\\Views\\vue.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('vue', [], true)
+ 5 APPPATH\Controllers\Home.php(80): view('vue')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->vue()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-13 09:44:13 --> ErrorException: Attempt to read property "theme" on array
+in APPPATH\Views\vue.php on line 13.
+ 1 APPPATH\Views\vue.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "theme" on array', 'C:\\xampp\\htdocs\\GSB3\\app\\Views\\vue.php', 13)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\GSB3\\app\\Views\\vue.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('vue', [], true)
+ 5 APPPATH\Controllers\Home.php(80): view('vue')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->vue()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-13 10:23:44 --> ErrorException: Undefined variable $conferences
+in APPPATH\Views\vue.php on line 2.
+ 1 APPPATH\Views\vue.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $conferences', 'C:\\xampp\\htdocs\\GSB3\\app\\Views\\vue.php', 2)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\GSB3\\app\\Views\\vue.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('vue', [], true)
+ 5 APPPATH\Controllers\Home.php(80): view('vue')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->vue()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-13 10:52:36 --> Error: Cannot use object of type stdClass as array
+in APPPATH\Views\vue.php on line 10.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('vue', [], true)
+ 4 APPPATH\Controllers\Home.php(82): view('vue')
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->vue()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-13 10:53:13 --> Error: Cannot use object of type stdClass as array
+in APPPATH\Views\vue.php on line 13.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('vue', [], true)
+ 4 APPPATH\Controllers\Home.php(82): view('vue')
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->vue()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-13 10:53:36 --> Error: Cannot use object of type stdClass as array
+in APPPATH\Views\vue.php on line 13.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('vue', [], true)
+ 4 APPPATH\Controllers\Home.php(82): view('vue')
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->vue()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-13 11:16:14 --> ParseError: syntax error, unexpected token "/"
+in APPPATH\Views\pdf.php on line 55.
+ 1 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('PDF', [], true)
+ 3 APPPATH\Controllers\Home.php(117): view('PDF', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->generatePdf()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-02-13 13:20:26 --> Error connecting to the database: mysqli_sql_exception: Host 'localhost' is not allowed to connect to this MariaDB server in C:\xampp\htdocs\GSB3\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 C:\xampp\htdocs\GSB3\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'GSB3', 3306, '', 0)
+#1 C:\xampp\htdocs\GSB3\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\GSB3\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\GSB3\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `n...', Array, false)
+#4 C:\xampp\htdocs\GSB3\app\Controllers\Home.php(38): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\GSB3\system\CodeIgniter.php(941): App\Controllers\Home->authenticate()
+#6 C:\xampp\htdocs\GSB3\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\GSB3\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\GSB3\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Host 'localhost' is not allowed to connect to this MariaDB server in C:\xampp\htdocs\GSB3\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\xampp\htdocs\GSB3\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\GSB3\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\GSB3\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `n...', Array, false)
+#3 C:\xampp\htdocs\GSB3\app\Controllers\Home.php(38): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\GSB3\system\CodeIgniter.php(941): App\Controllers\Home->authenticate()
+#5 C:\xampp\htdocs\GSB3\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\GSB3\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\GSB3\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2024-02-13 13:20:26 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Host 'localhost' is not allowed to connect to this MariaDB server
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `nom`, `prenom`, `login`, `mdp`, `ville`
+FROM `visiteur2`
+WHERE `login` = :login:', [...], false)
+ 3 APPPATH\Controllers\Home.php(38): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->authenticate()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-02-13 13:20:42 --> Error connecting to the database: mysqli_sql_exception: Host 'localhost' is not allowed to connect to this MariaDB server in C:\xampp\htdocs\GSB3\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 C:\xampp\htdocs\GSB3\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'GSB3', 3306, '', 0)
+#1 C:\xampp\htdocs\GSB3\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\GSB3\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\GSB3\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `n...', Array, false)
+#4 C:\xampp\htdocs\GSB3\app\Controllers\Home.php(38): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\GSB3\system\CodeIgniter.php(941): App\Controllers\Home->authenticate()
+#6 C:\xampp\htdocs\GSB3\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\GSB3\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\GSB3\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Host 'localhost' is not allowed to connect to this MariaDB server in C:\xampp\htdocs\GSB3\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\xampp\htdocs\GSB3\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\GSB3\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\GSB3\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `n...', Array, false)
+#3 C:\xampp\htdocs\GSB3\app\Controllers\Home.php(38): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\GSB3\system\CodeIgniter.php(941): App\Controllers\Home->authenticate()
+#5 C:\xampp\htdocs\GSB3\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\GSB3\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\GSB3\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2024-02-13 13:20:42 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Host 'localhost' is not allowed to connect to this MariaDB server
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `nom`, `prenom`, `login`, `mdp`, `ville`
+FROM `visiteur2`
+WHERE `login` = :login:', [...], false)
+ 3 APPPATH\Controllers\Home.php(38): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->authenticate()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-02-13 13:21:48 --> Error connecting to the database: mysqli_sql_exception: Host 'localhost' is not allowed to connect to this MariaDB server in C:\xampp\htdocs\GSB3\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 C:\xampp\htdocs\GSB3\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'GSB3', 3306, '', 0)
+#1 C:\xampp\htdocs\GSB3\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\GSB3\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\GSB3\app\Modele\Modele.php(22): CodeIgniter\Database\BaseConnection->query('SELECT * FROM c...')
+#4 C:\xampp\htdocs\GSB3\app\Views\conference.php(20): App\Modele\Modele->getLesConferences()
+#5 C:\xampp\htdocs\GSB3\system\View\View.php(228): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\GSB3\system\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\xampp\htdocs\GSB3\system\Common.php(1178): CodeIgniter\View\View->render('conference', Array, true)
+#8 C:\xampp\htdocs\GSB3\app\Controllers\Home.php(78): view('conference')
+#9 C:\xampp\htdocs\GSB3\system\CodeIgniter.php(941): App\Controllers\Home->Conference()
+#10 C:\xampp\htdocs\GSB3\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#11 C:\xampp\htdocs\GSB3\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\GSB3\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Host 'localhost' is not allowed to connect to this MariaDB server in C:\xampp\htdocs\GSB3\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\xampp\htdocs\GSB3\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\GSB3\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\GSB3\app\Modele\Modele.php(22): CodeIgniter\Database\BaseConnection->query('SELECT * FROM c...')
+#3 C:\xampp\htdocs\GSB3\app\Views\conference.php(20): App\Modele\Modele->getLesConferences()
+#4 C:\xampp\htdocs\GSB3\system\View\View.php(228): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\GSB3\system\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#6 C:\xampp\htdocs\GSB3\system\Common.php(1178): CodeIgniter\View\View->render('conference', Array, true)
+#7 C:\xampp\htdocs\GSB3\app\Controllers\Home.php(78): view('conference')
+#8 C:\xampp\htdocs\GSB3\system\CodeIgniter.php(941): App\Controllers\Home->Conference()
+#9 C:\xampp\htdocs\GSB3\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#10 C:\xampp\htdocs\GSB3\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\GSB3\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2024-02-13 13:21:48 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Host 'localhost' is not allowed to connect to this MariaDB server
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH\Modele\Modele.php(22): CodeIgniter\Database\BaseConnection->query('SELECT * FROM conference')
+ 3 APPPATH\Views\conference.php(20): App\Modele\Modele->getLesConferences()
+ 4 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\GSB3\\app\\Views\\conference.php')
+ 5 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('conference', [], true)
+ 7 APPPATH\Controllers\Home.php(78): view('conference')
+ 8 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->Conference()
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-02-13 13:21:51 --> Error connecting to the database: mysqli_sql_exception: Host 'localhost' is not allowed to connect to this MariaDB server in C:\xampp\htdocs\GSB3\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 C:\xampp\htdocs\GSB3\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'GSB3', 3306, '', 0)
+#1 C:\xampp\htdocs\GSB3\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\GSB3\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\GSB3\app\Modele\Modele.php(22): CodeIgniter\Database\BaseConnection->query('SELECT * FROM c...')
+#4 C:\xampp\htdocs\GSB3\app\Views\Reservation.php(23): App\Modele\Modele->getLesConferences()
+#5 C:\xampp\htdocs\GSB3\system\View\View.php(228): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\GSB3\system\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\xampp\htdocs\GSB3\system\Common.php(1178): CodeIgniter\View\View->render('Reservation', Array, true)
+#8 C:\xampp\htdocs\GSB3\app\Controllers\Home.php(146): view('Reservation', Array)
+#9 C:\xampp\htdocs\GSB3\system\CodeIgniter.php(941): App\Controllers\Home->Reservation()
+#10 C:\xampp\htdocs\GSB3\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#11 C:\xampp\htdocs\GSB3\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\GSB3\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Host 'localhost' is not allowed to connect to this MariaDB server in C:\xampp\htdocs\GSB3\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\xampp\htdocs\GSB3\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\GSB3\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\GSB3\app\Modele\Modele.php(22): CodeIgniter\Database\BaseConnection->query('SELECT * FROM c...')
+#3 C:\xampp\htdocs\GSB3\app\Views\Reservation.php(23): App\Modele\Modele->getLesConferences()
+#4 C:\xampp\htdocs\GSB3\system\View\View.php(228): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\GSB3\system\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#6 C:\xampp\htdocs\GSB3\system\Common.php(1178): CodeIgniter\View\View->render('Reservation', Array, true)
+#7 C:\xampp\htdocs\GSB3\app\Controllers\Home.php(146): view('Reservation', Array)
+#8 C:\xampp\htdocs\GSB3\system\CodeIgniter.php(941): App\Controllers\Home->Reservation()
+#9 C:\xampp\htdocs\GSB3\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#10 C:\xampp\htdocs\GSB3\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\GSB3\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2024-02-13 13:21:51 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Host 'localhost' is not allowed to connect to this MariaDB server
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH\Modele\Modele.php(22): CodeIgniter\Database\BaseConnection->query('SELECT * FROM conference')
+ 3 APPPATH\Views\Reservation.php(23): App\Modele\Modele->getLesConferences()
+ 4 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\GSB3\\app\\Views\\Reservation.php')
+ 5 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Reservation', [], true)
+ 7 APPPATH\Controllers\Home.php(146): view('Reservation', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->Reservation()
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-02-13 13:21:57 --> Error connecting to the database: mysqli_sql_exception: Host 'localhost' is not allowed to connect to this MariaDB server in C:\xampp\htdocs\GSB3\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 C:\xampp\htdocs\GSB3\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'GSB3', 3306, '', 0)
+#1 C:\xampp\htdocs\GSB3\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\GSB3\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\GSB3\app\Modele\Modele.php(73): CodeIgniter\Database\BaseConnection->query('SELECT * FROM r...', Array)
+#4 C:\xampp\htdocs\GSB3\app\Controllers\Home.php(111): App\Modele\Modele->getReservationsByPrenom('M')
+#5 C:\xampp\htdocs\GSB3\system\CodeIgniter.php(941): App\Controllers\Home->generatePdf()
+#6 C:\xampp\htdocs\GSB3\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\GSB3\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\GSB3\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Host 'localhost' is not allowed to connect to this MariaDB server in C:\xampp\htdocs\GSB3\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\xampp\htdocs\GSB3\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\GSB3\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\GSB3\app\Modele\Modele.php(73): CodeIgniter\Database\BaseConnection->query('SELECT * FROM r...', Array)
+#3 C:\xampp\htdocs\GSB3\app\Controllers\Home.php(111): App\Modele\Modele->getReservationsByPrenom('M')
+#4 C:\xampp\htdocs\GSB3\system\CodeIgniter.php(941): App\Controllers\Home->generatePdf()
+#5 C:\xampp\htdocs\GSB3\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\GSB3\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\GSB3\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2024-02-13 13:21:57 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Host 'localhost' is not allowed to connect to this MariaDB server
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH\Modele\Modele.php(73): CodeIgniter\Database\BaseConnection->query('SELECT * FROM reservation WHERE user_name = ?', [...])
+ 3 APPPATH\Controllers\Home.php(111): App\Modele\Modele->getReservationsByPrenom('M')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->generatePdf()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-02-13 13:24:59 --> Error connecting to the database: mysqli_sql_exception: Host 'localhost' is not allowed to connect to this MariaDB server in C:\xampp\htdocs\GSB3\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 C:\xampp\htdocs\GSB3\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'GSB3', 3306, '', 0)
+#1 C:\xampp\htdocs\GSB3\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\GSB3\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\GSB3\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `n...', Array, false)
+#4 C:\xampp\htdocs\GSB3\app\Controllers\Home.php(38): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\GSB3\system\CodeIgniter.php(941): App\Controllers\Home->authenticate()
+#6 C:\xampp\htdocs\GSB3\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\GSB3\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\GSB3\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Host 'localhost' is not allowed to connect to this MariaDB server in C:\xampp\htdocs\GSB3\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\xampp\htdocs\GSB3\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\GSB3\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\GSB3\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `n...', Array, false)
+#3 C:\xampp\htdocs\GSB3\app\Controllers\Home.php(38): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\GSB3\system\CodeIgniter.php(941): App\Controllers\Home->authenticate()
+#5 C:\xampp\htdocs\GSB3\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\GSB3\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\GSB3\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2024-02-13 13:24:59 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Host 'localhost' is not allowed to connect to this MariaDB server
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `nom`, `prenom`, `login`, `mdp`, `ville`
+FROM `visiteur2`
+WHERE `login` = :login:', [...], false)
+ 3 APPPATH\Controllers\Home.php(38): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->authenticate()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-13 13:54:52 --> BadMethodCallException: Call to undefined method App\Modele\Modele::getConferences
+in SYSTEMPATH\Model.php on line 874.
+ 1 APPPATH\Views\Reservation.php(23): CodeIgniter\Model->__call('getConferences', [])
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\GSB3\\app\\Views\\Reservation.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Reservation', [], true)
+ 5 APPPATH\Controllers\Home.php(146): view('Reservation', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->Reservation()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-13 13:55:29 --> ArgumentCountError: Too few arguments to function App\Modele\Modele::getConference(), 0 passed in C:\xampp\htdocs\GSB3\app\Views\Reservation.php on line 23 and exactly 1 expected
+in APPPATH\Modele\Modele.php on line 99.
+ 1 APPPATH\Views\Reservation.php(23): App\Modele\Modele->getConference()
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\GSB3\\app\\Views\\Reservation.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Reservation', [], true)
+ 5 APPPATH\Controllers\Home.php(146): view('Reservation', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->Reservation()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-13 13:57:39 --> ErrorException: Undefined variable $conferences
+in APPPATH\Views\Reservation.php on line 23.
+ 1 APPPATH\Views\Reservation.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $conferences', 'C:\\xampp\\htdocs\\GSB3\\app\\Views\\Reservation.php', 23)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\GSB3\\app\\Views\\Reservation.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Reservation', [], true)
+ 5 APPPATH\Controllers\Home.php(146): view('Reservation', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->Reservation()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-13 14:08:30 --> ErrorException: Undefined variable $selectedConferenceId
+in APPPATH\Views\Reservation.php on line 81.
+ 1 APPPATH\Views\Reservation.php(81): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $selectedConferenceId', 'C:\\xampp\\htdocs\\GSB3\\app\\Views\\Reservation.php', 81)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\GSB3\\app\\Views\\Reservation.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Reservation', [], true)
+ 5 APPPATH\Controllers\Home.php(146): view('Reservation', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->Reservation()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-13 14:09:46 --> ErrorException: Undefined variable $selectedConferenceId
+in APPPATH\Views\Reservation.php on line 78.
+ 1 APPPATH\Views\Reservation.php(78): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $selectedConferenceId', 'C:\\xampp\\htdocs\\GSB3\\app\\Views\\Reservation.php', 78)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\GSB3\\app\\Views\\Reservation.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Reservation', [], true)
+ 5 APPPATH\Controllers\Home.php(146): view('Reservation', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->Reservation()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-13 14:12:40 --> ErrorException: Undefined variable $selectedConferenceId
+in APPPATH\Views\Reservation.php on line 84.
+ 1 APPPATH\Views\Reservation.php(84): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $selectedConferenceId', 'C:\\xampp\\htdocs\\GSB3\\app\\Views\\Reservation.php', 84)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\GSB3\\app\\Views\\Reservation.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Reservation', [], true)
+ 5 APPPATH\Controllers\Home.php(146): view('Reservation', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->Reservation()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-13 14:15:05 --> ErrorException: Undefined variable $selectedConferenceId
+in APPPATH\Views\Reservation.php on line 102.
+ 1 APPPATH\Views\Reservation.php(102): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $selectedConferenceId', 'C:\\xampp\\htdocs\\GSB3\\app\\Views\\Reservation.php', 102)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\GSB3\\app\\Views\\Reservation.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Reservation', [], true)
+ 5 APPPATH\Controllers\Home.php(146): view('Reservation', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->Reservation()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-13 14:35:10 --> ErrorException: Undefined variable $selectedConference
+in APPPATH\Views\Reservation.php on line 35.
+ 1 APPPATH\Views\Reservation.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $selectedConference', 'C:\\xampp\\htdocs\\GSB3\\app\\Views\\Reservation.php', 35)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\GSB3\\app\\Views\\Reservation.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Reservation', [], true)
+ 5 APPPATH\Controllers\Home.php(146): view('Reservation', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->Reservation()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-13 14:36:24 --> ErrorException: Undefined variable $presentations
+in APPPATH\Views\Reservation.php on line 47.
+ 1 APPPATH\Views\Reservation.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $presentations', 'C:\\xampp\\htdocs\\GSB3\\app\\Views\\Reservation.php', 47)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\GSB3\\app\\Views\\Reservation.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Reservation', [], true)
+ 5 APPPATH\Controllers\Home.php(146): view('Reservation', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->Reservation()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-02-13 14:38:18 --> mysqli_sql_exception: Column 'reservation_date' cannot be null in C:\xampp\htdocs\GSB3\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\GSB3\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO res...', 0)
+#1 C:\xampp\htdocs\GSB3\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO res...')
+#2 C:\xampp\htdocs\GSB3\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO res...')
+#3 C:\xampp\htdocs\GSB3\app\Modele\Modele.php(68): CodeIgniter\Database\BaseConnection->query('INSERT INTO res...', Array)
+#4 C:\xampp\htdocs\GSB3\app\Controllers\Home.php(175): App\Modele\Modele->insertInto(Object(CodeIgniter\HTTP\IncomingRequest), Array)
+#5 C:\xampp\htdocs\GSB3\system\CodeIgniter.php(941): App\Controllers\Home->submitReservation()
+#6 C:\xampp\htdocs\GSB3\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\GSB3\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\GSB3\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-02-13 14:38:18 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'reservation_date' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 APPPATH\Modele\Modele.php(68): CodeIgniter\Database\BaseConnection->query('INSERT INTO reservation (conference_theme, presentation_creneau, reservation_date, user_name) VALUES (?, ?, ?, ?)', [...])
+ 2 APPPATH\Controllers\Home.php(175): App\Modele\Modele->insertInto(Object(CodeIgniter\HTTP\IncomingRequest), [...])
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->submitReservation()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-13 14:38:18 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'reservation_date' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO reservation (conference_theme, presentation_creneau, reservation_date, user_name) VALUES (\'2\', \'11:32:01\', NULL, NULL)')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO reservation (conference_theme, presentation_creneau, reservation_date, user_name) VALUES (\'2\', \'11:32:01\', NULL, NULL)')
+ 3 APPPATH\Modele\Modele.php(68): CodeIgniter\Database\BaseConnection->query('INSERT INTO reservation (conference_theme, presentation_creneau, reservation_date, user_name) VALUES (?, ?, ?, ?)', [...])
+ 4 APPPATH\Controllers\Home.php(175): App\Modele\Modele->insertInto(Object(CodeIgniter\HTTP\IncomingRequest), [...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->submitReservation()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-13 14:38:18 --> [Caused by] mysqli_sql_exception: Column 'reservation_date' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO reservation (conference_theme, presentation_creneau, reservation_date, user_name) VALUES (\'2\', \'11:32:01\', NULL, NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO reservation (conference_theme, presentation_creneau, reservation_date, user_name) VALUES (\'2\', \'11:32:01\', NULL, NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO reservation (conference_theme, presentation_creneau, reservation_date, user_name) VALUES (\'2\', \'11:32:01\', NULL, NULL)')
+ 4 APPPATH\Modele\Modele.php(68): CodeIgniter\Database\BaseConnection->query('INSERT INTO reservation (conference_theme, presentation_creneau, reservation_date, user_name) VALUES (?, ?, ?, ?)', [...])
+ 5 APPPATH\Controllers\Home.php(175): App\Modele\Modele->insertInto(Object(CodeIgniter\HTTP\IncomingRequest), [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->submitReservation()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-02-13 14:38:22 --> mysqli_sql_exception: Column 'reservation_date' cannot be null in C:\xampp\htdocs\GSB3\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\GSB3\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO res...', 0)
+#1 C:\xampp\htdocs\GSB3\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO res...')
+#2 C:\xampp\htdocs\GSB3\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO res...')
+#3 C:\xampp\htdocs\GSB3\app\Modele\Modele.php(68): CodeIgniter\Database\BaseConnection->query('INSERT INTO res...', Array)
+#4 C:\xampp\htdocs\GSB3\app\Controllers\Home.php(175): App\Modele\Modele->insertInto(Object(CodeIgniter\HTTP\IncomingRequest), Array)
+#5 C:\xampp\htdocs\GSB3\system\CodeIgniter.php(941): App\Controllers\Home->submitReservation()
+#6 C:\xampp\htdocs\GSB3\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\GSB3\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\GSB3\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-02-13 14:38:22 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'reservation_date' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 APPPATH\Modele\Modele.php(68): CodeIgniter\Database\BaseConnection->query('INSERT INTO reservation (conference_theme, presentation_creneau, reservation_date, user_name) VALUES (?, ?, ?, ?)', [...])
+ 2 APPPATH\Controllers\Home.php(175): App\Modele\Modele->insertInto(Object(CodeIgniter\HTTP\IncomingRequest), [...])
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->submitReservation()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-13 14:38:22 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'reservation_date' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO reservation (conference_theme, presentation_creneau, reservation_date, user_name) VALUES (\'1\', \'11:32:01\', NULL, NULL)')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO reservation (conference_theme, presentation_creneau, reservation_date, user_name) VALUES (\'1\', \'11:32:01\', NULL, NULL)')
+ 3 APPPATH\Modele\Modele.php(68): CodeIgniter\Database\BaseConnection->query('INSERT INTO reservation (conference_theme, presentation_creneau, reservation_date, user_name) VALUES (?, ?, ?, ?)', [...])
+ 4 APPPATH\Controllers\Home.php(175): App\Modele\Modele->insertInto(Object(CodeIgniter\HTTP\IncomingRequest), [...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->submitReservation()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-13 14:38:22 --> [Caused by] mysqli_sql_exception: Column 'reservation_date' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO reservation (conference_theme, presentation_creneau, reservation_date, user_name) VALUES (\'1\', \'11:32:01\', NULL, NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO reservation (conference_theme, presentation_creneau, reservation_date, user_name) VALUES (\'1\', \'11:32:01\', NULL, NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO reservation (conference_theme, presentation_creneau, reservation_date, user_name) VALUES (\'1\', \'11:32:01\', NULL, NULL)')
+ 4 APPPATH\Modele\Modele.php(68): CodeIgniter\Database\BaseConnection->query('INSERT INTO reservation (conference_theme, presentation_creneau, reservation_date, user_name) VALUES (?, ?, ?, ?)', [...])
+ 5 APPPATH\Controllers\Home.php(175): App\Modele\Modele->insertInto(Object(CodeIgniter\HTTP\IncomingRequest), [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->submitReservation()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-02-13 14:38:35 --> mysqli_sql_exception: Column 'reservation_date' cannot be null in C:\xampp\htdocs\GSB3\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\GSB3\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO res...', 0)
+#1 C:\xampp\htdocs\GSB3\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO res...')
+#2 C:\xampp\htdocs\GSB3\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO res...')
+#3 C:\xampp\htdocs\GSB3\app\Modele\Modele.php(68): CodeIgniter\Database\BaseConnection->query('INSERT INTO res...', Array)
+#4 C:\xampp\htdocs\GSB3\app\Controllers\Home.php(175): App\Modele\Modele->insertInto(Object(CodeIgniter\HTTP\IncomingRequest), Array)
+#5 C:\xampp\htdocs\GSB3\system\CodeIgniter.php(941): App\Controllers\Home->submitReservation()
+#6 C:\xampp\htdocs\GSB3\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\GSB3\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\GSB3\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-02-13 14:38:35 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'reservation_date' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 APPPATH\Modele\Modele.php(68): CodeIgniter\Database\BaseConnection->query('INSERT INTO reservation (conference_theme, presentation_creneau, reservation_date, user_name) VALUES (?, ?, ?, ?)', [...])
+ 2 APPPATH\Controllers\Home.php(175): App\Modele\Modele->insertInto(Object(CodeIgniter\HTTP\IncomingRequest), [...])
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->submitReservation()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-13 14:38:35 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'reservation_date' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO reservation (conference_theme, presentation_creneau, reservation_date, user_name) VALUES (\'4\', \'11:32:01\', NULL, NULL)')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO reservation (conference_theme, presentation_creneau, reservation_date, user_name) VALUES (\'4\', \'11:32:01\', NULL, NULL)')
+ 3 APPPATH\Modele\Modele.php(68): CodeIgniter\Database\BaseConnection->query('INSERT INTO reservation (conference_theme, presentation_creneau, reservation_date, user_name) VALUES (?, ?, ?, ?)', [...])
+ 4 APPPATH\Controllers\Home.php(175): App\Modele\Modele->insertInto(Object(CodeIgniter\HTTP\IncomingRequest), [...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->submitReservation()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-13 14:38:35 --> [Caused by] mysqli_sql_exception: Column 'reservation_date' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO reservation (conference_theme, presentation_creneau, reservation_date, user_name) VALUES (\'4\', \'11:32:01\', NULL, NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO reservation (conference_theme, presentation_creneau, reservation_date, user_name) VALUES (\'4\', \'11:32:01\', NULL, NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO reservation (conference_theme, presentation_creneau, reservation_date, user_name) VALUES (\'4\', \'11:32:01\', NULL, NULL)')
+ 4 APPPATH\Modele\Modele.php(68): CodeIgniter\Database\BaseConnection->query('INSERT INTO reservation (conference_theme, presentation_creneau, reservation_date, user_name) VALUES (?, ?, ?, ?)', [...])
+ 5 APPPATH\Controllers\Home.php(175): App\Modele\Modele->insertInto(Object(CodeIgniter\HTTP\IncomingRequest), [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->submitReservation()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-02-13 14:40:03 --> mysqli_sql_exception: Column 'reservation_date' cannot be null in C:\xampp\htdocs\GSB3\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\GSB3\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO res...', 0)
+#1 C:\xampp\htdocs\GSB3\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO res...')
+#2 C:\xampp\htdocs\GSB3\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO res...')
+#3 C:\xampp\htdocs\GSB3\app\Modele\Modele.php(68): CodeIgniter\Database\BaseConnection->query('INSERT INTO res...', Array)
+#4 C:\xampp\htdocs\GSB3\app\Controllers\Home.php(175): App\Modele\Modele->insertInto(Object(CodeIgniter\HTTP\IncomingRequest), Array)
+#5 C:\xampp\htdocs\GSB3\system\CodeIgniter.php(941): App\Controllers\Home->submitReservation()
+#6 C:\xampp\htdocs\GSB3\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\GSB3\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\GSB3\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-02-13 14:40:03 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'reservation_date' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 APPPATH\Modele\Modele.php(68): CodeIgniter\Database\BaseConnection->query('INSERT INTO reservation (conference_theme, presentation_creneau, reservation_date, user_name) VALUES (?, ?, ?, ?)', [...])
+ 2 APPPATH\Controllers\Home.php(175): App\Modele\Modele->insertInto(Object(CodeIgniter\HTTP\IncomingRequest), [...])
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->submitReservation()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-13 14:40:03 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'reservation_date' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO reservation (conference_theme, presentation_creneau, reservation_date, user_name) VALUES (\'2\', \'11:32:01\', NULL, NULL)')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO reservation (conference_theme, presentation_creneau, reservation_date, user_name) VALUES (\'2\', \'11:32:01\', NULL, NULL)')
+ 3 APPPATH\Modele\Modele.php(68): CodeIgniter\Database\BaseConnection->query('INSERT INTO reservation (conference_theme, presentation_creneau, reservation_date, user_name) VALUES (?, ?, ?, ?)', [...])
+ 4 APPPATH\Controllers\Home.php(175): App\Modele\Modele->insertInto(Object(CodeIgniter\HTTP\IncomingRequest), [...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->submitReservation()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-13 14:40:03 --> [Caused by] mysqli_sql_exception: Column 'reservation_date' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO reservation (conference_theme, presentation_creneau, reservation_date, user_name) VALUES (\'2\', \'11:32:01\', NULL, NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO reservation (conference_theme, presentation_creneau, reservation_date, user_name) VALUES (\'2\', \'11:32:01\', NULL, NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO reservation (conference_theme, presentation_creneau, reservation_date, user_name) VALUES (\'2\', \'11:32:01\', NULL, NULL)')
+ 4 APPPATH\Modele\Modele.php(68): CodeIgniter\Database\BaseConnection->query('INSERT INTO reservation (conference_theme, presentation_creneau, reservation_date, user_name) VALUES (?, ?, ?, ?)', [...])
+ 5 APPPATH\Controllers\Home.php(175): App\Modele\Modele->insertInto(Object(CodeIgniter\HTTP\IncomingRequest), [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->submitReservation()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-13 14:45:30 --> Error: Cannot use object of type stdClass as array
+in APPPATH\Views\Reservation.php on line 25.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Reservation', [], true)
+ 4 APPPATH\Controllers\Home.php(146): view('Reservation', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->Reservation()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-13 14:46:46 --> ErrorException: Undefined array key "idconferenc"
+in APPPATH\Views\Reservation.php on line 36.
+ 1 APPPATH\Views\Reservation.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "idconferenc"', 'C:\\xampp\\htdocs\\GSB3\\app\\Views\\Reservation.php', 36)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\GSB3\\app\\Views\\Reservation.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Reservation', [], true)
+ 5 APPPATH\Controllers\Home.php(146): view('Reservation', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->Reservation()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-13 14:46:56 --> ErrorException: Undefined array key "idconference"
+in APPPATH\Views\Reservation.php on line 36.
+ 1 APPPATH\Views\Reservation.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "idconference"', 'C:\\xampp\\htdocs\\GSB3\\app\\Views\\Reservation.php', 36)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\GSB3\\app\\Views\\Reservation.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Reservation', [], true)
+ 5 APPPATH\Controllers\Home.php(146): view('Reservation', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->Reservation()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-13 14:47:36 --> ErrorException: Undefined array key "idconference"
+in APPPATH\Views\Reservation.php on line 36.
+ 1 APPPATH\Views\Reservation.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "idconference"', 'C:\\xampp\\htdocs\\GSB3\\app\\Views\\Reservation.php', 36)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\GSB3\\app\\Views\\Reservation.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Reservation', [], true)
+ 5 APPPATH\Controllers\Home.php(146): view('Reservation', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->Reservation()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-13 14:47:50 --> ErrorException: Undefined array key "idconference"
+in APPPATH\Views\Reservation.php on line 37.
+ 1 APPPATH\Views\Reservation.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "idconference"', 'C:\\xampp\\htdocs\\GSB3\\app\\Views\\Reservation.php', 37)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\GSB3\\app\\Views\\Reservation.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Reservation', [], true)
+ 5 APPPATH\Controllers\Home.php(146): view('Reservation', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->Reservation()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-13 14:51:17 --> ErrorException: Undefined array key "idconference"
+in APPPATH\Views\Reservation.php on line 36.
+ 1 APPPATH\Views\Reservation.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "idconference"', 'C:\\xampp\\htdocs\\GSB3\\app\\Views\\Reservation.php', 36)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\GSB3\\app\\Views\\Reservation.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Reservation', [], true)
+ 5 APPPATH\Controllers\Home.php(146): view('Reservation', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->Reservation()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-13 14:51:38 --> ErrorException: Undefined array key "idconference"
+in APPPATH\Views\Reservation.php on line 37.
+ 1 APPPATH\Views\Reservation.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "idconference"', 'C:\\xampp\\htdocs\\GSB3\\app\\Views\\Reservation.php', 37)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\GSB3\\app\\Views\\Reservation.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Reservation', [], true)
+ 5 APPPATH\Controllers\Home.php(146): view('Reservation', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->Reservation()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-13 14:52:24 --> ErrorException: Undefined array key "idconference"
+in APPPATH\Views\Reservation.php on line 37.
+ 1 APPPATH\Views\Reservation.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "idconference"', 'C:\\xampp\\htdocs\\GSB3\\app\\Views\\Reservation.php', 37)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\GSB3\\app\\Views\\Reservation.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Reservation', [], true)
+ 5 APPPATH\Controllers\Home.php(146): view('Reservation', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->Reservation()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-13 14:52:47 --> ErrorException: Undefined array key "idconference"
+in APPPATH\Views\Reservation.php on line 37.
+ 1 APPPATH\Views\Reservation.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "idconference"', 'C:\\xampp\\htdocs\\GSB3\\app\\Views\\Reservation.php', 37)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\GSB3\\app\\Views\\Reservation.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Reservation', [], true)
+ 5 APPPATH\Controllers\Home.php(146): view('Reservation', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->Reservation()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-13 14:53:25 --> ErrorException: Attempt to read property "idconference" on array
+in APPPATH\Views\Reservation.php on line 40.
+ 1 APPPATH\Views\Reservation.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "idconference" on array', 'C:\\xampp\\htdocs\\GSB3\\app\\Views\\Reservation.php', 40)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\GSB3\\app\\Views\\Reservation.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Reservation', [], true)
+ 5 APPPATH\Controllers\Home.php(146): view('Reservation', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->Reservation()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-13 14:54:13 --> ErrorException: Undefined variable $presentations
+in APPPATH\Views\Reservation.php on line 35.
+ 1 APPPATH\Views\Reservation.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $presentations', 'C:\\xampp\\htdocs\\GSB3\\app\\Views\\Reservation.php', 35)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\GSB3\\app\\Views\\Reservation.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Reservation', [], true)
+ 5 APPPATH\Controllers\Home.php(146): view('Reservation', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->Reservation()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-13 14:54:42 --> ErrorException: Attempt to read property "idconference" on array
+in APPPATH\Views\Reservation.php on line 39.
+ 1 APPPATH\Views\Reservation.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "idconference" on array', 'C:\\xampp\\htdocs\\GSB3\\app\\Views\\Reservation.php', 39)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\GSB3\\app\\Views\\Reservation.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Reservation', [], true)
+ 5 APPPATH\Controllers\Home.php(146): view('Reservation', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->Reservation()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-13 14:55:53 --> ErrorException: Undefined variable $presentations
+in APPPATH\Views\Reservation.php on line 35.
+ 1 APPPATH\Views\Reservation.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $presentations', 'C:\\xampp\\htdocs\\GSB3\\app\\Views\\Reservation.php', 35)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\GSB3\\app\\Views\\Reservation.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Reservation', [], true)
+ 5 APPPATH\Controllers\Home.php(146): view('Reservation', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->Reservation()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-13 14:56:06 --> ErrorException: Attempt to read property "idconference" on array
+in APPPATH\Views\Reservation.php on line 39.
+ 1 APPPATH\Views\Reservation.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "idconference" on array', 'C:\\xampp\\htdocs\\GSB3\\app\\Views\\Reservation.php', 39)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\GSB3\\app\\Views\\Reservation.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Reservation', [], true)
+ 5 APPPATH\Controllers\Home.php(146): view('Reservation', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->Reservation()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-13 14:56:18 --> ErrorException: Undefined array key "idconference"
+in APPPATH\Views\Reservation.php on line 37.
+ 1 APPPATH\Views\Reservation.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "idconference"', 'C:\\xampp\\htdocs\\GSB3\\app\\Views\\Reservation.php', 37)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\GSB3\\app\\Views\\Reservation.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Reservation', [], true)
+ 5 APPPATH\Controllers\Home.php(146): view('Reservation', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->Reservation()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-13 14:58:44 --> ErrorException: Attempt to read property "idconference" on array
+in APPPATH\Views\Reservation.php on line 39.
+ 1 APPPATH\Views\Reservation.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "idconference" on array', 'C:\\xampp\\htdocs\\GSB3\\app\\Views\\Reservation.php', 39)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\GSB3\\app\\Views\\Reservation.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Reservation', [], true)
+ 5 APPPATH\Controllers\Home.php(146): view('Reservation', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->Reservation()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-13 15:00:20 --> ErrorException: Attempt to read property "idconference" on array
+in APPPATH\Views\Reservation.php on line 39.
+ 1 APPPATH\Views\Reservation.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "idconference" on array', 'C:\\xampp\\htdocs\\GSB3\\app\\Views\\Reservation.php', 39)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\GSB3\\app\\Views\\Reservation.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Reservation', [], true)
+ 5 APPPATH\Controllers\Home.php(146): view('Reservation', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->Reservation()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-13 15:00:46 --> ErrorException: Undefined array key "idconference"
+in APPPATH\Views\Reservation.php on line 37.
+ 1 APPPATH\Views\Reservation.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "idconference"', 'C:\\xampp\\htdocs\\GSB3\\app\\Views\\Reservation.php', 37)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\GSB3\\app\\Views\\Reservation.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Reservation', [], true)
+ 5 APPPATH\Controllers\Home.php(146): view('Reservation', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->Reservation()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-13 15:01:31 --> ErrorException: Undefined array key "idconference"
+in APPPATH\Views\Reservation.php on line 37.
+ 1 APPPATH\Views\Reservation.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "idconference"', 'C:\\xampp\\htdocs\\GSB3\\app\\Views\\Reservation.php', 37)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\GSB3\\app\\Views\\Reservation.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Reservation', [], true)
+ 5 APPPATH\Controllers\Home.php(146): view('Reservation', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->Reservation()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-13 15:01:55 --> ErrorException: Undefined array key "horaire"
+in APPPATH\Views\Reservation.php on line 37.
+ 1 APPPATH\Views\Reservation.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "horaire"', 'C:\\xampp\\htdocs\\GSB3\\app\\Views\\Reservation.php', 37)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\GSB3\\app\\Views\\Reservation.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Reservation', [], true)
+ 5 APPPATH\Controllers\Home.php(146): view('Reservation', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->Reservation()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-13 15:13:32 --> ErrorException: Attempt to read property "idconference" on array
+in APPPATH\Views\Reservation.php on line 25.
+ 1 APPPATH\Views\Reservation.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "idconference" on array', 'C:\\xampp\\htdocs\\GSB3\\app\\Views\\Reservation.php', 25)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\GSB3\\app\\Views\\Reservation.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Reservation', [], true)
+ 5 APPPATH\Controllers\Home.php(146): view('Reservation', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->Reservation()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-13 15:14:48 --> ErrorException: Attempt to read property "theme_conference" on array
+in APPPATH\Views\Reservation.php on line 25.
+ 1 APPPATH\Views\Reservation.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "theme_conference" on array', 'C:\\xampp\\htdocs\\GSB3\\app\\Views\\Reservation.php', 25)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\GSB3\\app\\Views\\Reservation.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Reservation', [], true)
+ 5 APPPATH\Controllers\Home.php(146): view('Reservation', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->Reservation()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-13 15:15:10 --> ErrorException: Undefined array key "theme_conference"
+in APPPATH\Views\Reservation.php on line 25.
+ 1 APPPATH\Views\Reservation.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "theme_conference"', 'C:\\xampp\\htdocs\\GSB3\\app\\Views\\Reservation.php', 25)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\GSB3\\app\\Views\\Reservation.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Reservation', [], true)
+ 5 APPPATH\Controllers\Home.php(146): view('Reservation', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->Reservation()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

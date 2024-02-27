@@ -1,0 +1,763 @@
+CRITICAL - 2024-02-04 11:07:28 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "welcome_message.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('welcome_message.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('welcome_message', [], true)
+ 3 APPPATH\Controllers\Home.php(9): view('welcome_message')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-04 11:16:40 --> ErrorException: Undefined property: App\Controllers\Home::$load
+in APPPATH\Controllers\Home.php on line 9.
+ 1 APPPATH\Controllers\Home.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Home::$load', 'C:\\xampp\\htdocs\\GSB3\\app\\Controllers\\Home.php', 9)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-04 13:49:21 --> ParseError: syntax error, unexpected variable "$login", expecting "function" or "const"
+in APPPATH\Controllers\Home.php on line 12.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(288): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\GSB3\\app\\Controllers\\Home.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 4 SYSTEMPATH\CodeIgniter.php(899): class_exists('\\App\\Controllers\\Home', true)
+ 5 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-04 13:49:26 --> ParseError: syntax error, unexpected variable "$login", expecting "function" or "const"
+in APPPATH\Controllers\Home.php on line 12.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(288): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\GSB3\\app\\Controllers\\Home.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 4 SYSTEMPATH\CodeIgniter.php(899): class_exists('\\App\\Controllers\\Home', true)
+ 5 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-04 13:49:28 --> ParseError: syntax error, unexpected variable "$login", expecting "function" or "const"
+in APPPATH\Controllers\Home.php on line 12.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(288): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\GSB3\\app\\Controllers\\Home.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 4 SYSTEMPATH\CodeIgniter.php(899): class_exists('\\App\\Controllers\\Home', true)
+ 5 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-04 13:51:02 --> ParseError: syntax error, unexpected variable "$login", expecting "function" or "const"
+in APPPATH\Controllers\Home.php on line 12.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(288): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\GSB3\\app\\Controllers\\Home.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 4 SYSTEMPATH\CodeIgniter.php(899): class_exists('\\App\\Controllers\\Home', true)
+ 5 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-04 13:51:05 --> ParseError: syntax error, unexpected variable "$login", expecting "function" or "const"
+in APPPATH\Controllers\Home.php on line 12.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(288): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\GSB3\\app\\Controllers\\Home.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 4 SYSTEMPATH\CodeIgniter.php(899): class_exists('\\App\\Controllers\\Home', true)
+ 5 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-04 13:51:27 --> ParseError: syntax error, unexpected variable "$login", expecting "function" or "const"
+in APPPATH\Controllers\Home.php on line 12.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(288): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\GSB3\\app\\Controllers\\Home.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 4 SYSTEMPATH\CodeIgniter.php(899): class_exists('\\App\\Controllers\\Home', true)
+ 5 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-02-04 13:53:22 --> mysqli_sql_exception: Table 'gsb3.visiteur' doesn't exist in C:\xampp\htdocs\GSB3\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\GSB3\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `id`, `n...', 0)
+#1 C:\xampp\htdocs\GSB3\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `n...')
+#2 C:\xampp\htdocs\GSB3\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `n...')
+#3 C:\xampp\htdocs\GSB3\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `n...', Array, false)
+#4 C:\xampp\htdocs\GSB3\app\Controllers\Home.php(24): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\GSB3\system\CodeIgniter.php(941): App\Controllers\Home->authenticate()
+#6 C:\xampp\htdocs\GSB3\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\GSB3\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\GSB3\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-02-04 13:53:22 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'gsb3.visiteur' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `nom`, `prenom`, `login`, `mdp`
+FROM `visiteur`
+WHERE `login` = :login:', [...], false)
+ 2 APPPATH\Controllers\Home.php(24): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->authenticate()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-04 13:53:22 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'gsb3.visiteur' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `nom`, `prenom`, `login`, `mdp`
+FROM `visiteur`
+WHERE `login` = \'pde\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `nom`, `prenom`, `login`, `mdp`
+FROM `visiteur`
+WHERE `login` = \'pde\'')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `nom`, `prenom`, `login`, `mdp`
+FROM `visiteur`
+WHERE `login` = :login:', [...], false)
+ 4 APPPATH\Controllers\Home.php(24): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->authenticate()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-04 13:53:22 --> [Caused by] mysqli_sql_exception: Table 'gsb3.visiteur' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `id`, `nom`, `prenom`, `login`, `mdp`
+FROM `visiteur`
+WHERE `login` = \'pde\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `nom`, `prenom`, `login`, `mdp`
+FROM `visiteur`
+WHERE `login` = \'pde\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `nom`, `prenom`, `login`, `mdp`
+FROM `visiteur`
+WHERE `login` = \'pde\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `nom`, `prenom`, `login`, `mdp`
+FROM `visiteur`
+WHERE `login` = :login:', [...], false)
+ 5 APPPATH\Controllers\Home.php(24): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->authenticate()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-04 20:15:28 --> Error: Call to undefined function getlesConference()
+in APPPATH\Views\conference.php on line 52.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('conference', [], true)
+ 4 APPPATH\Controllers\Home.php(59): view('conference')
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->Conference()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-04 20:18:29 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\conference.php on line 60.
+ 1 APPPATH\Views\conference.php(60): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\GSB3\\app\\Views\\conference.php', 60)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\GSB3\\app\\Views\\conference.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('conference', [], true)
+ 5 APPPATH\Controllers\Home.php(59): view('conference')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->Conference()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-04 20:20:36 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\conference.php on line 60.
+ 1 APPPATH\Views\conference.php(60): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\GSB3\\app\\Views\\conference.php', 60)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\GSB3\\app\\Views\\conference.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('conference', [], true)
+ 5 APPPATH\Controllers\Home.php(59): view('conference')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->Conference()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-04 20:21:01 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\conference.php on line 60.
+ 1 APPPATH\Views\conference.php(60): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\GSB3\\app\\Views\\conference.php', 60)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\GSB3\\app\\Views\\conference.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('conference', [], true)
+ 5 APPPATH\Controllers\Home.php(59): view('conference')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->Conference()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-04 20:21:07 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\conference.php on line 60.
+ 1 APPPATH\Views\conference.php(60): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\GSB3\\app\\Views\\conference.php', 60)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\GSB3\\app\\Views\\conference.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('conference', [], true)
+ 5 APPPATH\Controllers\Home.php(59): view('conference')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->Conference()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-04 20:22:47 --> ErrorException: Undefined array key "id"
+in APPPATH\Views\conference.php on line 61.
+ 1 APPPATH\Views\conference.php(61): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\xampp\\htdocs\\GSB3\\app\\Views\\conference.php', 61)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\GSB3\\app\\Views\\conference.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('conference', [], true)
+ 5 APPPATH\Controllers\Home.php(59): view('conference')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->Conference()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-04 20:27:44 --> ErrorException: Undefined array key "idconference	"
+in APPPATH\Views\conference.php on line 61.
+ 1 APPPATH\Views\conference.php(61): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "idconference	"', 'C:\\xampp\\htdocs\\GSB3\\app\\Views\\conference.php', 61)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\GSB3\\app\\Views\\conference.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('conference', [], true)
+ 5 APPPATH\Controllers\Home.php(59): view('conference')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->Conference()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-04 20:56:08 --> ErrorException: Undefined array key "description"
+in APPPATH\Views\conference.php on line 134.
+ 1 APPPATH\Views\conference.php(134): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "description"', 'C:\\xampp\\htdocs\\GSB3\\app\\Views\\conference.php', 134)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\GSB3\\app\\Views\\conference.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('conference', [], true)
+ 5 APPPATH\Controllers\Home.php(59): view('conference')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->Conference()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-04 21:39:39 --> ErrorException: Undefined array key "user"
+in APPPATH\Views\Info.php on line 5.
+ 1 APPPATH\Views\Info.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "user"', 'C:\\xampp\\htdocs\\GSB3\\app\\Views\\Info.php', 5)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\GSB3\\app\\Views\\Info.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('info', [], true)
+ 5 APPPATH\Controllers\Home.php(63): view('info')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->info()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-04 21:42:53 --> ErrorException: Undefined array key "user"
+in APPPATH\Views\Info.php on line 5.
+ 1 APPPATH\Views\Info.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "user"', 'C:\\xampp\\htdocs\\GSB3\\app\\Views\\Info.php', 5)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\GSB3\\app\\Views\\Info.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('info', [], true)
+ 5 APPPATH\Controllers\Home.php(65): view('info')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->info()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-04 21:43:13 --> ErrorException: Undefined array key "user"
+in APPPATH\Views\Info.php on line 5.
+ 1 APPPATH\Views\Info.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "user"', 'C:\\xampp\\htdocs\\GSB3\\app\\Views\\Info.php', 5)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\GSB3\\app\\Views\\Info.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('info', [], true)
+ 5 APPPATH\Controllers\Home.php(65): view('info')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->info()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-04 21:46:09 --> ErrorException: Undefined array key "user"
+in APPPATH\Views\Info.php on line 5.
+ 1 APPPATH\Views\Info.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "user"', 'C:\\xampp\\htdocs\\GSB3\\app\\Views\\Info.php', 5)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\GSB3\\app\\Views\\Info.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('info', [], true)
+ 5 APPPATH\Controllers\Home.php(65): view('info')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->info()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-04 21:47:54 --> ErrorException: Undefined array key "nom"
+in APPPATH\Views\Info.php on line 26.
+ 1 APPPATH\Views\Info.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nom"', 'C:\\xampp\\htdocs\\GSB3\\app\\Views\\Info.php', 26)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\GSB3\\app\\Views\\Info.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('info', [], true)
+ 5 APPPATH\Controllers\Home.php(65): view('info')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->info()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-04 21:56:12 --> ErrorException: Undefined array key "user"
+in APPPATH\Views\Info.php on line 3.
+ 1 APPPATH\Views\Info.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "user"', 'C:\\xampp\\htdocs\\GSB3\\app\\Views\\Info.php', 3)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\GSB3\\app\\Views\\Info.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('info', [], true)
+ 5 APPPATH\Controllers\Home.php(66): view('info')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->info()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-04 21:56:30 --> ErrorException: Undefined variable $user
+in APPPATH\Views\Info.php on line 16.
+ 1 APPPATH\Views\Info.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user', 'C:\\xampp\\htdocs\\GSB3\\app\\Views\\Info.php', 16)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\GSB3\\app\\Views\\Info.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('info', [], true)
+ 5 APPPATH\Controllers\Home.php(66): view('info')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->info()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-04 22:02:34 --> ErrorException: Undefined array key "ville"
+in APPPATH\Views\Info.php on line 29.
+ 1 APPPATH\Views\Info.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "ville"', 'C:\\xampp\\htdocs\\GSB3\\app\\Views\\Info.php', 29)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\GSB3\\app\\Views\\Info.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('info', [], true)
+ 5 APPPATH\Controllers\Home.php(68): view('info')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->info()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-04 22:21:20 --> BadMethodCallException: Call to undefined method App\Modele\Modele::getLesPrestations
+in SYSTEMPATH\Model.php on line 874.
+ 1 APPPATH\Views\Presentation.php(34): CodeIgniter\Model->__call('getLesPrestations', [])
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\GSB3\\app\\Views\\Presentation.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Presentation', [], true)
+ 5 APPPATH\Controllers\Home.php(72): view('Presentation')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->Presentation()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-04 22:23:05 --> BadMethodCallException: Call to undefined method App\Modele\Modele::getLesPrestations
+in SYSTEMPATH\Model.php on line 874.
+ 1 APPPATH\Views\Presentation.php(34): CodeIgniter\Model->__call('getLesPrestations', [])
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\GSB3\\app\\Views\\Presentation.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Presentation', [], true)
+ 5 APPPATH\Controllers\Home.php(72): view('Presentation')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->Presentation()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-04 22:23:09 --> BadMethodCallException: Call to undefined method App\Modele\Modele::getLesPrestations
+in SYSTEMPATH\Model.php on line 874.
+ 1 APPPATH\Views\Presentation.php(34): CodeIgniter\Model->__call('getLesPrestations', [])
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\GSB3\\app\\Views\\Presentation.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Presentation', [], true)
+ 5 APPPATH\Controllers\Home.php(72): view('Presentation')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->Presentation()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-02-04 22:23:45 --> mysqli_sql_exception: Table 'gsb3.prestations' doesn't exist in C:\xampp\htdocs\GSB3\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\GSB3\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT * FROM p...', 0)
+#1 C:\xampp\htdocs\GSB3\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM p...')
+#2 C:\xampp\htdocs\GSB3\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM p...')
+#3 C:\xampp\htdocs\GSB3\app\Modele\Modele.php(26): CodeIgniter\Database\BaseConnection->query('SELECT * FROM p...')
+#4 C:\xampp\htdocs\GSB3\app\Views\Presentation.php(34): App\Modele\Modele->getLesPrestations()
+#5 C:\xampp\htdocs\GSB3\system\View\View.php(228): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\GSB3\system\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\xampp\htdocs\GSB3\system\Common.php(1178): CodeIgniter\View\View->render('Presentation', Array, true)
+#8 C:\xampp\htdocs\GSB3\app\Controllers\Home.php(72): view('Presentation')
+#9 C:\xampp\htdocs\GSB3\system\CodeIgniter.php(941): App\Controllers\Home->Presentation()
+#10 C:\xampp\htdocs\GSB3\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#11 C:\xampp\htdocs\GSB3\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\GSB3\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2024-02-04 22:23:45 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'gsb3.prestations' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 APPPATH\Modele\Modele.php(26): CodeIgniter\Database\BaseConnection->query('SELECT * FROM prestations')
+ 2 APPPATH\Views\Presentation.php(34): App\Modele\Modele->getLesPrestations()
+ 3 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\GSB3\\app\\Views\\Presentation.php')
+ 4 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Presentation', [], true)
+ 6 APPPATH\Controllers\Home.php(72): view('Presentation')
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->Presentation()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-04 22:23:45 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'gsb3.prestations' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM prestations')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM prestations')
+ 3 APPPATH\Modele\Modele.php(26): CodeIgniter\Database\BaseConnection->query('SELECT * FROM prestations')
+ 4 APPPATH\Views\Presentation.php(34): App\Modele\Modele->getLesPrestations()
+ 5 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\GSB3\\app\\Views\\Presentation.php')
+ 6 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Presentation', [], true)
+ 8 APPPATH\Controllers\Home.php(72): view('Presentation')
+ 9 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->Presentation()
+10 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+11 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-04 22:23:45 --> [Caused by] mysqli_sql_exception: Table 'gsb3.prestations' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT * FROM prestations', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM prestations')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM prestations')
+ 4 APPPATH\Modele\Modele.php(26): CodeIgniter\Database\BaseConnection->query('SELECT * FROM prestations')
+ 5 APPPATH\Views\Presentation.php(34): App\Modele\Modele->getLesPrestations()
+ 6 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\GSB3\\app\\Views\\Presentation.php')
+ 7 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Presentation', [], true)
+ 9 APPPATH\Controllers\Home.php(72): view('Presentation')
+10 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->Presentation()
+11 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-04 22:24:33 --> BadMethodCallException: Call to undefined method App\Modele\Modele::getLesPrestations
+in SYSTEMPATH\Model.php on line 874.
+ 1 APPPATH\Views\Presentation.php(34): CodeIgniter\Model->__call('getLesPrestations', [])
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\GSB3\\app\\Views\\Presentation.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Presentation', [], true)
+ 5 APPPATH\Controllers\Home.php(72): view('Presentation')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->Presentation()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-02-04 22:24:53 --> mysqli_sql_exception: Table 'gsb3.prestations' doesn't exist in C:\xampp\htdocs\GSB3\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\GSB3\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT * FROM p...', 0)
+#1 C:\xampp\htdocs\GSB3\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM p...')
+#2 C:\xampp\htdocs\GSB3\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM p...')
+#3 C:\xampp\htdocs\GSB3\app\Modele\Modele.php(26): CodeIgniter\Database\BaseConnection->query('SELECT * FROM p...')
+#4 C:\xampp\htdocs\GSB3\app\Views\Presentation.php(34): App\Modele\Modele->getLesPrestations()
+#5 C:\xampp\htdocs\GSB3\system\View\View.php(228): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\GSB3\system\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\xampp\htdocs\GSB3\system\Common.php(1178): CodeIgniter\View\View->render('Presentation', Array, true)
+#8 C:\xampp\htdocs\GSB3\app\Controllers\Home.php(72): view('Presentation')
+#9 C:\xampp\htdocs\GSB3\system\CodeIgniter.php(941): App\Controllers\Home->Presentation()
+#10 C:\xampp\htdocs\GSB3\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#11 C:\xampp\htdocs\GSB3\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\GSB3\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2024-02-04 22:24:53 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'gsb3.prestations' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 APPPATH\Modele\Modele.php(26): CodeIgniter\Database\BaseConnection->query('SELECT * FROM prestations')
+ 2 APPPATH\Views\Presentation.php(34): App\Modele\Modele->getLesPrestations()
+ 3 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\GSB3\\app\\Views\\Presentation.php')
+ 4 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Presentation', [], true)
+ 6 APPPATH\Controllers\Home.php(72): view('Presentation')
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->Presentation()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-04 22:24:53 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'gsb3.prestations' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM prestations')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM prestations')
+ 3 APPPATH\Modele\Modele.php(26): CodeIgniter\Database\BaseConnection->query('SELECT * FROM prestations')
+ 4 APPPATH\Views\Presentation.php(34): App\Modele\Modele->getLesPrestations()
+ 5 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\GSB3\\app\\Views\\Presentation.php')
+ 6 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Presentation', [], true)
+ 8 APPPATH\Controllers\Home.php(72): view('Presentation')
+ 9 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->Presentation()
+10 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+11 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-04 22:24:53 --> [Caused by] mysqli_sql_exception: Table 'gsb3.prestations' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT * FROM prestations', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM prestations')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM prestations')
+ 4 APPPATH\Modele\Modele.php(26): CodeIgniter\Database\BaseConnection->query('SELECT * FROM prestations')
+ 5 APPPATH\Views\Presentation.php(34): App\Modele\Modele->getLesPrestations()
+ 6 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\GSB3\\app\\Views\\Presentation.php')
+ 7 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Presentation', [], true)
+ 9 APPPATH\Controllers\Home.php(72): view('Presentation')
+10 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->Presentation()
+11 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-04 22:25:19 --> ErrorException: Undefined array key "idPrestation"
+in APPPATH\Views\Presentation.php on line 38.
+ 1 APPPATH\Views\Presentation.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "idPrestation"', 'C:\\xampp\\htdocs\\GSB3\\app\\Views\\Presentation.php', 38)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\GSB3\\app\\Views\\Presentation.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Presentation', [], true)
+ 5 APPPATH\Controllers\Home.php(72): view('Presentation')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->Presentation()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-04 22:26:08 --> ErrorException: Undefined array key "idPrestation"
+in APPPATH\Views\Presentation.php on line 38.
+ 1 APPPATH\Views\Presentation.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "idPrestation"', 'C:\\xampp\\htdocs\\GSB3\\app\\Views\\Presentation.php', 38)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\GSB3\\app\\Views\\Presentation.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Presentation', [], true)
+ 5 APPPATH\Controllers\Home.php(72): view('Presentation')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->Presentation()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-04 22:26:29 --> ErrorException: Undefined array key "idprestation"
+in APPPATH\Views\Presentation.php on line 38.
+ 1 APPPATH\Views\Presentation.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "idprestation"', 'C:\\xampp\\htdocs\\GSB3\\app\\Views\\Presentation.php', 38)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\GSB3\\app\\Views\\Presentation.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Presentation', [], true)
+ 5 APPPATH\Controllers\Home.php(72): view('Presentation')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->Presentation()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-04 22:26:30 --> ErrorException: Undefined array key "idprestation"
+in APPPATH\Views\Presentation.php on line 38.
+ 1 APPPATH\Views\Presentation.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "idprestation"', 'C:\\xampp\\htdocs\\GSB3\\app\\Views\\Presentation.php', 38)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\GSB3\\app\\Views\\Presentation.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Presentation', [], true)
+ 5 APPPATH\Controllers\Home.php(72): view('Presentation')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->Presentation()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-04 22:26:51 --> ErrorException: Undefined array key "nom"
+in APPPATH\Views\Presentation.php on line 40.
+ 1 APPPATH\Views\Presentation.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nom"', 'C:\\xampp\\htdocs\\GSB3\\app\\Views\\Presentation.php', 40)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\GSB3\\app\\Views\\Presentation.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Presentation', [], true)
+ 5 APPPATH\Controllers\Home.php(72): view('Presentation')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->Presentation()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-04 22:28:15 --> BadMethodCallException: Call to undefined method App\Modele\Modele::getLesPrestations
+in SYSTEMPATH\Model.php on line 874.
+ 1 APPPATH\Views\Presentation.php(34): CodeIgniter\Model->__call('getLesPrestations', [])
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\GSB3\\app\\Views\\Presentation.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Presentation', [], true)
+ 5 APPPATH\Controllers\Home.php(72): view('Presentation')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->Presentation()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-04 22:29:48 --> BadMethodCallException: Call to undefined method App\Modele\Modele::getLesPrestations
+in SYSTEMPATH\Model.php on line 874.
+ 1 APPPATH\Views\Presentation.php(34): CodeIgniter\Model->__call('getLesPrestations', [])
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\GSB3\\app\\Views\\Presentation.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Presentation', [], true)
+ 5 APPPATH\Controllers\Home.php(72): view('Presentation')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->Presentation()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-04 22:30:43 --> BadMethodCallException: Call to undefined method App\Modele\Modele::getLesPrestations
+in SYSTEMPATH\Model.php on line 874.
+ 1 APPPATH\Views\Presentation.php(34): CodeIgniter\Model->__call('getLesPrestations', [])
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\GSB3\\app\\Views\\Presentation.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Presentation', [], true)
+ 5 APPPATH\Controllers\Home.php(72): view('Presentation')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->Presentation()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-04 22:30:45 --> BadMethodCallException: Call to undefined method App\Modele\Modele::getLesPrestations
+in SYSTEMPATH\Model.php on line 874.
+ 1 APPPATH\Views\Presentation.php(34): CodeIgniter\Model->__call('getLesPrestations', [])
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\GSB3\\app\\Views\\Presentation.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Presentation', [], true)
+ 5 APPPATH\Controllers\Home.php(72): view('Presentation')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->Presentation()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-04 22:31:07 --> BadMethodCallException: Call to undefined method App\Modele\Modele::getLesPrestation
+in SYSTEMPATH\Model.php on line 874.
+ 1 APPPATH\Views\Presentation.php(34): CodeIgniter\Model->__call('getLesPrestation', [])
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\GSB3\\app\\Views\\Presentation.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Presentation', [], true)
+ 5 APPPATH\Controllers\Home.php(72): view('Presentation')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->Presentation()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-04 22:31:08 --> BadMethodCallException: Call to undefined method App\Modele\Modele::getLesPrestation
+in SYSTEMPATH\Model.php on line 874.
+ 1 APPPATH\Views\Presentation.php(34): CodeIgniter\Model->__call('getLesPrestation', [])
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\GSB3\\app\\Views\\Presentation.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Presentation', [], true)
+ 5 APPPATH\Controllers\Home.php(72): view('Presentation')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->Presentation()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-04 22:31:46 --> ErrorException: Undefined variable $idConference
+in APPPATH\Views\Presentation.php on line 34.
+ 1 APPPATH\Views\Presentation.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $idConference', 'C:\\xampp\\htdocs\\GSB3\\app\\Views\\Presentation.php', 34)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\GSB3\\app\\Views\\Presentation.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Presentation', [], true)
+ 5 APPPATH\Controllers\Home.php(72): view('Presentation')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->Presentation()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-04 22:31:48 --> ErrorException: Undefined variable $idConference
+in APPPATH\Views\Presentation.php on line 34.
+ 1 APPPATH\Views\Presentation.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $idConference', 'C:\\xampp\\htdocs\\GSB3\\app\\Views\\Presentation.php', 34)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\GSB3\\app\\Views\\Presentation.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Presentation', [], true)
+ 5 APPPATH\Controllers\Home.php(72): view('Presentation')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->Presentation()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-04 22:33:49 --> ArgumentCountError: Too few arguments to function App\Controllers\Home::Presentation(), 0 passed in C:\xampp\htdocs\GSB3\system\CodeIgniter.php on line 941 and exactly 1 expected
+in APPPATH\Controllers\Home.php on line 70.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->Presentation()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-04 22:34:46 --> ArgumentCountError: Too few arguments to function App\Controllers\Home::Presentation(), 0 passed in C:\xampp\htdocs\GSB3\system\CodeIgniter.php on line 941 and exactly 1 expected
+in APPPATH\Controllers\Home.php on line 70.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->Presentation()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-04 22:34:48 --> ArgumentCountError: Too few arguments to function App\Controllers\Home::Presentation(), 0 passed in C:\xampp\htdocs\GSB3\system\CodeIgniter.php on line 941 and exactly 1 expected
+in APPPATH\Controllers\Home.php on line 70.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->Presentation()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-04 22:35:18 --> ArgumentCountError: Too few arguments to function App\Controllers\Home::Presentation(), 0 passed in C:\xampp\htdocs\GSB3\system\CodeIgniter.php on line 941 and exactly 1 expected
+in APPPATH\Controllers\Home.php on line 70.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->Presentation()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-04 22:35:42 --> ArgumentCountError: Too few arguments to function App\Controllers\Home::Presentation(), 0 passed in C:\xampp\htdocs\GSB3\system\CodeIgniter.php on line 941 and exactly 1 expected
+in APPPATH\Controllers\Home.php on line 70.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->Presentation()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-04 22:38:00 --> ArgumentCountError: Too few arguments to function App\Controllers\Home::Presentation(), 0 passed in C:\xampp\htdocs\GSB3\system\CodeIgniter.php on line 941 and exactly 1 expected
+in APPPATH\Controllers\Home.php on line 71.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->Presentation()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-04 22:39:56 --> ArgumentCountError: Too few arguments to function App\Controllers\Home::Presentation(), 0 passed in C:\xampp\htdocs\GSB3\system\CodeIgniter.php on line 941 and exactly 1 expected
+in APPPATH\Controllers\Home.php on line 71.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->Presentation()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-04 22:40:38 --> ArgumentCountError: Too few arguments to function App\Controllers\Home::Presentation(), 0 passed in C:\xampp\htdocs\GSB3\system\CodeIgniter.php on line 941 and exactly 1 expected
+in APPPATH\Controllers\Home.php on line 71.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->Presentation()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-04 22:40:39 --> ArgumentCountError: Too few arguments to function App\Controllers\Home::Presentation(), 0 passed in C:\xampp\htdocs\GSB3\system\CodeIgniter.php on line 941 and exactly 1 expected
+in APPPATH\Controllers\Home.php on line 71.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->Presentation()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-04 22:40:47 --> ArgumentCountError: Too few arguments to function App\Controllers\Home::Presentation(), 0 passed in C:\xampp\htdocs\GSB3\system\CodeIgniter.php on line 941 and exactly 1 expected
+in APPPATH\Controllers\Home.php on line 71.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->Presentation()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-04 22:41:53 --> ArgumentCountError: Too few arguments to function App\Controllers\Home::Presentation(), 0 passed in C:\xampp\htdocs\GSB3\system\CodeIgniter.php on line 941 and exactly 1 expected
+in APPPATH\Controllers\Home.php on line 71.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->Presentation()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-04 22:41:54 --> ArgumentCountError: Too few arguments to function App\Controllers\Home::Presentation(), 0 passed in C:\xampp\htdocs\GSB3\system\CodeIgniter.php on line 941 and exactly 1 expected
+in APPPATH\Controllers\Home.php on line 71.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->Presentation()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-04 22:41:56 --> ArgumentCountError: Too few arguments to function App\Controllers\Home::Presentation(), 0 passed in C:\xampp\htdocs\GSB3\system\CodeIgniter.php on line 941 and exactly 1 expected
+in APPPATH\Controllers\Home.php on line 71.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->Presentation()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-04 22:44:43 --> ArgumentCountError: Too few arguments to function App\Controllers\Home::Presentation(), 0 passed in C:\xampp\htdocs\GSB3\system\CodeIgniter.php on line 941 and exactly 1 expected
+in APPPATH\Controllers\Home.php on line 71.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->Presentation()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-04 22:46:01 --> ArgumentCountError: Too few arguments to function App\Controllers\Home::Presentation(), 0 passed in C:\xampp\htdocs\GSB3\system\CodeIgniter.php on line 941 and exactly 1 expected
+in APPPATH\Controllers\Home.php on line 71.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->Presentation()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-04 22:47:40 --> BadMethodCallException: Call to undefined method App\Modele\Modele::getLesPresentations
+in SYSTEMPATH\Model.php on line 874.
+ 1 APPPATH\Controllers\Home.php(74): CodeIgniter\Model->__call('getLesPresentations', [])
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->presentation()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-04 22:47:59 --> ArgumentCountError: Too few arguments to function App\Modele\Modele::getLesPresentation(), 0 passed in C:\xampp\htdocs\GSB3\app\Controllers\Home.php on line 74 and exactly 1 expected
+in APPPATH\Modele\Modele.php on line 23.
+ 1 APPPATH\Controllers\Home.php(74): App\Modele\Modele->getLesPresentation()
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->presentation()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-04 22:48:09 --> BadMethodCallException: Call to undefined method App\Modele\Modele::getLesPresentations
+in SYSTEMPATH\Model.php on line 874.
+ 1 APPPATH\Controllers\Home.php(74): CodeIgniter\Model->__call('getLesPresentations', [])
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->presentation()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-04 22:48:28 --> BadMethodCallException: Call to undefined method App\Modele\Modele::getLesPresentations
+in SYSTEMPATH\Model.php on line 874.
+ 1 APPPATH\Controllers\Home.php(74): CodeIgniter\Model->__call('getLesPresentations', [])
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->presentation()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-04 23:19:23 --> ErrorException: Undefined array key "image"
+in APPPATH\Views\Presentation.php on line 36.
+ 1 APPPATH\Views\Presentation.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "image"', 'C:\\xampp\\htdocs\\GSB3\\app\\Views\\Presentation.php', 36)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\GSB3\\app\\Views\\Presentation.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Presentation', [], true)
+ 5 APPPATH\Controllers\Home.php(76): view('Presentation', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->presentation()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-04 23:20:14 --> ErrorException: Undefined array key "titre"
+in APPPATH\Views\Presentation.php on line 42.
+ 1 APPPATH\Views\Presentation.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "titre"', 'C:\\xampp\\htdocs\\GSB3\\app\\Views\\Presentation.php', 42)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\GSB3\\app\\Views\\Presentation.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Presentation', [], true)
+ 5 APPPATH\Controllers\Home.php(76): view('Presentation', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->presentation()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-04 23:20:44 --> ErrorException: Undefined array key "titre"
+in APPPATH\Views\Presentation.php on line 42.
+ 1 APPPATH\Views\Presentation.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "titre"', 'C:\\xampp\\htdocs\\GSB3\\app\\Views\\Presentation.php', 42)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\GSB3\\app\\Views\\Presentation.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Presentation', [], true)
+ 5 APPPATH\Controllers\Home.php(76): view('Presentation', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->presentation()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-04 23:21:54 --> ParseError: syntax error, unexpected end of file
+in APPPATH\Views\Presentation.php on line 61.
+ 1 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Presentation', [], true)
+ 3 APPPATH\Controllers\Home.php(76): view('Presentation', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->presentation()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
